@@ -1,0 +1,156 @@
+insert(JFK): successful {John F Kennedy International, New York, USA, (40.0,-73.0)}
+insert(ATL): successful {The William B Hartsfield Atlanta International, Atlanta, USA, (33.0,-84.0)}
+insert(SFO): successful {San Francisco International, San Francisco, USA, (37.0,-122.0)}
+insert(SIN): successful {Singapore Changi, Singapore, Singapore, (1.0,103.0)}
+Preorder list:
+  (SFO) 2
+  (JFK) 1
+  [ATL Atlanta]
+  [JFK New York]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | [ATL Atlanta]
+  | (JFK) 1
+  | | [JFK New York]
+  (SFO) 2
+  | | [SFO San Francisco]
+  | (SIN) 1
+  | | [SIN Singapore]
+insert(PVG): successful {Shanghai Pudong International Airport, Shanghai, China, (31.0,121.0)}
+insert(ORD): successful {Chicago OHare International, Chicago, USA, (41.0,-87.0)}
+insert(DEL): successful {Indira Gandhi International, Delhi, India, (28.0,77.0)}
+insert(DXB): successful {Dubai International, Dubai, United Arab Emirates, (25.0,55.0)}
+Preorder list:
+  (ORD) 3
+  (DXB) 2
+  (DEL) 1
+  [ATL Atlanta]
+  [DEL Delhi]
+  (JFK) 1
+  [DXB Dubai]
+  [JFK New York]
+  (SFO) 2
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | | [ATL Atlanta]
+  | | (DEL) 1
+  | | | [DEL Delhi]
+  | (DXB) 2
+  | | | [DXB Dubai]
+  | | (JFK) 1
+  | | | [JFK New York]
+  (ORD) 3
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | [PVG Shanghai]
+  | (SFO) 2
+  | | | [SFO San Francisco]
+  | | (SIN) 1
+  | | | [SIN Singapore]
+insert(ICN): successful {Incheon International Airport, Incheon, South Korea, (37.0,126.0)}
+insert(HKG): successful {Hong Kong International, Hong Kong, China, (22.0,113.0)}
+insert(BKK): successful {Bangkok International, Bangkok, Thailand, (13.0,100.0)}
+insert(FRA): successful {Frankfurt Main, Frankfurt, Germany, (50.0,8.0)}
+Preorder list:
+  (ORD) 3
+  (DXB) 2
+  (BKK) 1
+  [ATL Atlanta]
+  (DEL) 1
+  [BKK Bangkok]
+  [DEL Delhi]
+  (ICN) 2
+  (FRA) 1
+  [DXB Dubai]
+  (HKG) 1
+  [FRA Frankfurt]
+  [HKG Hong Kong]
+  (JFK) 1
+  [ICN Incheon]
+  [JFK New York]
+  (SFO) 2
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | | [ATL Atlanta]
+  | | (BKK) 1
+  | | | | [BKK Bangkok]
+  | | | (DEL) 1
+  | | | | [DEL Delhi]
+  | (DXB) 2
+  | | | | [DXB Dubai]
+  | | | (FRA) 1
+  | | | | | [FRA Frankfurt]
+  | | | | (HKG) 1
+  | | | | | [HKG Hong Kong]
+  | | (ICN) 2
+  | | | | [ICN Incheon]
+  | | | (JFK) 1
+  | | | | [JFK New York]
+  (ORD) 3
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | [PVG Shanghai]
+  | (SFO) 2
+  | | | [SFO San Francisco]
+  | | (SIN) 1
+  | | | [SIN Singapore]
+size: 12
+find(ATL): found [Atlanta]
+delete(ATL): successful
+Preorder list:
+  (ORD) 3
+  (DXB) 2
+  (DEL) 1
+  [BKK Bangkok]
+  [DEL Delhi]
+  (ICN) 2
+  (FRA) 1
+  [DXB Dubai]
+  (HKG) 1
+  [FRA Frankfurt]
+  [HKG Hong Kong]
+  (JFK) 1
+  [ICN Incheon]
+  [JFK New York]
+  (SFO) 2
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | | [BKK Bangkok]
+  | | (DEL) 1
+  | | | [DEL Delhi]
+  | (DXB) 2
+  | | | | [DXB Dubai]
+  | | | (FRA) 1
+  | | | | | [FRA Frankfurt]
+  | | | | (HKG) 1
+  | | | | | [HKG Hong Kong]
+  | | (ICN) 2
+  | | | | [ICN Incheon]
+  | | | (JFK) 1
+  | | | | [JFK New York]
+  (ORD) 3
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | [PVG Shanghai]
+  | (SFO) 2
+  | | | [SFO San Francisco]
+  | | (SIN) 1
+  | | | [SIN Singapore]
+find(ATL): not found

@@ -1,0 +1,18 @@
+insert(IAD): successful {Washington Dulles International, Dulles, USA, (38.0,-77.0)}
+insert(BWI): successful {Baltimore Washington International, Baltimore, USA, (39.0,-76.0)}
+insert(LAX): successful {Los Angeles International, Los Angeles, USA, (33.0,-118.0)}
+insert(DCA): successful {Ronald Reagan Washington National, Washington, USA, (38.0,-77.0)}
+find-smaller(LAX): found [Dulles]
+find-smaller(JFK): found [Dulles]
+find-smaller(ATL): not found
+find-smaller(SFO): found [Los Angeles]
+find-smaller(AAA): not found
+find-smaller(ZZZ): found [Los Angeles]
+find-smaller(MMM): found [Los Angeles]
+find-larger(LAX): found [Dulles]
+find-larger(JFK): not found
+find-larger(ATL): found [Baltimore]
+find-larger(SFO): not found
+find-larger(AAA): found [Baltimore]
+find-larger(ZZZ): not found
+find-larger(MMM): not found

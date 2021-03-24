@@ -1,0 +1,245 @@
+insert(SFO): successful {San Francisco International, San Francisco, USA, (37.0,-122.0)}
+Preorder list:
+  [SFO San Francisco]
+Tree structure:
+  [SFO San Francisco]
+insert(LAX): successful {Los Angeles International, Los Angeles, USA, (33.0,-118.0)}
+Preorder list:
+  (SFO) 1
+  [LAX Los Angeles]
+  [SFO San Francisco]
+Tree structure:
+  | [LAX Los Angeles]
+  (SFO) 1
+  | [SFO San Francisco]
+insert(JFK): successful {John F Kennedy International, New York, USA, (40.0,-73.0)}
+Preorder list:
+  (LAX) 1
+  [JFK New York]
+  (SFO) 1
+  [LAX Los Angeles]
+  [SFO San Francisco]
+Tree structure:
+  | [JFK New York]
+  (LAX) 1
+  | | [LAX Los Angeles]
+  | (SFO) 1
+  | | [SFO San Francisco]
+insert(IAD): successful {Washington Dulles International, Dulles, USA, (38.0,-77.0)}
+Preorder list:
+  (LAX) 2
+  (JFK) 1
+  [IAD Dulles]
+  [JFK New York]
+  (SFO) 1
+  [LAX Los Angeles]
+  [SFO San Francisco]
+Tree structure:
+  | | [IAD Dulles]
+  | (JFK) 1
+  | | [JFK New York]
+  (LAX) 2
+  | | [LAX Los Angeles]
+  | (SFO) 1
+  | | [SFO San Francisco]
+insert(DCA): successful {Ronald Reagan Washington National, Washington, USA, (38.0,-77.0)}
+Preorder list:
+  (LAX) 2
+  (IAD) 1
+  [DCA Washington]
+  (JFK) 1
+  [IAD Dulles]
+  [JFK New York]
+  (SFO) 1
+  [LAX Los Angeles]
+  [SFO San Francisco]
+Tree structure:
+  | | [DCA Washington]
+  | (IAD) 1
+  | | | [IAD Dulles]
+  | | (JFK) 1
+  | | | [JFK New York]
+  (LAX) 2
+  | | [LAX Los Angeles]
+  | (SFO) 1
+  | | [SFO San Francisco]
+insert(BWI): successful {Baltimore Washington International, Baltimore, USA, (39.0,-76.0)}
+Preorder list:
+  (IAD) 2
+  (DCA) 1
+  [BWI Baltimore]
+  [DCA Washington]
+  (LAX) 2
+  (JFK) 1
+  [IAD Dulles]
+  [JFK New York]
+  (SFO) 1
+  [LAX Los Angeles]
+  [SFO San Francisco]
+Tree structure:
+  | | [BWI Baltimore]
+  | (DCA) 1
+  | | [DCA Washington]
+  (IAD) 2
+  | | | [IAD Dulles]
+  | | (JFK) 1
+  | | | [JFK New York]
+  | (LAX) 2
+  | | | [LAX Los Angeles]
+  | | (SFO) 1
+  | | | [SFO San Francisco]
+insert(ATL): successful {The William B Hartsfield Atlanta International, Atlanta, USA, (33.0,-84.0)}
+Preorder list:
+  (IAD) 2
+  (BWI) 1
+  [ATL Atlanta]
+  (DCA) 1
+  [BWI Baltimore]
+  [DCA Washington]
+  (LAX) 2
+  (JFK) 1
+  [IAD Dulles]
+  [JFK New York]
+  (SFO) 1
+  [LAX Los Angeles]
+  [SFO San Francisco]
+Tree structure:
+  | | [ATL Atlanta]
+  | (BWI) 1
+  | | | [BWI Baltimore]
+  | | (DCA) 1
+  | | | [DCA Washington]
+  (IAD) 2
+  | | | [IAD Dulles]
+  | | (JFK) 1
+  | | | [JFK New York]
+  | (LAX) 2
+  | | | [LAX Los Angeles]
+  | | (SFO) 1
+  | | | [SFO San Francisco]
+find(IAD): found [Dulles]
+find(JFK): found [New York]
+find(XXX): not found
+clear: successful
+insert(ATL): successful {The William B Hartsfield Atlanta International, Atlanta, USA, (33.0,-84.0)}
+Preorder list:
+  [ATL Atlanta]
+Tree structure:
+  [ATL Atlanta]
+insert(BWI): successful {Baltimore Washington International, Baltimore, USA, (39.0,-76.0)}
+Preorder list:
+  (BWI) 1
+  [ATL Atlanta]
+  [BWI Baltimore]
+Tree structure:
+  | [ATL Atlanta]
+  (BWI) 1
+  | [BWI Baltimore]
+insert(DCA): successful {Ronald Reagan Washington National, Washington, USA, (38.0,-77.0)}
+Preorder list:
+  (BWI) 1
+  [ATL Atlanta]
+  (DCA) 1
+  [BWI Baltimore]
+  [DCA Washington]
+Tree structure:
+  | [ATL Atlanta]
+  (BWI) 1
+  | | [BWI Baltimore]
+  | (DCA) 1
+  | | [DCA Washington]
+insert(IAD): successful {Washington Dulles International, Dulles, USA, (38.0,-77.0)}
+Preorder list:
+  (DCA) 2
+  (BWI) 1
+  [ATL Atlanta]
+  [BWI Baltimore]
+  (IAD) 1
+  [DCA Washington]
+  [IAD Dulles]
+Tree structure:
+  | | [ATL Atlanta]
+  | (BWI) 1
+  | | [BWI Baltimore]
+  (DCA) 2
+  | | [DCA Washington]
+  | (IAD) 1
+  | | [IAD Dulles]
+insert(JFK): successful {John F Kennedy International, New York, USA, (40.0,-73.0)}
+Preorder list:
+  (DCA) 2
+  (BWI) 1
+  [ATL Atlanta]
+  [BWI Baltimore]
+  (IAD) 1
+  [DCA Washington]
+  (JFK) 1
+  [IAD Dulles]
+  [JFK New York]
+Tree structure:
+  | | [ATL Atlanta]
+  | (BWI) 1
+  | | [BWI Baltimore]
+  (DCA) 2
+  | | [DCA Washington]
+  | (IAD) 1
+  | | | [IAD Dulles]
+  | | (JFK) 1
+  | | | [JFK New York]
+insert(LAX): successful {Los Angeles International, Los Angeles, USA, (33.0,-118.0)}
+Preorder list:
+  (DCA) 2
+  (BWI) 1
+  [ATL Atlanta]
+  [BWI Baltimore]
+  (JFK) 2
+  (IAD) 1
+  [DCA Washington]
+  [IAD Dulles]
+  (LAX) 1
+  [JFK New York]
+  [LAX Los Angeles]
+Tree structure:
+  | | [ATL Atlanta]
+  | (BWI) 1
+  | | [BWI Baltimore]
+  (DCA) 2
+  | | | [DCA Washington]
+  | | (IAD) 1
+  | | | [IAD Dulles]
+  | (JFK) 2
+  | | | [JFK New York]
+  | | (LAX) 1
+  | | | [LAX Los Angeles]
+insert(SFO): successful {San Francisco International, San Francisco, USA, (37.0,-122.0)}
+Preorder list:
+  (DCA) 2
+  (BWI) 1
+  [ATL Atlanta]
+  [BWI Baltimore]
+  (JFK) 2
+  (IAD) 1
+  [DCA Washington]
+  [IAD Dulles]
+  (LAX) 1
+  [JFK New York]
+  (SFO) 1
+  [LAX Los Angeles]
+  [SFO San Francisco]
+Tree structure:
+  | | [ATL Atlanta]
+  | (BWI) 1
+  | | [BWI Baltimore]
+  (DCA) 2
+  | | | [DCA Washington]
+  | | (IAD) 1
+  | | | [IAD Dulles]
+  | (JFK) 2
+  | | | [JFK New York]
+  | | (LAX) 1
+  | | | | [LAX Los Angeles]
+  | | | (SFO) 1
+  | | | | [SFO San Francisco]
+find(XYZ): not found
+find(SFO): found [San Francisco]
+find(ATL): found [Atlanta]

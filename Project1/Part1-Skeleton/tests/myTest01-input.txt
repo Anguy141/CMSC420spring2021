@@ -1,0 +1,20 @@
+insert:JFK:John F Kennedy International:New York:USA:40:-73
+insert:ATL:The William B Hartsfield Atlanta International:Atlanta:USA:33:-84
+insert:SFO:San Francisco International:San Francisco:USA:37:-122
+insert:SIN:Singapore Changi:Singapore:Singapore:1:103
+preorder
+insert:PVG:Shanghai Pudong International Airport:Shanghai:China:31:121
+insert:ORD:Chicago OHare International:Chicago:USA:41:-87
+insert:DEL:Indira Gandhi International:Delhi:India:28:77
+insert:DXB:Dubai International:Dubai:United Arab Emirates:25:55
+preorder
+insert:ICN:Incheon International Airport:Incheon:South Korea:37:126
+insert:HKG:Hong Kong International:Hong Kong:China:22:113
+insert:BKK:Bangkok International:Bangkok:Thailand:13:100
+insert:FRA:Frankfurt Main:Frankfurt:Germany:50:8
+preorder
+size
+find:ATL
+delete:ATL
+preorder
+find:ATL

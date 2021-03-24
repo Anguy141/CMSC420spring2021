@@ -1,0 +1,127 @@
+insert(IAD): successful {Washington Dulles International, Dulles, USA, (38.0,-77.0)}
+insert(BWI): successful {Baltimore Washington International, Baltimore, USA, (39.0,-76.0)}
+insert(LAX): successful {Los Angeles International, Los Angeles, USA, (33.0,-118.0)}
+insert(DCA): successful {Ronald Reagan Washington National, Washington, USA, (38.0,-77.0)}
+Preorder list:
+  (IAD) 2
+  (DCA) 1
+  [BWI Baltimore]
+  [DCA Washington]
+  (LAX) 1
+  [IAD Dulles]
+  [LAX Los Angeles]
+Tree structure:
+  | | [BWI Baltimore]
+  | (DCA) 1
+  | | [DCA Washington]
+  (IAD) 2
+  | | [IAD Dulles]
+  | (LAX) 1
+  | | [LAX Los Angeles]
+insert(JFK): successful {John F Kennedy International, New York, USA, (40.0,-73.0)}
+insert(ATL): successful {The William B Hartsfield Atlanta International, Atlanta, USA, (33.0,-84.0)}
+insert(SFO): successful {San Francisco International, San Francisco, USA, (37.0,-122.0)}
+insert(SIN): successful {Singapore Changi, Singapore, Singapore, (1.0,103.0)}
+Preorder list:
+  (IAD) 2
+  (BWI) 1
+  [ATL Atlanta]
+  (DCA) 1
+  [BWI Baltimore]
+  [DCA Washington]
+  (LAX) 2
+  (JFK) 1
+  [IAD Dulles]
+  [JFK New York]
+  (SFO) 1
+  [LAX Los Angeles]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | [ATL Atlanta]
+  | (BWI) 1
+  | | | [BWI Baltimore]
+  | | (DCA) 1
+  | | | [DCA Washington]
+  (IAD) 2
+  | | | [IAD Dulles]
+  | | (JFK) 1
+  | | | [JFK New York]
+  | (LAX) 2
+  | | | [LAX Los Angeles]
+  | | (SFO) 1
+  | | | | [SFO San Francisco]
+  | | | (SIN) 1
+  | | | | [SIN Singapore]
+insert(PVG): successful {Shanghai Pudong International Airport, Shanghai, China, (31.0,121.0)}
+insert(ORD): successful {Chicago OHare International, Chicago, USA, (41.0,-87.0)}
+insert(DEL): successful {Indira Gandhi International, Delhi, India, (28.0,77.0)}
+insert(DXB): successful {Dubai International, Dubai, United Arab Emirates, (25.0,55.0)}
+Preorder list:
+  (LAX) 3
+  (DCA) 2
+  (BWI) 1
+  [ATL Atlanta]
+  [BWI Baltimore]
+  (IAD) 2
+  (DEL) 1
+  [DCA Washington]
+  (DXB) 1
+  [DEL Delhi]
+  [DXB Dubai]
+  (JFK) 1
+  [IAD Dulles]
+  [JFK New York]
+  (SFO) 2
+  (ORD) 1
+  [LAX Los Angeles]
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | | [ATL Atlanta]
+  | | (BWI) 1
+  | | | [BWI Baltimore]
+  | (DCA) 2
+  | | | | [DCA Washington]
+  | | | (DEL) 1
+  | | | | | [DEL Delhi]
+  | | | | (DXB) 1
+  | | | | | [DXB Dubai]
+  | | (IAD) 2
+  | | | | [IAD Dulles]
+  | | | (JFK) 1
+  | | | | [JFK New York]
+  (LAX) 3
+  | | | [LAX Los Angeles]
+  | | (ORD) 1
+  | | | | [ORD Chicago]
+  | | | (PVG) 1
+  | | | | [PVG Shanghai]
+  | (SFO) 2
+  | | | [SFO San Francisco]
+  | | (SIN) 1
+  | | | [SIN Singapore]
+insert(ICN): successful {Incheon International Airport, Incheon, South Korea, (37.0,126.0)}
+insert(HKG): successful {Hong Kong International, Hong Kong, China, (22.0,113.0)}
+insert(BKK): successful {Bangkok International, Bangkok, Thailand, (13.0,100.0)}
+insert(FRA): successful {Frankfurt Main, Frankfurt, Germany, (50.0,8.0)}
+find(LAX): found [Los Angeles]
+find(JFK): found [New York]
+find(JJJ): not found
+find(ATL): found [Atlanta]
+find(SFO): found [San Francisco]
+find(AAA): not found
+find(ZZZ): not found
+find(MMM): not found
+clear: successful
+Preorder list:
+Tree structure:
+find(LAX): not found
+find(JFK): not found
+find(JJJ): not found
+find(ATL): not found

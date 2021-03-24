@@ -1,0 +1,208 @@
+insert(IAD): successful {Washington Dulles International, Dulles, USA, (38.0,-77.0)}
+insert(BWI): successful {Baltimore Washington International, Baltimore, USA, (39.0,-76.0)}
+insert(LAX): successful {Los Angeles International, Los Angeles, USA, (33.0,-118.0)}
+insert(DCA): successful {Ronald Reagan Washington National, Washington, USA, (38.0,-77.0)}
+Preorder list:
+  (IAD) 2
+  (DCA) 1
+  [BWI Baltimore]
+  [DCA Washington]
+  (LAX) 1
+  [IAD Dulles]
+  [LAX Los Angeles]
+Tree structure:
+  | | [BWI Baltimore]
+  | (DCA) 1
+  | | [DCA Washington]
+  (IAD) 2
+  | | [IAD Dulles]
+  | (LAX) 1
+  | | [LAX Los Angeles]
+size: 4
+find(LAX): found [Los Angeles]
+find(JFK): not found
+find(ATL): not found
+find(SFO): not found
+find(AAA): not found
+find(ZZZ): not found
+find(MMM): not found
+find-smaller(LAX): found [Dulles]
+find-smaller(JFK): found [Dulles]
+find-smaller(ATL): not found
+find-smaller(SFO): found [Los Angeles]
+find-smaller(AAA): not found
+find-smaller(ZZZ): found [Los Angeles]
+find-smaller(MMM): found [Los Angeles]
+find-larger(LAX): not found
+find-larger(JFK): found [Los Angeles]
+find-larger(ATL): found [Baltimore]
+find-larger(SFO): not found
+find-larger(AAA): found [Baltimore]
+find-larger(ZZZ): not found
+find-larger(MMM): not found
+get-min: found [Baltimore]
+get-max: found [Los Angeles]
+clear: successful
+insert(JFK): successful {John F Kennedy International, New York, USA, (40.0,-73.0)}
+insert(ATL): successful {The William B Hartsfield Atlanta International, Atlanta, USA, (33.0,-84.0)}
+insert(SFO): successful {San Francisco International, San Francisco, USA, (37.0,-122.0)}
+insert(SIN): successful {Singapore Changi, Singapore, Singapore, (1.0,103.0)}
+Preorder list:
+  (SFO) 2
+  (JFK) 1
+  [ATL Atlanta]
+  [JFK New York]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | [ATL Atlanta]
+  | (JFK) 1
+  | | [JFK New York]
+  (SFO) 2
+  | | [SFO San Francisco]
+  | (SIN) 1
+  | | [SIN Singapore]
+insert(PVG): successful {Shanghai Pudong International Airport, Shanghai, China, (31.0,121.0)}
+insert(ORD): successful {Chicago OHare International, Chicago, USA, (41.0,-87.0)}
+insert(DEL): successful {Indira Gandhi International, Delhi, India, (28.0,77.0)}
+insert(DXB): successful {Dubai International, Dubai, United Arab Emirates, (25.0,55.0)}
+Preorder list:
+  (ORD) 3
+  (DXB) 2
+  (DEL) 1
+  [ATL Atlanta]
+  [DEL Delhi]
+  (JFK) 1
+  [DXB Dubai]
+  [JFK New York]
+  (SFO) 2
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | | [ATL Atlanta]
+  | | (DEL) 1
+  | | | [DEL Delhi]
+  | (DXB) 2
+  | | | [DXB Dubai]
+  | | (JFK) 1
+  | | | [JFK New York]
+  (ORD) 3
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | [PVG Shanghai]
+  | (SFO) 2
+  | | | [SFO San Francisco]
+  | | (SIN) 1
+  | | | [SIN Singapore]
+insert(ICN): successful {Incheon International Airport, Incheon, South Korea, (37.0,126.0)}
+insert(HKG): successful {Hong Kong International, Hong Kong, China, (22.0,113.0)}
+insert(BKK): successful {Bangkok International, Bangkok, Thailand, (13.0,100.0)}
+insert(FRA): successful {Frankfurt Main, Frankfurt, Germany, (50.0,8.0)}
+Preorder list:
+  (ORD) 3
+  (DXB) 2
+  (BKK) 1
+  [ATL Atlanta]
+  (DEL) 1
+  [BKK Bangkok]
+  [DEL Delhi]
+  (ICN) 2
+  (FRA) 1
+  [DXB Dubai]
+  (HKG) 1
+  [FRA Frankfurt]
+  [HKG Hong Kong]
+  (JFK) 1
+  [ICN Incheon]
+  [JFK New York]
+  (SFO) 2
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | | [ATL Atlanta]
+  | | (BKK) 1
+  | | | | [BKK Bangkok]
+  | | | (DEL) 1
+  | | | | [DEL Delhi]
+  | (DXB) 2
+  | | | | [DXB Dubai]
+  | | | (FRA) 1
+  | | | | | [FRA Frankfurt]
+  | | | | (HKG) 1
+  | | | | | [HKG Hong Kong]
+  | | (ICN) 2
+  | | | | [ICN Incheon]
+  | | | (JFK) 1
+  | | | | [JFK New York]
+  (ORD) 3
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | [PVG Shanghai]
+  | (SFO) 2
+  | | | [SFO San Francisco]
+  | | (SIN) 1
+  | | | [SIN Singapore]
+size: 12
+find(LAX): not found
+find(JFK): found [New York]
+find(ATL): found [Atlanta]
+find(SFO): found [San Francisco]
+find(AAA): not found
+find(ZZZ): not found
+find(MMM): not found
+find-smaller(LAX): found [New York]
+find-smaller(JFK): found [Incheon]
+find-smaller(ATL): not found
+find-smaller(SFO): found [Shanghai]
+find-smaller(AAA): not found
+find-smaller(ZZZ): found [Singapore]
+find-smaller(MMM): found [New York]
+find-larger(LAX): found [Chicago]
+find-larger(JFK): found [Chicago]
+failure due to exception: "null"
+find-larger(SFO): found [Singapore]
+find-larger(AAA): found [Atlanta]
+find-larger(ZZZ): not found
+find-larger(MMM): found [Chicago]
+get-min: found [Atlanta]
+get-max: found [Singapore]
+find(LAX): not found
+find(JFK): found [New York]
+find(ATL): found [Atlanta]
+find(SFO): found [San Francisco]
+find(AAA): not found
+find(ZZZ): not found
+find(MMM): not found
+find-smaller(LAX): found [New York]
+find-smaller(JFK): found [Incheon]
+find-smaller(ATL): not found
+find-smaller(SFO): found [Shanghai]
+find-smaller(AAA): not found
+find-smaller(ZZZ): found [Singapore]
+find-smaller(MMM): found [New York]
+find-larger(LAX): found [Chicago]
+find-larger(JFK): found [Chicago]
+failure due to exception: "null"
+find-larger(SFO): found [Singapore]
+find-larger(AAA): found [Atlanta]
+find-larger(ZZZ): not found
+find-larger(MMM): found [Chicago]
+get-min: found [Atlanta]
+get-max: found [Singapore]
+clear: successful
+Preorder list:
+Tree structure:
+find(LAX): not found
+find-smaller(LAX): not found
+find-larger(LAX): not found
+get-min: no entries
+get-max: no entries

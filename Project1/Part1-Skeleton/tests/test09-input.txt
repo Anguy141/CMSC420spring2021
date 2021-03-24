@@ -1,0 +1,86 @@
+size
+insert:IAD:Washington Dulles International:Dulles:USA:38:-77
+size
+insert:BWI:Baltimore Washington International:Baltimore:USA:39:-76
+insert:LAX:Los Angeles International:Los Angeles:USA:33:-118
+insert:DCA:Ronald Reagan Washington National:Washington:USA:38:-77
+preorder
+remove-min
+preorder
+remove-max
+preorder
+remove-min
+preorder
+remove-max
+preorder
+remove-min
+preorder
+size
+clear
+size
+preorder
+insert:JFK:John F Kennedy International:New York:USA:40:-73
+size
+insert:ATL:The William B Hartsfield Atlanta International:Atlanta:USA:33:-84
+insert:SFO:San Francisco International:San Francisco:USA:37:-122
+insert:SIN:Singapore Changi:Singapore:Singapore:1:103
+preorder
+insert:PVG:Shanghai Pudong International Airport:Shanghai:China:31:121
+insert:ORD:Chicago OHare International:Chicago:USA:41:-87
+insert:DEL:Indira Gandhi International:Delhi:India:28:77
+insert:DXB:Dubai International:Dubai:United Arab Emirates:25:55
+preorder
+insert:ICN:Incheon International Airport:Incheon:South Korea:37:126
+insert:HKG:Hong Kong International:Hong Kong:China:22:113
+insert:BKK:Bangkok International:Bangkok:Thailand:13:100
+insert:FRA:Frankfurt Main:Frankfurt:Germany:50:8
+preorder
+size
+find:ATL
+remove-min
+preorder
+find:ATL
+find:SIN
+remove-max
+preorder
+find:SIN
+find:SFO
+remove-max
+preorder
+find:SFO
+find:BKK
+remove-min
+preorder
+find:BKK
+find:DEL
+remove-min
+preorder
+find:DEL
+find:PVG
+remove-max
+preorder
+find:PVG
+find:DXB
+remove-min
+preorder
+find:DXB
+find:FRA
+remove-min
+preorder
+find:FRA
+find:HKG
+remove-min
+preorder
+find:HKG
+find:ICN
+remove-min
+preorder
+find:ICN
+find:JFK
+remove-min
+preorder
+find:JFK
+find:ORD
+remove-min
+find:ORD
+preorder

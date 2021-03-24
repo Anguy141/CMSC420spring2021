@@ -1,0 +1,7629 @@
+insert(JFQ): successful {JFQ_Airport, JFQ_City, JFQ_9cq4L, (18.0,1.0)}
+insert(VMJ): successful {VMJ_Airport, VMJ_City, VMJ_TnK1a2, (110.0,-30.0)}
+Preorder list:
+  (VMJ) 1
+  [JFQ JFQ_City]
+  [VMJ VMJ_City]
+Tree structure:
+  | [JFQ JFQ_City]
+  (VMJ) 1
+  | [VMJ VMJ_City]
+insert(GFF): successful {GFF_Airport, GFF_City, GFF_Country, (88.0,45.0)}
+insert(QRR): successful {QRR_Airport, QRR_City, QRR_Country, (-5.0,-30.0)}
+insert(WHS): successful {WHS_Airport, WHS_City, WHS_Country, (-16.0,19.0)}
+find(JFQ): found [JFQ_City]
+find(QRR): found [QRR_City]
+find(RJF): not found
+Preorder list:
+  (QRR) 2
+  (JFQ) 1
+  [GFF GFF_City]
+  [JFQ JFQ_City]
+  (VMJ) 1
+  [QRR QRR_City]
+  (WHS) 1
+  [VMJ VMJ_City]
+  [WHS WHS_City]
+Tree structure:
+  | | [GFF GFF_City]
+  | (JFQ) 1
+  | | [JFQ JFQ_City]
+  (QRR) 2
+  | | [QRR QRR_City]
+  | (VMJ) 1
+  | | | [VMJ VMJ_City]
+  | | (WHS) 1
+  | | | [WHS WHS_City]
+insert(NMO): successful {NMO_Airport, NMO_City, NMO_Country, (-162.0,39.0)}
+insert(HPK): successful {HPK_Airport, HPK_City, HPK_Country, (-143.0,58.0)}
+insert(NDO): successful {NDO_Airport, NDO_City, NDO_Country, (0.0,77.0)}
+insert(PWP): successful {PWP_Airport, PWP_City, PWP_Country, (51.0,87.0)}
+insert(WSN): successful {WSN_Airport, WSN_City, WSN_Country, (47.0,-47.0)}
+Preorder list:
+  (NMO) 3
+  (JFQ) 2
+  (HPK) 1
+  [GFF GFF_City]
+  [HPK HPK_City]
+  (NDO) 1
+  [JFQ JFQ_City]
+  [NDO NDO_City]
+  (QRR) 2
+  (PWP) 1
+  [NMO NMO_City]
+  [PWP PWP_City]
+  (WHS) 2
+  (VMJ) 1
+  [QRR QRR_City]
+  [VMJ VMJ_City]
+  (WSN) 1
+  [WHS WHS_City]
+  [WSN WSN_City]
+Tree structure:
+  | | | [GFF GFF_City]
+  | | (HPK) 1
+  | | | [HPK HPK_City]
+  | (JFQ) 2
+  | | | [JFQ JFQ_City]
+  | | (NDO) 1
+  | | | [NDO NDO_City]
+  (NMO) 3
+  | | | [NMO NMO_City]
+  | | (PWP) 1
+  | | | [PWP PWP_City]
+  | (QRR) 2
+  | | | | [QRR QRR_City]
+  | | | (VMJ) 1
+  | | | | [VMJ VMJ_City]
+  | | (WHS) 2
+  | | | | [WHS WHS_City]
+  | | | (WSN) 1
+  | | | | [WSN WSN_City]
+insert(MUF): successful {MUF_Airport, MUF_City, MUF_Country, (-134.0,-8.0)}
+insert(NVX): successful {NVX_Airport, NVX_City, NVX_Country, (-59.0,0.0)}
+insert(HHO): successful {HHO_Airport, HHO_City, HHO_Country, (-46.0,83.0)}
+Preorder list:
+  (NMO) 3
+  (JFQ) 2
+  (HHO) 1
+  [GFF GFF_City]
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (MUF) 1
+  [JFQ JFQ_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 2
+  (NVX) 1
+  [NMO NMO_City]
+  (PWP) 1
+  [NVX NVX_City]
+  [PWP PWP_City]
+  (WHS) 2
+  (VMJ) 1
+  [QRR QRR_City]
+  [VMJ VMJ_City]
+  (WSN) 1
+  [WHS WHS_City]
+  [WSN WSN_City]
+Tree structure:
+  | | | [GFF GFF_City]
+  | | (HHO) 1
+  | | | | [HHO HHO_City]
+  | | | (HPK) 1
+  | | | | [HPK HPK_City]
+  | (JFQ) 2
+  | | | [JFQ JFQ_City]
+  | | (MUF) 1
+  | | | | [MUF MUF_City]
+  | | | (NDO) 1
+  | | | | [NDO NDO_City]
+  (NMO) 3
+  | | | [NMO NMO_City]
+  | | (NVX) 1
+  | | | | [NVX NVX_City]
+  | | | (PWP) 1
+  | | | | [PWP PWP_City]
+  | (QRR) 2
+  | | | | [QRR QRR_City]
+  | | | (VMJ) 1
+  | | | | [VMJ VMJ_City]
+  | | (WHS) 2
+  | | | | [WHS WHS_City]
+  | | | (WSN) 1
+  | | | | [WSN WSN_City]
+insert(ALD): successful {ALD_Airport, ALD_City, ALD_Country, (91.0,-37.0)}
+find(WHS): found [WHS_City]
+find(HHO): found [HHO_City]
+find(KOP): not found
+insert(TCS): successful {TCS_Airport, TCS_City, TCS_Country, (143.0,-84.0)}
+Preorder list:
+  (NMO) 3
+  (HHO) 2
+  (GFF) 1
+  [ALD ALD_City]
+  [GFF GFF_City]
+  (JFQ) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (MUF) 1
+  [JFQ JFQ_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 2
+  (NVX) 1
+  [NMO NMO_City]
+  (PWP) 1
+  [NVX NVX_City]
+  [PWP PWP_City]
+  (WHS) 2
+  (TCS) 1
+  [QRR QRR_City]
+  (VMJ) 1
+  [TCS TCS_City]
+  [VMJ VMJ_City]
+  (WSN) 1
+  [WHS WHS_City]
+  [WSN WSN_City]
+Tree structure:
+  | | | [ALD ALD_City]
+  | | (GFF) 1
+  | | | [GFF GFF_City]
+  | (HHO) 2
+  | | | | [HHO HHO_City]
+  | | | (HPK) 1
+  | | | | [HPK HPK_City]
+  | | (JFQ) 2
+  | | | | [JFQ JFQ_City]
+  | | | (MUF) 1
+  | | | | | [MUF MUF_City]
+  | | | | (NDO) 1
+  | | | | | [NDO NDO_City]
+  (NMO) 3
+  | | | [NMO NMO_City]
+  | | (NVX) 1
+  | | | | [NVX NVX_City]
+  | | | (PWP) 1
+  | | | | [PWP PWP_City]
+  | (QRR) 2
+  | | | | [QRR QRR_City]
+  | | | (TCS) 1
+  | | | | | [TCS TCS_City]
+  | | | | (VMJ) 1
+  | | | | | [VMJ VMJ_City]
+  | | (WHS) 2
+  | | | | [WHS WHS_City]
+  | | | (WSN) 1
+  | | | | [WSN WSN_City]
+insert(OMQ): successful {OMQ_Airport, OMQ_City, OMQ_Country, (-86.0,21.0)}
+insert(TSL): successful {TSL_Airport, TSL_City, TSL_Country, (-66.0,-24.0)}
+insert(YLR): successful {YLR_Airport, YLR_City, YLR_Country, (-10.0,51.0)}
+insert(NTV): successful {NTV_Airport, NTV_City, NTV_Country, (-147.0,-24.0)}
+find(JFQ): found [JFQ_City]
+find(NTV): found [NTV_City]
+find(LJI): not found
+insert(TXW): successful {TXW_Airport, TXW_City, TXW_Country, (124.0,52.0)}
+find(TSL): found [TSL_City]
+find(TXW): found [TXW_City]
+find(GJG): not found
+Preorder list:
+  (NMO) 3
+  (HHO) 2
+  (GFF) 1
+  [ALD ALD_City]
+  [GFF GFF_City]
+  (JFQ) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (MUF) 1
+  [JFQ JFQ_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 3
+  (OMQ) 2
+  (NTV) 1
+  [NMO NMO_City]
+  (NVX) 1
+  [NTV NTV_City]
+  [NVX NVX_City]
+  (PWP) 1
+  [OMQ OMQ_City]
+  [PWP PWP_City]
+  (TSL) 2
+  (TCS) 1
+  [QRR QRR_City]
+  [TCS TCS_City]
+  (WHS) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (VMJ) 1
+  [TXW TXW_City]
+  [VMJ VMJ_City]
+  (WSN) 1
+  [WHS WHS_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | [ALD ALD_City]
+  | | (GFF) 1
+  | | | [GFF GFF_City]
+  | (HHO) 2
+  | | | | [HHO HHO_City]
+  | | | (HPK) 1
+  | | | | [HPK HPK_City]
+  | | (JFQ) 2
+  | | | | [JFQ JFQ_City]
+  | | | (MUF) 1
+  | | | | | [MUF MUF_City]
+  | | | | (NDO) 1
+  | | | | | [NDO NDO_City]
+  (NMO) 3
+  | | | | [NMO NMO_City]
+  | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 2
+  | | | | [OMQ OMQ_City]
+  | | | (PWP) 1
+  | | | | [PWP PWP_City]
+  | (QRR) 3
+  | | | | [QRR QRR_City]
+  | | | (TCS) 1
+  | | | | [TCS TCS_City]
+  | | (TSL) 2
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | | | | (VMJ) 1
+  | | | | | | [VMJ VMJ_City]
+  | | | (WHS) 2
+  | | | | | [WHS WHS_City]
+  | | | | (WSN) 1
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+insert(DAL): successful {DAL_Airport, DAL_City, DAL_Country, (41.0,-18.0)}
+find(VMJ): found [VMJ_City]
+find(OMQ): found [OMQ_City]
+find(SDH): not found
+insert(MFD): successful {MFD_Airport, MFD_City, MFD_Country, (128.0,11.0)}
+insert(CAR): successful {CAR_Airport, CAR_City, CAR_Country, (-65.0,12.0)}
+insert(VSW): successful {VSW_Airport, VSW_City, VSW_Country, (71.0,43.0)}
+insert(RJF): successful {RJF_Airport, RJF_City, RJF_Country, (65.0,4.0)}
+Preorder list:
+  (NMO) 4
+  (JFQ) 3
+  (DAL) 2
+  (CAR) 1
+  [ALD ALD_City]
+  [CAR CAR_City]
+  (HHO) 2
+  (GFF) 1
+  [DAL DAL_City]
+  [GFF GFF_City]
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (MUF) 2
+  (MFD) 1
+  [JFQ JFQ_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 3
+  (OMQ) 2
+  (NTV) 1
+  [NMO NMO_City]
+  (NVX) 1
+  [NTV NTV_City]
+  [NVX NVX_City]
+  (PWP) 1
+  [OMQ OMQ_City]
+  [PWP PWP_City]
+  (VMJ) 3
+  (TSL) 2
+  (RJF) 1
+  [QRR QRR_City]
+  (TCS) 1
+  [RJF RJF_City]
+  [TCS TCS_City]
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (WHS) 2
+  (VSW) 1
+  [VMJ VMJ_City]
+  [VSW VSW_City]
+  (WSN) 1
+  [WHS WHS_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | [ALD ALD_City]
+  | | | (CAR) 1
+  | | | | [CAR CAR_City]
+  | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (GFF) 1
+  | | | | | [GFF GFF_City]
+  | | | (HHO) 2
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | [HPK HPK_City]
+  | (JFQ) 3
+  | | | | [JFQ JFQ_City]
+  | | | (MFD) 1
+  | | | | [MFD MFD_City]
+  | | (MUF) 2
+  | | | | [MUF MUF_City]
+  | | | (NDO) 1
+  | | | | [NDO NDO_City]
+  (NMO) 4
+  | | | | [NMO NMO_City]
+  | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 2
+  | | | | [OMQ OMQ_City]
+  | | | (PWP) 1
+  | | | | [PWP PWP_City]
+  | (QRR) 3
+  | | | | | [QRR QRR_City]
+  | | | | (RJF) 1
+  | | | | | | [RJF RJF_City]
+  | | | | | (TCS) 1
+  | | | | | | [TCS TCS_City]
+  | | | (TSL) 2
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | [TXW TXW_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VSW) 1
+  | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | [WHS WHS_City]
+  | | | | (WSN) 1
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+Preorder list:
+  (NMO) 4
+  (JFQ) 3
+  (DAL) 2
+  (CAR) 1
+  [ALD ALD_City]
+  [CAR CAR_City]
+  (HHO) 2
+  (GFF) 1
+  [DAL DAL_City]
+  [GFF GFF_City]
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (MUF) 2
+  (MFD) 1
+  [JFQ JFQ_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 3
+  (OMQ) 2
+  (NTV) 1
+  [NMO NMO_City]
+  (NVX) 1
+  [NTV NTV_City]
+  [NVX NVX_City]
+  (PWP) 1
+  [OMQ OMQ_City]
+  [PWP PWP_City]
+  (VMJ) 3
+  (TSL) 2
+  (RJF) 1
+  [QRR QRR_City]
+  (TCS) 1
+  [RJF RJF_City]
+  [TCS TCS_City]
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (WHS) 2
+  (VSW) 1
+  [VMJ VMJ_City]
+  [VSW VSW_City]
+  (WSN) 1
+  [WHS WHS_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | [ALD ALD_City]
+  | | | (CAR) 1
+  | | | | [CAR CAR_City]
+  | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (GFF) 1
+  | | | | | [GFF GFF_City]
+  | | | (HHO) 2
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | [HPK HPK_City]
+  | (JFQ) 3
+  | | | | [JFQ JFQ_City]
+  | | | (MFD) 1
+  | | | | [MFD MFD_City]
+  | | (MUF) 2
+  | | | | [MUF MUF_City]
+  | | | (NDO) 1
+  | | | | [NDO NDO_City]
+  (NMO) 4
+  | | | | [NMO NMO_City]
+  | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 2
+  | | | | [OMQ OMQ_City]
+  | | | (PWP) 1
+  | | | | [PWP PWP_City]
+  | (QRR) 3
+  | | | | | [QRR QRR_City]
+  | | | | (RJF) 1
+  | | | | | | [RJF RJF_City]
+  | | | | | (TCS) 1
+  | | | | | | [TCS TCS_City]
+  | | | (TSL) 2
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | [TXW TXW_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VSW) 1
+  | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | [WHS WHS_City]
+  | | | | (WSN) 1
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+insert(RXJ): successful {RXJ_Airport, RXJ_City, RXJ_Country, (-141.0,-35.0)}
+Preorder list:
+  (NMO) 4
+  (JFQ) 3
+  (DAL) 2
+  (CAR) 1
+  [ALD ALD_City]
+  [CAR CAR_City]
+  (HHO) 2
+  (GFF) 1
+  [DAL DAL_City]
+  [GFF GFF_City]
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (MUF) 2
+  (MFD) 1
+  [JFQ JFQ_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 3
+  (OMQ) 2
+  (NTV) 1
+  [NMO NMO_City]
+  (NVX) 1
+  [NTV NTV_City]
+  [NVX NVX_City]
+  (PWP) 1
+  [OMQ OMQ_City]
+  [PWP PWP_City]
+  (VMJ) 3
+  (RXJ) 2
+  (RJF) 1
+  [QRR QRR_City]
+  [RJF RJF_City]
+  (TSL) 2
+  (TCS) 1
+  [RXJ RXJ_City]
+  [TCS TCS_City]
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (WHS) 2
+  (VSW) 1
+  [VMJ VMJ_City]
+  [VSW VSW_City]
+  (WSN) 1
+  [WHS WHS_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | [ALD ALD_City]
+  | | | (CAR) 1
+  | | | | [CAR CAR_City]
+  | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (GFF) 1
+  | | | | | [GFF GFF_City]
+  | | | (HHO) 2
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | [HPK HPK_City]
+  | (JFQ) 3
+  | | | | [JFQ JFQ_City]
+  | | | (MFD) 1
+  | | | | [MFD MFD_City]
+  | | (MUF) 2
+  | | | | [MUF MUF_City]
+  | | | (NDO) 1
+  | | | | [NDO NDO_City]
+  (NMO) 4
+  | | | | [NMO NMO_City]
+  | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 2
+  | | | | [OMQ OMQ_City]
+  | | | (PWP) 1
+  | | | | [PWP PWP_City]
+  | (QRR) 3
+  | | | | | [QRR QRR_City]
+  | | | | (RJF) 1
+  | | | | | [RJF RJF_City]
+  | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | [TCS TCS_City]
+  | | | | (TSL) 2
+  | | | | | | [TSL TSL_City]
+  | | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VSW) 1
+  | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | [WHS WHS_City]
+  | | | | (WSN) 1
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+insert(WMV): successful {WMV_Airport, WMV_City, WMV_Country, (45.0,76.0)}
+find(TCS): found [TCS_City]
+find(WMV): found [WMV_City]
+find(IGC): not found
+insert(IAH): successful {IAH_Airport, IAH_City, IAH_Country, (-99.0,38.0)}
+insert(LAV): successful {LAV_Airport, LAV_City, LAV_Country, (67.0,48.0)}
+Preorder list:
+  (NMO) 4
+  (JFQ) 3
+  (DAL) 2
+  (CAR) 1
+  [ALD ALD_City]
+  [CAR CAR_City]
+  (HHO) 2
+  (GFF) 1
+  [DAL DAL_City]
+  [GFF GFF_City]
+  (HPK) 1
+  [HHO HHO_City]
+  (IAH) 1
+  [HPK HPK_City]
+  [IAH IAH_City]
+  (MUF) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  (MFD) 1
+  [LAV LAV_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 3
+  (OMQ) 2
+  (NTV) 1
+  [NMO NMO_City]
+  (NVX) 1
+  [NTV NTV_City]
+  [NVX NVX_City]
+  (PWP) 1
+  [OMQ OMQ_City]
+  [PWP PWP_City]
+  (VMJ) 3
+  (RXJ) 2
+  (RJF) 1
+  [QRR QRR_City]
+  [RJF RJF_City]
+  (TSL) 2
+  (TCS) 1
+  [RXJ RXJ_City]
+  [TCS TCS_City]
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (WHS) 2
+  (VSW) 1
+  [VMJ VMJ_City]
+  [VSW VSW_City]
+  (WSN) 2
+  (WMV) 1
+  [WHS WHS_City]
+  [WMV WMV_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | [ALD ALD_City]
+  | | | (CAR) 1
+  | | | | [CAR CAR_City]
+  | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (GFF) 1
+  | | | | | [GFF GFF_City]
+  | | | (HHO) 2
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | | (IAH) 1
+  | | | | | | [IAH IAH_City]
+  | (JFQ) 3
+  | | | | [JFQ JFQ_City]
+  | | | (LAV) 1
+  | | | | | [LAV LAV_City]
+  | | | | (MFD) 1
+  | | | | | [MFD MFD_City]
+  | | (MUF) 2
+  | | | | [MUF MUF_City]
+  | | | (NDO) 1
+  | | | | [NDO NDO_City]
+  (NMO) 4
+  | | | | [NMO NMO_City]
+  | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 2
+  | | | | [OMQ OMQ_City]
+  | | | (PWP) 1
+  | | | | [PWP PWP_City]
+  | (QRR) 3
+  | | | | | [QRR QRR_City]
+  | | | | (RJF) 1
+  | | | | | [RJF RJF_City]
+  | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | [TCS TCS_City]
+  | | | | (TSL) 2
+  | | | | | | [TSL TSL_City]
+  | | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VSW) 1
+  | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | | [WHS WHS_City]
+  | | | | | (WMV) 1
+  | | | | | | [WMV WMV_City]
+  | | | | (WSN) 2
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+find(PWP): found [PWP_City]
+find(VSW): found [VSW_City]
+find(RHE): not found
+insert(LZO): successful {LZO_Airport, LZO_City, LZO_Country, (138.0,-25.0)}
+Preorder list:
+  (NMO) 4
+  (JFQ) 3
+  (DAL) 2
+  (CAR) 1
+  [ALD ALD_City]
+  [CAR CAR_City]
+  (HHO) 2
+  (GFF) 1
+  [DAL DAL_City]
+  [GFF GFF_City]
+  (HPK) 1
+  [HHO HHO_City]
+  (IAH) 1
+  [HPK HPK_City]
+  [IAH IAH_City]
+  (LZO) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 3
+  (OMQ) 2
+  (NTV) 1
+  [NMO NMO_City]
+  (NVX) 1
+  [NTV NTV_City]
+  [NVX NVX_City]
+  (PWP) 1
+  [OMQ OMQ_City]
+  [PWP PWP_City]
+  (VMJ) 3
+  (RXJ) 2
+  (RJF) 1
+  [QRR QRR_City]
+  [RJF RJF_City]
+  (TSL) 2
+  (TCS) 1
+  [RXJ RXJ_City]
+  [TCS TCS_City]
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (WHS) 2
+  (VSW) 1
+  [VMJ VMJ_City]
+  [VSW VSW_City]
+  (WSN) 2
+  (WMV) 1
+  [WHS WHS_City]
+  [WMV WMV_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | [ALD ALD_City]
+  | | | (CAR) 1
+  | | | | [CAR CAR_City]
+  | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (GFF) 1
+  | | | | | [GFF GFF_City]
+  | | | (HHO) 2
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | | (IAH) 1
+  | | | | | | [IAH IAH_City]
+  | (JFQ) 3
+  | | | | [JFQ JFQ_City]
+  | | | (LAV) 1
+  | | | | [LAV LAV_City]
+  | | (LZO) 2
+  | | | | | [LZO LZO_City]
+  | | | | (MFD) 1
+  | | | | | [MFD MFD_City]
+  | | | (MUF) 2
+  | | | | | [MUF MUF_City]
+  | | | | (NDO) 1
+  | | | | | [NDO NDO_City]
+  (NMO) 4
+  | | | | [NMO NMO_City]
+  | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 2
+  | | | | [OMQ OMQ_City]
+  | | | (PWP) 1
+  | | | | [PWP PWP_City]
+  | (QRR) 3
+  | | | | | [QRR QRR_City]
+  | | | | (RJF) 1
+  | | | | | [RJF RJF_City]
+  | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | [TCS TCS_City]
+  | | | | (TSL) 2
+  | | | | | | [TSL TSL_City]
+  | | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VSW) 1
+  | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | | [WHS WHS_City]
+  | | | | | (WMV) 1
+  | | | | | | [WMV WMV_City]
+  | | | | (WSN) 2
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+insert(DQD): successful {DQD_Airport, DQD_City, DQD_Country, (-115.0,37.0)}
+insert(DGF): successful {DGF_Airport, DGF_City, DGF_Country, (-28.0,-49.0)}
+insert(PAN): successful {PAN_Airport, PAN_City, PAN_Country, (62.0,-53.0)}
+insert(GRA): successful {GRA_Airport, GRA_City, GRA_Country, (78.0,-41.0)}
+Preorder list:
+  (NMO) 4
+  (DQD) 3
+  (DAL) 2
+  (CAR) 1
+  [ALD ALD_City]
+  [CAR CAR_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (JFQ) 3
+  (HHO) 2
+  (GFF) 1
+  [DQD DQD_City]
+  (GRA) 1
+  [GFF GFF_City]
+  [GRA GRA_City]
+  (HPK) 1
+  [HHO HHO_City]
+  (IAH) 1
+  [HPK HPK_City]
+  [IAH IAH_City]
+  (LZO) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 3
+  (OMQ) 2
+  (NTV) 1
+  [NMO NMO_City]
+  (NVX) 1
+  [NTV NTV_City]
+  [NVX NVX_City]
+  (PAN) 1
+  [OMQ OMQ_City]
+  (PWP) 1
+  [PAN PAN_City]
+  [PWP PWP_City]
+  (VMJ) 3
+  (RXJ) 2
+  (RJF) 1
+  [QRR QRR_City]
+  [RJF RJF_City]
+  (TSL) 2
+  (TCS) 1
+  [RXJ RXJ_City]
+  [TCS TCS_City]
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (WHS) 2
+  (VSW) 1
+  [VMJ VMJ_City]
+  [VSW VSW_City]
+  (WSN) 2
+  (WMV) 1
+  [WHS WHS_City]
+  [WMV WMV_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | [ALD ALD_City]
+  | | | (CAR) 1
+  | | | | [CAR CAR_City]
+  | | (DAL) 2
+  | | | | [DAL DAL_City]
+  | | | (DGF) 1
+  | | | | [DGF DGF_City]
+  | (DQD) 3
+  | | | | | [DQD DQD_City]
+  | | | | (GFF) 1
+  | | | | | | [GFF GFF_City]
+  | | | | | (GRA) 1
+  | | | | | | [GRA GRA_City]
+  | | | (HHO) 2
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | | (IAH) 1
+  | | | | | | [IAH IAH_City]
+  | | (JFQ) 3
+  | | | | | [JFQ JFQ_City]
+  | | | | (LAV) 1
+  | | | | | [LAV LAV_City]
+  | | | (LZO) 2
+  | | | | | | [LZO LZO_City]
+  | | | | | (MFD) 1
+  | | | | | | [MFD MFD_City]
+  | | | | (MUF) 2
+  | | | | | | [MUF MUF_City]
+  | | | | | (NDO) 1
+  | | | | | | [NDO NDO_City]
+  (NMO) 4
+  | | | | [NMO NMO_City]
+  | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 2
+  | | | | [OMQ OMQ_City]
+  | | | (PAN) 1
+  | | | | | [PAN PAN_City]
+  | | | | (PWP) 1
+  | | | | | [PWP PWP_City]
+  | (QRR) 3
+  | | | | | [QRR QRR_City]
+  | | | | (RJF) 1
+  | | | | | [RJF RJF_City]
+  | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | [TCS TCS_City]
+  | | | | (TSL) 2
+  | | | | | | [TSL TSL_City]
+  | | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VSW) 1
+  | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | | [WHS WHS_City]
+  | | | | | (WMV) 1
+  | | | | | | [WMV WMV_City]
+  | | | | (WSN) 2
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+insert(CDP): successful {CDP_Airport, CDP_City, CDP_Country, (102.0,39.0)}
+Preorder list:
+  (NMO) 4
+  (DQD) 3
+  (DAL) 2
+  (CAR) 1
+  [ALD ALD_City]
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (JFQ) 3
+  (HHO) 2
+  (GFF) 1
+  [DQD DQD_City]
+  (GRA) 1
+  [GFF GFF_City]
+  [GRA GRA_City]
+  (HPK) 1
+  [HHO HHO_City]
+  (IAH) 1
+  [HPK HPK_City]
+  [IAH IAH_City]
+  (LZO) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 3
+  (OMQ) 2
+  (NTV) 1
+  [NMO NMO_City]
+  (NVX) 1
+  [NTV NTV_City]
+  [NVX NVX_City]
+  (PAN) 1
+  [OMQ OMQ_City]
+  (PWP) 1
+  [PAN PAN_City]
+  [PWP PWP_City]
+  (VMJ) 3
+  (RXJ) 2
+  (RJF) 1
+  [QRR QRR_City]
+  [RJF RJF_City]
+  (TSL) 2
+  (TCS) 1
+  [RXJ RXJ_City]
+  [TCS TCS_City]
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (WHS) 2
+  (VSW) 1
+  [VMJ VMJ_City]
+  [VSW VSW_City]
+  (WSN) 2
+  (WMV) 1
+  [WHS WHS_City]
+  [WMV WMV_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | [ALD ALD_City]
+  | | | (CAR) 1
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | [CDP CDP_City]
+  | | (DAL) 2
+  | | | | [DAL DAL_City]
+  | | | (DGF) 1
+  | | | | [DGF DGF_City]
+  | (DQD) 3
+  | | | | | [DQD DQD_City]
+  | | | | (GFF) 1
+  | | | | | | [GFF GFF_City]
+  | | | | | (GRA) 1
+  | | | | | | [GRA GRA_City]
+  | | | (HHO) 2
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | | (IAH) 1
+  | | | | | | [IAH IAH_City]
+  | | (JFQ) 3
+  | | | | | [JFQ JFQ_City]
+  | | | | (LAV) 1
+  | | | | | [LAV LAV_City]
+  | | | (LZO) 2
+  | | | | | | [LZO LZO_City]
+  | | | | | (MFD) 1
+  | | | | | | [MFD MFD_City]
+  | | | | (MUF) 2
+  | | | | | | [MUF MUF_City]
+  | | | | | (NDO) 1
+  | | | | | | [NDO NDO_City]
+  (NMO) 4
+  | | | | [NMO NMO_City]
+  | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 2
+  | | | | [OMQ OMQ_City]
+  | | | (PAN) 1
+  | | | | | [PAN PAN_City]
+  | | | | (PWP) 1
+  | | | | | [PWP PWP_City]
+  | (QRR) 3
+  | | | | | [QRR QRR_City]
+  | | | | (RJF) 1
+  | | | | | [RJF RJF_City]
+  | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | [TCS TCS_City]
+  | | | | (TSL) 2
+  | | | | | | [TSL TSL_City]
+  | | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VSW) 1
+  | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | | [WHS WHS_City]
+  | | | | | (WMV) 1
+  | | | | | | [WMV WMV_City]
+  | | | | (WSN) 2
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+insert(VKR): successful {VKR_Airport, VKR_City, VKR_Country, (120.0,60.0)}
+insert(VRH): successful {VRH_Airport, VRH_City, VRH_Country, (-166.0,22.0)}
+insert(NUF): successful {NUF_Airport, NUF_City, NUF_Country, (170.0,-9.0)}
+Preorder list:
+  (NMO) 4
+  (DQD) 3
+  (DAL) 2
+  (CAR) 1
+  [ALD ALD_City]
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (JFQ) 3
+  (HHO) 2
+  (GFF) 1
+  [DQD DQD_City]
+  (GRA) 1
+  [GFF GFF_City]
+  [GRA GRA_City]
+  (HPK) 1
+  [HHO HHO_City]
+  (IAH) 1
+  [HPK HPK_City]
+  [IAH IAH_City]
+  (LZO) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (OMQ) 2
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 1
+  [OMQ OMQ_City]
+  (PWP) 1
+  [PAN PAN_City]
+  [PWP PWP_City]
+  (VMJ) 3
+  (RXJ) 2
+  (RJF) 1
+  [QRR QRR_City]
+  [RJF RJF_City]
+  (TSL) 2
+  (TCS) 1
+  [RXJ RXJ_City]
+  [TCS TCS_City]
+  (TXW) 1
+  [TSL TSL_City]
+  (VKR) 1
+  [TXW TXW_City]
+  [VKR VKR_City]
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WSN) 2
+  (WMV) 1
+  [WHS WHS_City]
+  [WMV WMV_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | [ALD ALD_City]
+  | | | (CAR) 1
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | [CDP CDP_City]
+  | | (DAL) 2
+  | | | | [DAL DAL_City]
+  | | | (DGF) 1
+  | | | | [DGF DGF_City]
+  | (DQD) 3
+  | | | | | [DQD DQD_City]
+  | | | | (GFF) 1
+  | | | | | | [GFF GFF_City]
+  | | | | | (GRA) 1
+  | | | | | | [GRA GRA_City]
+  | | | (HHO) 2
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | | (IAH) 1
+  | | | | | | [IAH IAH_City]
+  | | (JFQ) 3
+  | | | | | [JFQ JFQ_City]
+  | | | | (LAV) 1
+  | | | | | [LAV LAV_City]
+  | | | (LZO) 2
+  | | | | | | [LZO LZO_City]
+  | | | | | (MFD) 1
+  | | | | | | [MFD MFD_City]
+  | | | | (MUF) 2
+  | | | | | | [MUF MUF_City]
+  | | | | | (NDO) 1
+  | | | | | | [NDO NDO_City]
+  (NMO) 4
+  | | | | [NMO NMO_City]
+  | | | (NTV) 1
+  | | | | [NTV NTV_City]
+  | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | | (OMQ) 2
+  | | | | | [OMQ OMQ_City]
+  | | | | (PAN) 1
+  | | | | | | [PAN PAN_City]
+  | | | | | (PWP) 1
+  | | | | | | [PWP PWP_City]
+  | (QRR) 3
+  | | | | | [QRR QRR_City]
+  | | | | (RJF) 1
+  | | | | | [RJF RJF_City]
+  | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | [TCS TCS_City]
+  | | | | (TSL) 2
+  | | | | | | [TSL TSL_City]
+  | | | | | (TXW) 1
+  | | | | | | | [TXW TXW_City]
+  | | | | | | (VKR) 1
+  | | | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VRH) 1
+  | | | | | | [VRH VRH_City]
+  | | | | | (VSW) 1
+  | | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | | [WHS WHS_City]
+  | | | | | (WMV) 1
+  | | | | | | [WMV WMV_City]
+  | | | | (WSN) 2
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+insert(TFS): successful {TFS_Airport, TFS_City, TFS_Country, (-153.0,42.0)}
+insert(FNO): successful {FNO_Airport, FNO_City, FNO_Country, (63.0,-71.0)}
+Preorder list:
+  (NMO) 4
+  (DQD) 3
+  (DAL) 2
+  (CAR) 1
+  [ALD ALD_City]
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (JFQ) 3
+  (GFF) 2
+  (FNO) 1
+  [DQD DQD_City]
+  [FNO FNO_City]
+  (HHO) 2
+  (GRA) 1
+  [GFF GFF_City]
+  [GRA GRA_City]
+  (HPK) 1
+  [HHO HHO_City]
+  (IAH) 1
+  [HPK HPK_City]
+  [IAH IAH_City]
+  (LZO) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (OMQ) 2
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 1
+  [OMQ OMQ_City]
+  (PWP) 1
+  [PAN PAN_City]
+  [PWP PWP_City]
+  (VMJ) 3
+  (RXJ) 2
+  (RJF) 1
+  [QRR QRR_City]
+  [RJF RJF_City]
+  (TSL) 2
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (TXW) 1
+  [TSL TSL_City]
+  (VKR) 1
+  [TXW TXW_City]
+  [VKR VKR_City]
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WSN) 2
+  (WMV) 1
+  [WHS WHS_City]
+  [WMV WMV_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | [ALD ALD_City]
+  | | | (CAR) 1
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | [CDP CDP_City]
+  | | (DAL) 2
+  | | | | [DAL DAL_City]
+  | | | (DGF) 1
+  | | | | [DGF DGF_City]
+  | (DQD) 3
+  | | | | | [DQD DQD_City]
+  | | | | (FNO) 1
+  | | | | | [FNO FNO_City]
+  | | | (GFF) 2
+  | | | | | | [GFF GFF_City]
+  | | | | | (GRA) 1
+  | | | | | | [GRA GRA_City]
+  | | | | (HHO) 2
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | | [HPK HPK_City]
+  | | | | | | (IAH) 1
+  | | | | | | | [IAH IAH_City]
+  | | (JFQ) 3
+  | | | | | [JFQ JFQ_City]
+  | | | | (LAV) 1
+  | | | | | [LAV LAV_City]
+  | | | (LZO) 2
+  | | | | | | [LZO LZO_City]
+  | | | | | (MFD) 1
+  | | | | | | [MFD MFD_City]
+  | | | | (MUF) 2
+  | | | | | | [MUF MUF_City]
+  | | | | | (NDO) 1
+  | | | | | | [NDO NDO_City]
+  (NMO) 4
+  | | | | [NMO NMO_City]
+  | | | (NTV) 1
+  | | | | [NTV NTV_City]
+  | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | | (OMQ) 2
+  | | | | | [OMQ OMQ_City]
+  | | | | (PAN) 1
+  | | | | | | [PAN PAN_City]
+  | | | | | (PWP) 1
+  | | | | | | [PWP PWP_City]
+  | (QRR) 3
+  | | | | | [QRR QRR_City]
+  | | | | (RJF) 1
+  | | | | | [RJF RJF_City]
+  | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | | | | (TSL) 2
+  | | | | | | [TSL TSL_City]
+  | | | | | (TXW) 1
+  | | | | | | | [TXW TXW_City]
+  | | | | | | (VKR) 1
+  | | | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VRH) 1
+  | | | | | | [VRH VRH_City]
+  | | | | | (VSW) 1
+  | | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | | [WHS WHS_City]
+  | | | | | (WMV) 1
+  | | | | | | [WMV WMV_City]
+  | | | | (WSN) 2
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+insert(RHE): successful {RHE_Airport, RHE_City, RHE_Country, (-132.0,28.0)}
+insert(BCP): successful {BCP_Airport, BCP_City, BCP_Country, (-132.0,81.0)}
+Preorder list:
+  (NMO) 4
+  (DQD) 3
+  (CAR) 2
+  (BCP) 1
+  [ALD ALD_City]
+  [BCP BCP_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (JFQ) 3
+  (GFF) 2
+  (FNO) 1
+  [DQD DQD_City]
+  [FNO FNO_City]
+  (HHO) 2
+  (GRA) 1
+  [GFF GFF_City]
+  [GRA GRA_City]
+  (HPK) 1
+  [HHO HHO_City]
+  (IAH) 1
+  [HPK HPK_City]
+  [IAH IAH_City]
+  (LZO) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (QRR) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (OMQ) 2
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 1
+  [OMQ OMQ_City]
+  (PWP) 1
+  [PAN PAN_City]
+  [PWP PWP_City]
+  (VMJ) 3
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TSL) 2
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (TXW) 1
+  [TSL TSL_City]
+  (VKR) 1
+  [TXW TXW_City]
+  [VKR VKR_City]
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WSN) 2
+  (WMV) 1
+  [WHS WHS_City]
+  [WMV WMV_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | [ALD ALD_City]
+  | | | (BCP) 1
+  | | | | [BCP BCP_City]
+  | | (CAR) 2
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | [CDP CDP_City]
+  | | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (DGF) 1
+  | | | | | [DGF DGF_City]
+  | (DQD) 3
+  | | | | | [DQD DQD_City]
+  | | | | (FNO) 1
+  | | | | | [FNO FNO_City]
+  | | | (GFF) 2
+  | | | | | | [GFF GFF_City]
+  | | | | | (GRA) 1
+  | | | | | | [GRA GRA_City]
+  | | | | (HHO) 2
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | | [HPK HPK_City]
+  | | | | | | (IAH) 1
+  | | | | | | | [IAH IAH_City]
+  | | (JFQ) 3
+  | | | | | [JFQ JFQ_City]
+  | | | | (LAV) 1
+  | | | | | [LAV LAV_City]
+  | | | (LZO) 2
+  | | | | | | [LZO LZO_City]
+  | | | | | (MFD) 1
+  | | | | | | [MFD MFD_City]
+  | | | | (MUF) 2
+  | | | | | | [MUF MUF_City]
+  | | | | | (NDO) 1
+  | | | | | | [NDO NDO_City]
+  (NMO) 4
+  | | | | [NMO NMO_City]
+  | | | (NTV) 1
+  | | | | [NTV NTV_City]
+  | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | | (OMQ) 2
+  | | | | | [OMQ OMQ_City]
+  | | | | (PAN) 1
+  | | | | | | [PAN PAN_City]
+  | | | | | (PWP) 1
+  | | | | | | [PWP PWP_City]
+  | (QRR) 3
+  | | | | | [QRR QRR_City]
+  | | | | (RHE) 1
+  | | | | | | [RHE RHE_City]
+  | | | | | (RJF) 1
+  | | | | | | [RJF RJF_City]
+  | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | | | | (TSL) 2
+  | | | | | | [TSL TSL_City]
+  | | | | | (TXW) 1
+  | | | | | | | [TXW TXW_City]
+  | | | | | | (VKR) 1
+  | | | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VRH) 1
+  | | | | | | [VRH VRH_City]
+  | | | | | (VSW) 1
+  | | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | | [WHS WHS_City]
+  | | | | | (WMV) 1
+  | | | | | | [WMV WMV_City]
+  | | | | (WSN) 2
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+find(WSN): found [WSN_City]
+find(GRA): found [GRA_City]
+find(QAA): not found
+insert(UZL): successful {UZL_Airport, UZL_City, UZL_Country, (-54.0,-3.0)}
+insert(ITT): successful {ITT_Airport, ITT_City, ITT_Country, (-173.0,-85.0)}
+insert(EPT): successful {EPT_Airport, EPT_City, EPT_Country, (-107.0,64.0)}
+Preorder list:
+  (NMO) 5
+  (HHO) 4
+  (DQD) 3
+  (CAR) 2
+  (BCP) 1
+  [ALD ALD_City]
+  [BCP BCP_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (GFF) 2
+  (EPT) 1
+  [DQD DQD_City]
+  (FNO) 1
+  [EPT EPT_City]
+  [FNO FNO_City]
+  (GRA) 1
+  [GFF GFF_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 1
+  [IAH IAH_City]
+  [ITT ITT_City]
+  (LZO) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 4
+  (QRR) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (OMQ) 2
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 1
+  [OMQ OMQ_City]
+  (PWP) 1
+  [PAN PAN_City]
+  [PWP PWP_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (VKR) 1
+  [UZL UZL_City]
+  [VKR VKR_City]
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WSN) 2
+  (WMV) 1
+  [WHS WHS_City]
+  [WMV WMV_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (BCP) 1
+  | | | | | [BCP BCP_City]
+  | | | (CAR) 2
+  | | | | | | [CAR CAR_City]
+  | | | | | (CDP) 1
+  | | | | | | [CDP CDP_City]
+  | | | | (DAL) 2
+  | | | | | | [DAL DAL_City]
+  | | | | | (DGF) 1
+  | | | | | | [DGF DGF_City]
+  | | (DQD) 3
+  | | | | | [DQD DQD_City]
+  | | | | (EPT) 1
+  | | | | | | [EPT EPT_City]
+  | | | | | (FNO) 1
+  | | | | | | [FNO FNO_City]
+  | | | (GFF) 2
+  | | | | | [GFF GFF_City]
+  | | | | (GRA) 1
+  | | | | | [GRA GRA_City]
+  | (HHO) 4
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | [HPK HPK_City]
+  | | | (IAH) 2
+  | | | | | [IAH IAH_City]
+  | | | | (ITT) 1
+  | | | | | [ITT ITT_City]
+  | | (JFQ) 3
+  | | | | | [JFQ JFQ_City]
+  | | | | (LAV) 1
+  | | | | | [LAV LAV_City]
+  | | | (LZO) 2
+  | | | | | | [LZO LZO_City]
+  | | | | | (MFD) 1
+  | | | | | | [MFD MFD_City]
+  | | | | (MUF) 2
+  | | | | | | [MUF MUF_City]
+  | | | | | (NDO) 1
+  | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | | [NUF NUF_City]
+  | | | | | (NVX) 1
+  | | | | | | [NVX NVX_City]
+  | | | | (OMQ) 2
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (PAN) 1
+  | | | | | | | [PAN PAN_City]
+  | | | | | | (PWP) 1
+  | | | | | | | [PWP PWP_City]
+  | | (QRR) 3
+  | | | | | [QRR QRR_City]
+  | | | | (RHE) 1
+  | | | | | | [RHE RHE_City]
+  | | | | | (RJF) 1
+  | | | | | | [RJF RJF_City]
+  | | | (RXJ) 2
+  | | | | | [RXJ RXJ_City]
+  | | | | (TCS) 1
+  | | | | | | [TCS TCS_City]
+  | | | | | (TFS) 1
+  | | | | | | [TFS TFS_City]
+  | (TSL) 4
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | [TXW TXW_City]
+  | | | (UZL) 2
+  | | | | | [UZL UZL_City]
+  | | | | (VKR) 1
+  | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VRH) 1
+  | | | | | | [VRH VRH_City]
+  | | | | | (VSW) 1
+  | | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | | [WHS WHS_City]
+  | | | | | (WMV) 1
+  | | | | | | [WMV WMV_City]
+  | | | | (WSN) 2
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+insert(BZK): successful {BZK_Airport, BZK_City, BZK_Country, (-173.0,-39.0)}
+insert(EKB): successful {EKB_Airport, EKB_City, EKB_Country, (105.0,24.0)}
+insert(FAI): successful {FAI_Airport, FAI_City, FAI_Country, (55.0,68.0)}
+insert(LJI): successful {LJI_Airport, LJI_City, LJI_Country, (-2.0,24.0)}
+find(TCS): found [TCS_City]
+find(EPT): found [EPT_City]
+find(XOD): not found
+insert(OOB): successful {OOB_Airport, OOB_City, OOB_Country, (-82.0,-75.0)}
+Preorder list:
+  (NMO) 5
+  (HHO) 4
+  (DQD) 3
+  (CAR) 2
+  (BCP) 1
+  [ALD ALD_City]
+  (BZK) 1
+  [BCP BCP_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (EPT) 2
+  (EKB) 1
+  [DQD DQD_City]
+  [EKB EKB_City]
+  (GFF) 2
+  (FAI) 1
+  [EPT EPT_City]
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GRA) 1
+  [GFF GFF_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 1
+  [IAH IAH_City]
+  [ITT ITT_City]
+  (LZO) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  (LJI) 1
+  [LAV LAV_City]
+  [LJI LJI_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (QRR) 3
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PWP) 1
+  [PAN PAN_City]
+  [PWP PWP_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (VKR) 1
+  [UZL UZL_City]
+  [VKR VKR_City]
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WSN) 2
+  (WMV) 1
+  [WHS WHS_City]
+  [WMV WMV_City]
+  (YLR) 1
+  [WSN WSN_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (BCP) 1
+  | | | | | | [BCP BCP_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | | (CAR) 2
+  | | | | | | [CAR CAR_City]
+  | | | | | (CDP) 1
+  | | | | | | [CDP CDP_City]
+  | | | | (DAL) 2
+  | | | | | | [DAL DAL_City]
+  | | | | | (DGF) 1
+  | | | | | | [DGF DGF_City]
+  | | (DQD) 3
+  | | | | | [DQD DQD_City]
+  | | | | (EKB) 1
+  | | | | | [EKB EKB_City]
+  | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (FAI) 1
+  | | | | | | | [FAI FAI_City]
+  | | | | | | (FNO) 1
+  | | | | | | | [FNO FNO_City]
+  | | | | (GFF) 2
+  | | | | | | [GFF GFF_City]
+  | | | | | (GRA) 1
+  | | | | | | [GRA GRA_City]
+  | (HHO) 4
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | [HPK HPK_City]
+  | | | (IAH) 2
+  | | | | | [IAH IAH_City]
+  | | | | (ITT) 1
+  | | | | | [ITT ITT_City]
+  | | (JFQ) 3
+  | | | | | [JFQ JFQ_City]
+  | | | | (LAV) 1
+  | | | | | | [LAV LAV_City]
+  | | | | | (LJI) 1
+  | | | | | | [LJI LJI_City]
+  | | | (LZO) 2
+  | | | | | | [LZO LZO_City]
+  | | | | | (MFD) 1
+  | | | | | | [MFD MFD_City]
+  | | | | (MUF) 2
+  | | | | | | [MUF MUF_City]
+  | | | | | (NDO) 1
+  | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | [PAN PAN_City]
+  | | | | | (PWP) 1
+  | | | | | | [PWP PWP_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | (TSL) 4
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | [TXW TXW_City]
+  | | | (UZL) 2
+  | | | | | [UZL UZL_City]
+  | | | | (VKR) 1
+  | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VRH) 1
+  | | | | | | [VRH VRH_City]
+  | | | | | (VSW) 1
+  | | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | | [WHS WHS_City]
+  | | | | | (WMV) 1
+  | | | | | | [WMV WMV_City]
+  | | | | (WSN) 2
+  | | | | | | [WSN WSN_City]
+  | | | | | (YLR) 1
+  | | | | | | [YLR YLR_City]
+insert(WLP): successful {WLP_Airport, WLP_City, WLP_Country, (156.0,-78.0)}
+insert(AYY): successful {AYY_Airport, AYY_City, AYY_Country, (-164.0,48.0)}
+insert(QRR): failure due to exception: "Insertion of duplicate key"
+insert(BFC): successful {BFC_Airport, BFC_City, BFC_Country, (38.0,16.0)}
+insert(LXT): successful {LXT_Airport, LXT_City, LXT_Country, (-178.0,-35.0)}
+find(TXW): found [TXW_City]
+find(LJI): found [LJI_City]
+find(LXT): found [LXT_City]
+insert(XOD): successful {XOD_Airport, XOD_City, XOD_Country, (-168.0,86.0)}
+Preorder list:
+  (NMO) 5
+  (HHO) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BFC) 1
+  [BCP BCP_City]
+  (BZK) 1
+  [BFC BFC_City]
+  [BZK BZK_City]
+  (DQD) 3
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (EPT) 2
+  (EKB) 1
+  [DQD DQD_City]
+  [EKB EKB_City]
+  (GFF) 2
+  (FAI) 1
+  [EPT EPT_City]
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GRA) 1
+  [GFF GFF_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 1
+  [IAH IAH_City]
+  [ITT ITT_City]
+  (LZO) 3
+  (LJI) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (LXT) 1
+  [LJI LJI_City]
+  [LXT LXT_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (QRR) 3
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PWP) 1
+  [PAN PAN_City]
+  [PWP PWP_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (VKR) 1
+  [UZL UZL_City]
+  [VKR VKR_City]
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WSN) 2
+  (WLP) 1
+  [WHS WHS_City]
+  (WMV) 1
+  [WLP WLP_City]
+  [WMV WMV_City]
+  (XOD) 1
+  [WSN WSN_City]
+  (YLR) 1
+  [XOD XOD_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | [BCP BCP_City]
+  | | | | (BFC) 1
+  | | | | | | [BFC BFC_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | | [CAR CAR_City]
+  | | | | | (CDP) 1
+  | | | | | | [CDP CDP_City]
+  | | | | (DAL) 2
+  | | | | | | [DAL DAL_City]
+  | | | | | (DGF) 1
+  | | | | | | [DGF DGF_City]
+  | | | (DQD) 3
+  | | | | | | [DQD DQD_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | | [EPT EPT_City]
+  | | | | | | (FAI) 1
+  | | | | | | | | [FAI FAI_City]
+  | | | | | | | (FNO) 1
+  | | | | | | | | [FNO FNO_City]
+  | | | | | (GFF) 2
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | (HHO) 4
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | [HPK HPK_City]
+  | | | (IAH) 2
+  | | | | | [IAH IAH_City]
+  | | | | (ITT) 1
+  | | | | | [ITT ITT_City]
+  | | (JFQ) 3
+  | | | | | | [JFQ JFQ_City]
+  | | | | | (LAV) 1
+  | | | | | | [LAV LAV_City]
+  | | | | (LJI) 2
+  | | | | | | [LJI LJI_City]
+  | | | | | (LXT) 1
+  | | | | | | [LXT LXT_City]
+  | | | (LZO) 3
+  | | | | | | [LZO LZO_City]
+  | | | | | (MFD) 1
+  | | | | | | [MFD MFD_City]
+  | | | | (MUF) 2
+  | | | | | | [MUF MUF_City]
+  | | | | | (NDO) 1
+  | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | [PAN PAN_City]
+  | | | | | (PWP) 1
+  | | | | | | [PWP PWP_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | (TSL) 4
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | [TXW TXW_City]
+  | | | (UZL) 2
+  | | | | | [UZL UZL_City]
+  | | | | (VKR) 1
+  | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VRH) 1
+  | | | | | | [VRH VRH_City]
+  | | | | | (VSW) 1
+  | | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | | [WHS WHS_City]
+  | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | | (WMV) 1
+  | | | | | | | [WMV WMV_City]
+  | | | | (WSN) 2
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | | [XOD XOD_City]
+  | | | | | | (YLR) 1
+  | | | | | | | [YLR YLR_City]
+Preorder list:
+  (NMO) 5
+  (HHO) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BFC) 1
+  [BCP BCP_City]
+  (BZK) 1
+  [BFC BFC_City]
+  [BZK BZK_City]
+  (DQD) 3
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (EPT) 2
+  (EKB) 1
+  [DQD DQD_City]
+  [EKB EKB_City]
+  (GFF) 2
+  (FAI) 1
+  [EPT EPT_City]
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GRA) 1
+  [GFF GFF_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 1
+  [IAH IAH_City]
+  [ITT ITT_City]
+  (LZO) 3
+  (LJI) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (LXT) 1
+  [LJI LJI_City]
+  [LXT LXT_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (QRR) 3
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PWP) 1
+  [PAN PAN_City]
+  [PWP PWP_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (VKR) 1
+  [UZL UZL_City]
+  [VKR VKR_City]
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WSN) 2
+  (WLP) 1
+  [WHS WHS_City]
+  (WMV) 1
+  [WLP WLP_City]
+  [WMV WMV_City]
+  (XOD) 1
+  [WSN WSN_City]
+  (YLR) 1
+  [XOD XOD_City]
+  [YLR YLR_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | [BCP BCP_City]
+  | | | | (BFC) 1
+  | | | | | | [BFC BFC_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | | [CAR CAR_City]
+  | | | | | (CDP) 1
+  | | | | | | [CDP CDP_City]
+  | | | | (DAL) 2
+  | | | | | | [DAL DAL_City]
+  | | | | | (DGF) 1
+  | | | | | | [DGF DGF_City]
+  | | | (DQD) 3
+  | | | | | | [DQD DQD_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | | [EPT EPT_City]
+  | | | | | | (FAI) 1
+  | | | | | | | | [FAI FAI_City]
+  | | | | | | | (FNO) 1
+  | | | | | | | | [FNO FNO_City]
+  | | | | | (GFF) 2
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | (HHO) 4
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | [HPK HPK_City]
+  | | | (IAH) 2
+  | | | | | [IAH IAH_City]
+  | | | | (ITT) 1
+  | | | | | [ITT ITT_City]
+  | | (JFQ) 3
+  | | | | | | [JFQ JFQ_City]
+  | | | | | (LAV) 1
+  | | | | | | [LAV LAV_City]
+  | | | | (LJI) 2
+  | | | | | | [LJI LJI_City]
+  | | | | | (LXT) 1
+  | | | | | | [LXT LXT_City]
+  | | | (LZO) 3
+  | | | | | | [LZO LZO_City]
+  | | | | | (MFD) 1
+  | | | | | | [MFD MFD_City]
+  | | | | (MUF) 2
+  | | | | | | [MUF MUF_City]
+  | | | | | (NDO) 1
+  | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | [PAN PAN_City]
+  | | | | | (PWP) 1
+  | | | | | | [PWP PWP_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | (TSL) 4
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | [TXW TXW_City]
+  | | | (UZL) 2
+  | | | | | [UZL UZL_City]
+  | | | | (VKR) 1
+  | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | [VMJ VMJ_City]
+  | | | | (VRH) 1
+  | | | | | | [VRH VRH_City]
+  | | | | | (VSW) 1
+  | | | | | | [VSW VSW_City]
+  | | | (WHS) 2
+  | | | | | | [WHS WHS_City]
+  | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | | (WMV) 1
+  | | | | | | | [WMV WMV_City]
+  | | | | (WSN) 2
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | | [XOD XOD_City]
+  | | | | | | (YLR) 1
+  | | | | | | | [YLR YLR_City]
+insert(QIM): successful {QIM_Airport, QIM_City, QIM_Country, (-123.0,28.0)}
+insert(ZAJ): successful {ZAJ_Airport, ZAJ_City, ZAJ_Country, (142.0,2.0)}
+insert(UCT): successful {UCT_Airport, UCT_City, UCT_Country, (10.0,-46.0)}
+insert(PQP): successful {PQP_Airport, PQP_City, PQP_Country, (93.0,75.0)}
+insert(WOG): successful {WOG_Airport, WOG_City, WOG_Country, (-72.0,21.0)}
+Preorder list:
+  (NMO) 5
+  (HHO) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BFC) 1
+  [BCP BCP_City]
+  (BZK) 1
+  [BFC BFC_City]
+  [BZK BZK_City]
+  (DQD) 3
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (EPT) 2
+  (EKB) 1
+  [DQD DQD_City]
+  [EKB EKB_City]
+  (GFF) 2
+  (FAI) 1
+  [EPT EPT_City]
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GRA) 1
+  [GFF GFF_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 1
+  [IAH IAH_City]
+  [ITT ITT_City]
+  (LZO) 3
+  (LJI) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (LXT) 1
+  [LJI LJI_City]
+  [LXT LXT_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (QRR) 3
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PWP) 2
+  (PQP) 1
+  [PAN PAN_City]
+  [PQP PQP_City]
+  (QIM) 1
+  [PWP PWP_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (UCT) 1
+  [TXW TXW_City]
+  [UCT UCT_City]
+  (VKR) 1
+  [UZL UZL_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  [XOD XOD_City]
+  (ZAJ) 1
+  [YLR YLR_City]
+  [ZAJ ZAJ_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | [BCP BCP_City]
+  | | | | (BFC) 1
+  | | | | | | [BFC BFC_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | | [CAR CAR_City]
+  | | | | | (CDP) 1
+  | | | | | | [CDP CDP_City]
+  | | | | (DAL) 2
+  | | | | | | [DAL DAL_City]
+  | | | | | (DGF) 1
+  | | | | | | [DGF DGF_City]
+  | | | (DQD) 3
+  | | | | | | [DQD DQD_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | | [EPT EPT_City]
+  | | | | | | (FAI) 1
+  | | | | | | | | [FAI FAI_City]
+  | | | | | | | (FNO) 1
+  | | | | | | | | [FNO FNO_City]
+  | | | | | (GFF) 2
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | (HHO) 4
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | [HPK HPK_City]
+  | | | (IAH) 2
+  | | | | | [IAH IAH_City]
+  | | | | (ITT) 1
+  | | | | | [ITT ITT_City]
+  | | (JFQ) 3
+  | | | | | | [JFQ JFQ_City]
+  | | | | | (LAV) 1
+  | | | | | | [LAV LAV_City]
+  | | | | (LJI) 2
+  | | | | | | [LJI LJI_City]
+  | | | | | (LXT) 1
+  | | | | | | [LXT LXT_City]
+  | | | (LZO) 3
+  | | | | | | [LZO LZO_City]
+  | | | | | (MFD) 1
+  | | | | | | [MFD MFD_City]
+  | | | | (MUF) 2
+  | | | | | | [MUF MUF_City]
+  | | | | | (NDO) 1
+  | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | | [PAN PAN_City]
+  | | | | | | (PQP) 1
+  | | | | | | | [PQP PQP_City]
+  | | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | (TSL) 4
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | | | | (UCT) 1
+  | | | | | | [UCT UCT_City]
+  | | | (UZL) 2
+  | | | | | [UZL UZL_City]
+  | | | | (VKR) 1
+  | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | [XOD XOD_City]
+  | | | | (YLR) 2
+  | | | | | | [YLR YLR_City]
+  | | | | | (ZAJ) 1
+  | | | | | | [ZAJ ZAJ_City]
+insert(ICK): successful {ICK_Airport, ICK_City, ICK_Country, (-173.0,40.0)}
+Preorder list:
+  (NMO) 5
+  (HHO) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BFC) 1
+  [BCP BCP_City]
+  (BZK) 1
+  [BFC BFC_City]
+  [BZK BZK_City]
+  (DQD) 3
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (EPT) 2
+  (EKB) 1
+  [DQD DQD_City]
+  [EKB EKB_City]
+  (GFF) 2
+  (FAI) 1
+  [EPT EPT_City]
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GRA) 1
+  [GFF GFF_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ICK) 1
+  [IAH IAH_City]
+  (ITT) 1
+  [ICK ICK_City]
+  [ITT ITT_City]
+  (LZO) 3
+  (LJI) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (LXT) 1
+  [LJI LJI_City]
+  [LXT LXT_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (QRR) 3
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PWP) 2
+  (PQP) 1
+  [PAN PAN_City]
+  [PQP PQP_City]
+  (QIM) 1
+  [PWP PWP_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (UCT) 1
+  [TXW TXW_City]
+  [UCT UCT_City]
+  (VKR) 1
+  [UZL UZL_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  [XOD XOD_City]
+  (ZAJ) 1
+  [YLR YLR_City]
+  [ZAJ ZAJ_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | [BCP BCP_City]
+  | | | | (BFC) 1
+  | | | | | | [BFC BFC_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | | [CAR CAR_City]
+  | | | | | (CDP) 1
+  | | | | | | [CDP CDP_City]
+  | | | | (DAL) 2
+  | | | | | | [DAL DAL_City]
+  | | | | | (DGF) 1
+  | | | | | | [DGF DGF_City]
+  | | | (DQD) 3
+  | | | | | | [DQD DQD_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | | [EPT EPT_City]
+  | | | | | | (FAI) 1
+  | | | | | | | | [FAI FAI_City]
+  | | | | | | | (FNO) 1
+  | | | | | | | | [FNO FNO_City]
+  | | | | | (GFF) 2
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | (HHO) 4
+  | | | | | [HHO HHO_City]
+  | | | | (HPK) 1
+  | | | | | [HPK HPK_City]
+  | | | (IAH) 2
+  | | | | | [IAH IAH_City]
+  | | | | (ICK) 1
+  | | | | | | [ICK ICK_City]
+  | | | | | (ITT) 1
+  | | | | | | [ITT ITT_City]
+  | | (JFQ) 3
+  | | | | | | [JFQ JFQ_City]
+  | | | | | (LAV) 1
+  | | | | | | [LAV LAV_City]
+  | | | | (LJI) 2
+  | | | | | | [LJI LJI_City]
+  | | | | | (LXT) 1
+  | | | | | | [LXT LXT_City]
+  | | | (LZO) 3
+  | | | | | | [LZO LZO_City]
+  | | | | | (MFD) 1
+  | | | | | | [MFD MFD_City]
+  | | | | (MUF) 2
+  | | | | | | [MUF MUF_City]
+  | | | | | (NDO) 1
+  | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | | [PAN PAN_City]
+  | | | | | | (PQP) 1
+  | | | | | | | [PQP PQP_City]
+  | | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | (TSL) 4
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | | | | (UCT) 1
+  | | | | | | [UCT UCT_City]
+  | | | (UZL) 2
+  | | | | | [UZL UZL_City]
+  | | | | (VKR) 1
+  | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | [XOD XOD_City]
+  | | | | (YLR) 2
+  | | | | | | [YLR YLR_City]
+  | | | | | (ZAJ) 1
+  | | | | | | [ZAJ ZAJ_City]
+insert(GJG): successful {GJG_Airport, GJG_City, GJG_Country, (-86.0,-76.0)}
+find(TSL): found [TSL_City]
+find(PQP): found [PQP_City]
+find(BFY): not found
+insert(ZTK): successful {ZTK_Airport, ZTK_City, ZTK_Country, (-131.0,-49.0)}
+insert(EZF): successful {EZF_Airport, EZF_City, EZF_Country, (-46.0,13.0)}
+insert(GQE): successful {GQE_Airport, GQE_City, GQE_Country, (-24.0,-29.0)}
+Preorder list:
+  (NMO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BFC) 1
+  [BCP BCP_City]
+  (BZK) 1
+  [BFC BFC_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (HHO) 4
+  (FAI) 3
+  (EPT) 2
+  (EKB) 1
+  [DQD DQD_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 2
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ICK) 1
+  [IAH IAH_City]
+  (ITT) 1
+  [ICK ICK_City]
+  [ITT ITT_City]
+  (LZO) 3
+  (LJI) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (LXT) 1
+  [LJI LJI_City]
+  [LXT LXT_City]
+  (MUF) 2
+  (MFD) 1
+  [LZO LZO_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (QRR) 3
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PWP) 2
+  (PQP) 1
+  [PAN PAN_City]
+  [PQP PQP_City]
+  (QIM) 1
+  [PWP PWP_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (UCT) 1
+  [TXW TXW_City]
+  [UCT UCT_City]
+  (VKR) 1
+  [UZL UZL_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  [XOD XOD_City]
+  (ZAJ) 1
+  [YLR YLR_City]
+  (ZTK) 1
+  [ZAJ ZAJ_City]
+  [ZTK ZTK_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | [BCP BCP_City]
+  | | | | (BFC) 1
+  | | | | | | [BFC BFC_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | [CDP CDP_City]
+  | | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (DGF) 1
+  | | | | | [DGF DGF_City]
+  | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | [FAI FAI_City]
+  | | | | | (FNO) 1
+  | | | | | | [FNO FNO_City]
+  | | | | (GFF) 2
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | | (HHO) 4
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | [IAH IAH_City]
+  | | | | | (ICK) 1
+  | | | | | | | [ICK ICK_City]
+  | | | | | | (ITT) 1
+  | | | | | | | [ITT ITT_City]
+  | | | (JFQ) 3
+  | | | | | | | [JFQ JFQ_City]
+  | | | | | | (LAV) 1
+  | | | | | | | [LAV LAV_City]
+  | | | | | (LJI) 2
+  | | | | | | | [LJI LJI_City]
+  | | | | | | (LXT) 1
+  | | | | | | | [LXT LXT_City]
+  | | | | (LZO) 3
+  | | | | | | | [LZO LZO_City]
+  | | | | | | (MFD) 1
+  | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | | [PAN PAN_City]
+  | | | | | | (PQP) 1
+  | | | | | | | [PQP PQP_City]
+  | | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | (TSL) 4
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | | | | (UCT) 1
+  | | | | | | [UCT UCT_City]
+  | | | (UZL) 2
+  | | | | | [UZL UZL_City]
+  | | | | (VKR) 1
+  | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | [XOD XOD_City]
+  | | | | (YLR) 2
+  | | | | | | [YLR YLR_City]
+  | | | | | (ZAJ) 1
+  | | | | | | | [ZAJ ZAJ_City]
+  | | | | | | (ZTK) 1
+  | | | | | | | [ZTK ZTK_City]
+insert(BKT): successful {BKT_Airport, BKT_City, BKT_Country, (91.0,55.0)}
+insert(VKK): successful {VKK_Airport, VKK_City, VKK_Country, (-26.0,-40.0)}
+insert(PTV): successful {PTV_Airport, PTV_City, PTV_Country, (107.0,-61.0)}
+find(WHS): found [WHS_City]
+find(DQD): found [DQD_City]
+find(CDP): found [CDP_City]
+insert(MBS): successful {MBS_Airport, MBS_City, MBS_Country, (-73.0,40.0)}
+Preorder list:
+  (NMO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  [BFC BFC_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (HHO) 4
+  (FAI) 3
+  (EPT) 2
+  (EKB) 1
+  [DQD DQD_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 2
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ICK) 1
+  [IAH IAH_City]
+  (ITT) 1
+  [ICK ICK_City]
+  [ITT ITT_City]
+  (LZO) 3
+  (LJI) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (LXT) 1
+  [LJI LJI_City]
+  [LXT LXT_City]
+  (MUF) 2
+  (MBS) 1
+  [LZO LZO_City]
+  (MFD) 1
+  [MBS MBS_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (QRR) 3
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PWP) 2
+  (PQP) 1
+  [PAN PAN_City]
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QIM) 1
+  [PWP PWP_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (UCT) 1
+  [TXW TXW_City]
+  [UCT UCT_City]
+  (VKK) 1
+  [UZL UZL_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  [XOD XOD_City]
+  (ZAJ) 1
+  [YLR YLR_City]
+  (ZTK) 1
+  [ZAJ ZAJ_City]
+  [ZTK ZTK_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | | [BCP BCP_City]
+  | | | | | (BFC) 1
+  | | | | | | [BFC BFC_City]
+  | | | | (BKT) 2
+  | | | | | | [BKT BKT_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | [CDP CDP_City]
+  | | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (DGF) 1
+  | | | | | [DGF DGF_City]
+  | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | [FAI FAI_City]
+  | | | | | (FNO) 1
+  | | | | | | [FNO FNO_City]
+  | | | | (GFF) 2
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | | (HHO) 4
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | [IAH IAH_City]
+  | | | | | (ICK) 1
+  | | | | | | | [ICK ICK_City]
+  | | | | | | (ITT) 1
+  | | | | | | | [ITT ITT_City]
+  | | | (JFQ) 3
+  | | | | | | | [JFQ JFQ_City]
+  | | | | | | (LAV) 1
+  | | | | | | | [LAV LAV_City]
+  | | | | | (LJI) 2
+  | | | | | | | [LJI LJI_City]
+  | | | | | | (LXT) 1
+  | | | | | | | [LXT LXT_City]
+  | | | | (LZO) 3
+  | | | | | | | [LZO LZO_City]
+  | | | | | | (MBS) 1
+  | | | | | | | | [MBS MBS_City]
+  | | | | | | | (MFD) 1
+  | | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | | [PAN PAN_City]
+  | | | | | | (PQP) 1
+  | | | | | | | | [PQP PQP_City]
+  | | | | | | | (PTV) 1
+  | | | | | | | | [PTV PTV_City]
+  | | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | (TSL) 4
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | | | | (UCT) 1
+  | | | | | | [UCT UCT_City]
+  | | | (UZL) 2
+  | | | | | [UZL UZL_City]
+  | | | | (VKK) 1
+  | | | | | | [VKK VKK_City]
+  | | | | | (VKR) 1
+  | | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | [XOD XOD_City]
+  | | | | (YLR) 2
+  | | | | | | [YLR YLR_City]
+  | | | | | (ZAJ) 1
+  | | | | | | | [ZAJ ZAJ_City]
+  | | | | | | (ZTK) 1
+  | | | | | | | [ZTK ZTK_City]
+find(IAH): found [IAH_City]
+find(FAI): found [FAI_City]
+find(KMS): not found
+insert(JEL): successful {JEL_Airport, JEL_City, JEL_Country, (163.0,-75.0)}
+Preorder list:
+  (NMO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  [BFC BFC_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (HHO) 4
+  (FAI) 3
+  (EPT) 2
+  (EKB) 1
+  [DQD DQD_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 2
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  [ICK ICK_City]
+  (JEL) 1
+  [ITT ITT_City]
+  [JEL JEL_City]
+  (LZO) 3
+  (LJI) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (LXT) 1
+  [LJI LJI_City]
+  [LXT LXT_City]
+  (MUF) 2
+  (MBS) 1
+  [LZO LZO_City]
+  (MFD) 1
+  [MBS MBS_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (QRR) 3
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PWP) 2
+  (PQP) 1
+  [PAN PAN_City]
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QIM) 1
+  [PWP PWP_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (UCT) 1
+  [TXW TXW_City]
+  [UCT UCT_City]
+  (VKK) 1
+  [UZL UZL_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  [XOD XOD_City]
+  (ZAJ) 1
+  [YLR YLR_City]
+  (ZTK) 1
+  [ZAJ ZAJ_City]
+  [ZTK ZTK_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | | [BCP BCP_City]
+  | | | | | (BFC) 1
+  | | | | | | [BFC BFC_City]
+  | | | | (BKT) 2
+  | | | | | | [BKT BKT_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | [CDP CDP_City]
+  | | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (DGF) 1
+  | | | | | [DGF DGF_City]
+  | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | [FAI FAI_City]
+  | | | | | (FNO) 1
+  | | | | | | [FNO FNO_City]
+  | | | | (GFF) 2
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | | (HHO) 4
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | [ICK ICK_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JEL) 1
+  | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | | [JFQ JFQ_City]
+  | | | | | | (LAV) 1
+  | | | | | | | [LAV LAV_City]
+  | | | | | (LJI) 2
+  | | | | | | | [LJI LJI_City]
+  | | | | | | (LXT) 1
+  | | | | | | | [LXT LXT_City]
+  | | | | (LZO) 3
+  | | | | | | | [LZO LZO_City]
+  | | | | | | (MBS) 1
+  | | | | | | | | [MBS MBS_City]
+  | | | | | | | (MFD) 1
+  | | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | | [PAN PAN_City]
+  | | | | | | (PQP) 1
+  | | | | | | | | [PQP PQP_City]
+  | | | | | | | (PTV) 1
+  | | | | | | | | [PTV PTV_City]
+  | | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | (TSL) 4
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | | | | (UCT) 1
+  | | | | | | [UCT UCT_City]
+  | | | (UZL) 2
+  | | | | | [UZL UZL_City]
+  | | | | (VKK) 1
+  | | | | | | [VKK VKK_City]
+  | | | | | (VKR) 1
+  | | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | [XOD XOD_City]
+  | | | | (YLR) 2
+  | | | | | | [YLR YLR_City]
+  | | | | | (ZAJ) 1
+  | | | | | | | [ZAJ ZAJ_City]
+  | | | | | | (ZTK) 1
+  | | | | | | | [ZTK ZTK_City]
+insert(IGC): successful {IGC_Airport, IGC_City, IGC_Country, (-160.0,48.0)}
+Preorder list:
+  (NMO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  [BFC BFC_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (HHO) 4
+  (FAI) 3
+  (EPT) 2
+  (EKB) 1
+  [DQD DQD_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 2
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  (IGC) 1
+  [ICK ICK_City]
+  [IGC IGC_City]
+  (JEL) 1
+  [ITT ITT_City]
+  [JEL JEL_City]
+  (LZO) 3
+  (LJI) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (LXT) 1
+  [LJI LJI_City]
+  [LXT LXT_City]
+  (MUF) 2
+  (MBS) 1
+  [LZO LZO_City]
+  (MFD) 1
+  [MBS MBS_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (QRR) 3
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PWP) 2
+  (PQP) 1
+  [PAN PAN_City]
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QIM) 1
+  [PWP PWP_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (UCT) 1
+  [TXW TXW_City]
+  [UCT UCT_City]
+  (VKK) 1
+  [UZL UZL_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  [XOD XOD_City]
+  (ZAJ) 1
+  [YLR YLR_City]
+  (ZTK) 1
+  [ZAJ ZAJ_City]
+  [ZTK ZTK_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | | [BCP BCP_City]
+  | | | | | (BFC) 1
+  | | | | | | [BFC BFC_City]
+  | | | | (BKT) 2
+  | | | | | | [BKT BKT_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | [CDP CDP_City]
+  | | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (DGF) 1
+  | | | | | [DGF DGF_City]
+  | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | [FAI FAI_City]
+  | | | | | (FNO) 1
+  | | | | | | [FNO FNO_City]
+  | | | | (GFF) 2
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | | (HHO) 4
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | | [ICK ICK_City]
+  | | | | | | | (IGC) 1
+  | | | | | | | | [IGC IGC_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JEL) 1
+  | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | | [JFQ JFQ_City]
+  | | | | | | (LAV) 1
+  | | | | | | | [LAV LAV_City]
+  | | | | | (LJI) 2
+  | | | | | | | [LJI LJI_City]
+  | | | | | | (LXT) 1
+  | | | | | | | [LXT LXT_City]
+  | | | | (LZO) 3
+  | | | | | | | [LZO LZO_City]
+  | | | | | | (MBS) 1
+  | | | | | | | | [MBS MBS_City]
+  | | | | | | | (MFD) 1
+  | | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | | [PAN PAN_City]
+  | | | | | | (PQP) 1
+  | | | | | | | | [PQP PQP_City]
+  | | | | | | | (PTV) 1
+  | | | | | | | | [PTV PTV_City]
+  | | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | (TSL) 4
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | | | | (UCT) 1
+  | | | | | | [UCT UCT_City]
+  | | | (UZL) 2
+  | | | | | [UZL UZL_City]
+  | | | | (VKK) 1
+  | | | | | | [VKK VKK_City]
+  | | | | | (VKR) 1
+  | | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | [XOD XOD_City]
+  | | | | (YLR) 2
+  | | | | | | [YLR YLR_City]
+  | | | | | (ZAJ) 1
+  | | | | | | | [ZAJ ZAJ_City]
+  | | | | | | (ZTK) 1
+  | | | | | | | [ZTK ZTK_City]
+insert(VDZ): successful {VDZ_Airport, VDZ_City, VDZ_Country, (70.0,-85.0)}
+Preorder list:
+  (NMO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  [BFC BFC_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  [CDP CDP_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (HHO) 4
+  (FAI) 3
+  (EPT) 2
+  (EKB) 1
+  [DQD DQD_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 2
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  (IGC) 1
+  [ICK ICK_City]
+  [IGC IGC_City]
+  (JEL) 1
+  [ITT ITT_City]
+  [JEL JEL_City]
+  (LZO) 3
+  (LJI) 2
+  (LAV) 1
+  [JFQ JFQ_City]
+  [LAV LAV_City]
+  (LXT) 1
+  [LJI LJI_City]
+  [LXT LXT_City]
+  (MUF) 2
+  (MBS) 1
+  [LZO LZO_City]
+  (MFD) 1
+  [MBS MBS_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (QRR) 3
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PWP) 2
+  (PQP) 1
+  [PAN PAN_City]
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QIM) 1
+  [PWP PWP_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (UCT) 1
+  [TXW TXW_City]
+  [UCT UCT_City]
+  (VKK) 2
+  (VDZ) 1
+  [UZL UZL_City]
+  [VDZ VDZ_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  [XOD XOD_City]
+  (ZAJ) 1
+  [YLR YLR_City]
+  (ZTK) 1
+  [ZAJ ZAJ_City]
+  [ZTK ZTK_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | | [BCP BCP_City]
+  | | | | | (BFC) 1
+  | | | | | | [BFC BFC_City]
+  | | | | (BKT) 2
+  | | | | | | [BKT BKT_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | [CDP CDP_City]
+  | | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (DGF) 1
+  | | | | | [DGF DGF_City]
+  | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | [FAI FAI_City]
+  | | | | | (FNO) 1
+  | | | | | | [FNO FNO_City]
+  | | | | (GFF) 2
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | | (HHO) 4
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | | [ICK ICK_City]
+  | | | | | | | (IGC) 1
+  | | | | | | | | [IGC IGC_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JEL) 1
+  | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | | [JFQ JFQ_City]
+  | | | | | | (LAV) 1
+  | | | | | | | [LAV LAV_City]
+  | | | | | (LJI) 2
+  | | | | | | | [LJI LJI_City]
+  | | | | | | (LXT) 1
+  | | | | | | | [LXT LXT_City]
+  | | | | (LZO) 3
+  | | | | | | | [LZO LZO_City]
+  | | | | | | (MBS) 1
+  | | | | | | | | [MBS MBS_City]
+  | | | | | | | (MFD) 1
+  | | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | | [PAN PAN_City]
+  | | | | | | (PQP) 1
+  | | | | | | | | [PQP PQP_City]
+  | | | | | | | (PTV) 1
+  | | | | | | | | [PTV PTV_City]
+  | | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | (TSL) 4
+  | | | | | [TSL TSL_City]
+  | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | | | | (UCT) 1
+  | | | | | | [UCT UCT_City]
+  | | | (UZL) 2
+  | | | | | | [UZL UZL_City]
+  | | | | | (VDZ) 1
+  | | | | | | [VDZ VDZ_City]
+  | | | | (VKK) 2
+  | | | | | | [VKK VKK_City]
+  | | | | | (VKR) 1
+  | | | | | | [VKR VKR_City]
+  | | (VMJ) 3
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | [XOD XOD_City]
+  | | | | (YLR) 2
+  | | | | | | [YLR YLR_City]
+  | | | | | (ZAJ) 1
+  | | | | | | | [ZAJ ZAJ_City]
+  | | | | | | (ZTK) 1
+  | | | | | | | [ZTK ZTK_City]
+insert(CVN): successful {CVN_Airport, CVN_City, CVN_Country, (-143.0,-38.0)}
+insert(KMS): successful {KMS_Airport, KMS_City, KMS_Country, (-108.0,-60.0)}
+find(TSL): found [TSL_City]
+find(PTV): found [PTV_City]
+find(CVN): found [CVN_City]
+insert(PIM): successful {PIM_Airport, PIM_City, PIM_Country, (67.0,-89.0)}
+Preorder list:
+  (NMO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  [BFC BFC_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  (CVN) 1
+  [CDP CDP_City]
+  [CVN CVN_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (HHO) 4
+  (FAI) 3
+  (EPT) 2
+  (EKB) 1
+  [DQD DQD_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 2
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  (IGC) 1
+  [ICK ICK_City]
+  [IGC IGC_City]
+  (JEL) 1
+  [ITT ITT_City]
+  [JEL JEL_City]
+  (LZO) 3
+  (LJI) 2
+  (KMS) 1
+  [JFQ JFQ_City]
+  (LAV) 1
+  [KMS KMS_City]
+  [LAV LAV_City]
+  (LXT) 1
+  [LJI LJI_City]
+  [LXT LXT_City]
+  (MUF) 2
+  (MBS) 1
+  [LZO LZO_City]
+  (MFD) 1
+  [MBS MBS_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (PQP) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PIM) 1
+  [PAN PAN_City]
+  [PIM PIM_City]
+  (TSL) 4
+  (QRR) 3
+  (PWP) 2
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QIM) 1
+  [PWP PWP_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (UCT) 1
+  [TXW TXW_City]
+  [UCT UCT_City]
+  (VKK) 2
+  (VDZ) 1
+  [UZL UZL_City]
+  [VDZ VDZ_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  [XOD XOD_City]
+  (ZAJ) 1
+  [YLR YLR_City]
+  (ZTK) 1
+  [ZAJ ZAJ_City]
+  [ZTK ZTK_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | | [BCP BCP_City]
+  | | | | | (BFC) 1
+  | | | | | | [BFC BFC_City]
+  | | | | (BKT) 2
+  | | | | | | [BKT BKT_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | | [CDP CDP_City]
+  | | | | | (CVN) 1
+  | | | | | | [CVN CVN_City]
+  | | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (DGF) 1
+  | | | | | [DGF DGF_City]
+  | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | [FAI FAI_City]
+  | | | | | (FNO) 1
+  | | | | | | [FNO FNO_City]
+  | | | | (GFF) 2
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | | (HHO) 4
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | | [ICK ICK_City]
+  | | | | | | | (IGC) 1
+  | | | | | | | | [IGC IGC_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JEL) 1
+  | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | | [JFQ JFQ_City]
+  | | | | | | (KMS) 1
+  | | | | | | | | [KMS KMS_City]
+  | | | | | | | (LAV) 1
+  | | | | | | | | [LAV LAV_City]
+  | | | | | (LJI) 2
+  | | | | | | | [LJI LJI_City]
+  | | | | | | (LXT) 1
+  | | | | | | | [LXT LXT_City]
+  | | | | (LZO) 3
+  | | | | | | | [LZO LZO_City]
+  | | | | | | (MBS) 1
+  | | | | | | | | [MBS MBS_City]
+  | | | | | | | (MFD) 1
+  | | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | [OMQ OMQ_City]
+  | | | | (OOB) 1
+  | | | | | [OOB OOB_City]
+  | | | (PAN) 2
+  | | | | | [PAN PAN_City]
+  | | | | (PIM) 1
+  | | | | | [PIM PIM_City]
+  | (PQP) 4
+  | | | | | | [PQP PQP_City]
+  | | | | | (PTV) 1
+  | | | | | | [PTV PTV_City]
+  | | | | (PWP) 2
+  | | | | | | [PWP PWP_City]
+  | | | | | (QIM) 1
+  | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | | (TSL) 4
+  | | | | | | [TSL TSL_City]
+  | | | | | (TXW) 1
+  | | | | | | | [TXW TXW_City]
+  | | | | | | (UCT) 1
+  | | | | | | | [UCT UCT_City]
+  | | | | (UZL) 2
+  | | | | | | | [UZL UZL_City]
+  | | | | | | (VDZ) 1
+  | | | | | | | [VDZ VDZ_City]
+  | | | | | (VKK) 2
+  | | | | | | | [VKK VKK_City]
+  | | | | | | (VKR) 1
+  | | | | | | | [VKR VKR_City]
+  | | | (VMJ) 3
+  | | | | | | | [VMJ VMJ_City]
+  | | | | | | (VRH) 1
+  | | | | | | | | [VRH VRH_City]
+  | | | | | | | (VSW) 1
+  | | | | | | | | [VSW VSW_City]
+  | | | | | (WHS) 2
+  | | | | | | | | [WHS WHS_City]
+  | | | | | | | (WLP) 1
+  | | | | | | | | [WLP WLP_City]
+  | | | | | | (WMV) 2
+  | | | | | | | | [WMV WMV_City]
+  | | | | | | | (WOG) 1
+  | | | | | | | | [WOG WOG_City]
+  | | | | (WSN) 3
+  | | | | | | | [WSN WSN_City]
+  | | | | | | (XOD) 1
+  | | | | | | | [XOD XOD_City]
+  | | | | | (YLR) 2
+  | | | | | | | [YLR YLR_City]
+  | | | | | | (ZAJ) 1
+  | | | | | | | | [ZAJ ZAJ_City]
+  | | | | | | | (ZTK) 1
+  | | | | | | | | [ZTK ZTK_City]
+insert(DTA): successful {DTA_Airport, DTA_City, DTA_Country, (-59.0,-41.0)}
+insert(XVJ): successful {XVJ_Airport, XVJ_City, XVJ_Country, (-11.0,-48.0)}
+insert(ZTZ): successful {ZTZ_Airport, ZTZ_City, ZTZ_Country, (99.0,15.0)}
+insert(LTE): successful {LTE_Airport, LTE_City, LTE_Country, (144.0,-38.0)}
+find(XOD): found [XOD_City]
+find(EZF): found [EZF_City]
+find(IAH): found [IAH_City]
+insert(MDC): successful {MDC_Airport, MDC_City, MDC_Country, (-178.0,48.0)}
+Preorder list:
+  (NMO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  [BFC BFC_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  (CVN) 1
+  [CDP CDP_City]
+  [CVN CVN_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (HHO) 4
+  (FAI) 3
+  (EPT) 2
+  (DTA) 1
+  [DQD DQD_City]
+  (EKB) 1
+  [DTA DTA_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 2
+  (FNO) 1
+  [FAI FAI_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  [GRA GRA_City]
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  (IGC) 1
+  [ICK ICK_City]
+  [IGC IGC_City]
+  (JEL) 1
+  [ITT ITT_City]
+  [JEL JEL_City]
+  (LZO) 3
+  (LJI) 2
+  (KMS) 1
+  [JFQ JFQ_City]
+  (LAV) 1
+  [KMS KMS_City]
+  [LAV LAV_City]
+  (LTE) 1
+  [LJI LJI_City]
+  (LXT) 1
+  [LTE LTE_City]
+  [LXT LXT_City]
+  (MDC) 2
+  (MBS) 1
+  [LZO LZO_City]
+  [MBS MBS_City]
+  (MUF) 2
+  (MFD) 1
+  [MDC MDC_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (PQP) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PIM) 1
+  [PAN PAN_City]
+  [PIM PIM_City]
+  (TSL) 4
+  (QRR) 3
+  (PWP) 2
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QIM) 1
+  [PWP PWP_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (UCT) 1
+  [TXW TXW_City]
+  [UCT UCT_City]
+  (VKK) 2
+  (VDZ) 1
+  [UZL UZL_City]
+  [VDZ VDZ_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  (XVJ) 1
+  [XOD XOD_City]
+  [XVJ XVJ_City]
+  (ZTK) 2
+  (ZAJ) 1
+  [YLR YLR_City]
+  [ZAJ ZAJ_City]
+  (ZTZ) 1
+  [ZTK ZTK_City]
+  [ZTZ ZTZ_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | | [BCP BCP_City]
+  | | | | | (BFC) 1
+  | | | | | | [BFC BFC_City]
+  | | | | (BKT) 2
+  | | | | | | [BKT BKT_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | | [CDP CDP_City]
+  | | | | | (CVN) 1
+  | | | | | | [CVN CVN_City]
+  | | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (DGF) 1
+  | | | | | [DGF DGF_City]
+  | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (DTA) 1
+  | | | | | | | [DTA DTA_City]
+  | | | | | | (EKB) 1
+  | | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | [FAI FAI_City]
+  | | | | | (FNO) 1
+  | | | | | | [FNO FNO_City]
+  | | | | (GFF) 2
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | | (HHO) 4
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | | [ICK ICK_City]
+  | | | | | | | (IGC) 1
+  | | | | | | | | [IGC IGC_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JEL) 1
+  | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | | [JFQ JFQ_City]
+  | | | | | | (KMS) 1
+  | | | | | | | | [KMS KMS_City]
+  | | | | | | | (LAV) 1
+  | | | | | | | | [LAV LAV_City]
+  | | | | | (LJI) 2
+  | | | | | | | [LJI LJI_City]
+  | | | | | | (LTE) 1
+  | | | | | | | | [LTE LTE_City]
+  | | | | | | | (LXT) 1
+  | | | | | | | | [LXT LXT_City]
+  | | | | (LZO) 3
+  | | | | | | | [LZO LZO_City]
+  | | | | | | (MBS) 1
+  | | | | | | | [MBS MBS_City]
+  | | | | | (MDC) 2
+  | | | | | | | | [MDC MDC_City]
+  | | | | | | | (MFD) 1
+  | | | | | | | | [MFD MFD_City]
+  | | | | | | (MUF) 2
+  | | | | | | | | [MUF MUF_City]
+  | | | | | | | (NDO) 1
+  | | | | | | | | [NDO NDO_City]
+  (NMO) 5
+  | | | | | [NMO NMO_City]
+  | | | | (NTV) 1
+  | | | | | [NTV NTV_City]
+  | | | (NUF) 2
+  | | | | | [NUF NUF_City]
+  | | | | (NVX) 1
+  | | | | | [NVX NVX_City]
+  | | (OMQ) 3
+  | | | | | [OMQ OMQ_City]
+  | | | | (OOB) 1
+  | | | | | [OOB OOB_City]
+  | | | (PAN) 2
+  | | | | | [PAN PAN_City]
+  | | | | (PIM) 1
+  | | | | | [PIM PIM_City]
+  | (PQP) 4
+  | | | | | | [PQP PQP_City]
+  | | | | | (PTV) 1
+  | | | | | | [PTV PTV_City]
+  | | | | (PWP) 2
+  | | | | | | [PWP PWP_City]
+  | | | | | (QIM) 1
+  | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | [RXJ RXJ_City]
+  | | | | | (TCS) 1
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | | (TSL) 4
+  | | | | | | [TSL TSL_City]
+  | | | | | (TXW) 1
+  | | | | | | | [TXW TXW_City]
+  | | | | | | (UCT) 1
+  | | | | | | | [UCT UCT_City]
+  | | | | (UZL) 2
+  | | | | | | | [UZL UZL_City]
+  | | | | | | (VDZ) 1
+  | | | | | | | [VDZ VDZ_City]
+  | | | | | (VKK) 2
+  | | | | | | | [VKK VKK_City]
+  | | | | | | (VKR) 1
+  | | | | | | | [VKR VKR_City]
+  | | | (VMJ) 3
+  | | | | | | | [VMJ VMJ_City]
+  | | | | | | (VRH) 1
+  | | | | | | | | [VRH VRH_City]
+  | | | | | | | (VSW) 1
+  | | | | | | | | [VSW VSW_City]
+  | | | | | (WHS) 2
+  | | | | | | | | [WHS WHS_City]
+  | | | | | | | (WLP) 1
+  | | | | | | | | [WLP WLP_City]
+  | | | | | | (WMV) 2
+  | | | | | | | | [WMV WMV_City]
+  | | | | | | | (WOG) 1
+  | | | | | | | | [WOG WOG_City]
+  | | | | (WSN) 3
+  | | | | | | | [WSN WSN_City]
+  | | | | | | (XOD) 1
+  | | | | | | | | [XOD XOD_City]
+  | | | | | | | (XVJ) 1
+  | | | | | | | | [XVJ XVJ_City]
+  | | | | | (YLR) 2
+  | | | | | | | | [YLR YLR_City]
+  | | | | | | | (ZAJ) 1
+  | | | | | | | | [ZAJ ZAJ_City]
+  | | | | | | (ZTK) 2
+  | | | | | | | | [ZTK ZTK_City]
+  | | | | | | | (ZTZ) 1
+  | | | | | | | | [ZTZ ZTZ_City]
+insert(BFY): successful {BFY_Airport, BFY_City, BFY_Country, (-137.0,9.0)}
+insert(LKS): successful {LKS_Airport, LKS_City, LKS_Country, (112.0,-55.0)}
+insert(NDO): failure due to exception: "Insertion of duplicate key"
+insert(KOP): successful {KOP_Airport, KOP_City, KOP_Country, (-63.0,12.0)}
+find(GFF): found [GFF_City]
+find(LXT): found [LXT_City]
+find(JJX): not found
+insert(FEL): successful {FEL_Airport, FEL_City, FEL_Country, (114.0,-11.0)}
+insert(JAV): successful {JAV_Airport, JAV_City, JAV_Country, (96.0,5.0)}
+Preorder list:
+  (HHO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  (BFY) 1
+  [BFC BFC_City]
+  [BFY BFY_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  (CVN) 1
+  [CDP CDP_City]
+  [CVN CVN_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (FAI) 3
+  (EPT) 2
+  (DTA) 1
+  [DQD DQD_City]
+  (EKB) 1
+  [DTA DTA_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 2
+  (FEL) 1
+  [FAI FAI_City]
+  (FNO) 1
+  [FEL FEL_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  [GRA GRA_City]
+  (NMO) 5
+  (LJI) 4
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  (IGC) 1
+  [ICK ICK_City]
+  [IGC IGC_City]
+  (JAV) 1
+  [ITT ITT_City]
+  (JEL) 1
+  [JAV JAV_City]
+  [JEL JEL_City]
+  (KOP) 2
+  (KMS) 1
+  [JFQ JFQ_City]
+  [KMS KMS_City]
+  (LAV) 1
+  [KOP KOP_City]
+  [LAV LAV_City]
+  (LZO) 3
+  (LTE) 2
+  (LKS) 1
+  [LJI LJI_City]
+  [LKS LKS_City]
+  (LXT) 1
+  [LTE LTE_City]
+  [LXT LXT_City]
+  (MDC) 2
+  (MBS) 1
+  [LZO LZO_City]
+  [MBS MBS_City]
+  (MUF) 2
+  (MFD) 1
+  [MDC MDC_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (PQP) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PIM) 1
+  [PAN PAN_City]
+  [PIM PIM_City]
+  (TSL) 4
+  (QRR) 3
+  (PWP) 2
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QIM) 1
+  [PWP PWP_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (UCT) 1
+  [TXW TXW_City]
+  [UCT UCT_City]
+  (VKK) 2
+  (VDZ) 1
+  [UZL UZL_City]
+  [VDZ VDZ_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  (XVJ) 1
+  [XOD XOD_City]
+  [XVJ XVJ_City]
+  (ZTK) 2
+  (ZAJ) 1
+  [YLR YLR_City]
+  [ZAJ ZAJ_City]
+  (ZTZ) 1
+  [ZTK ZTK_City]
+  [ZTZ ZTZ_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | | [BCP BCP_City]
+  | | | | | (BFC) 1
+  | | | | | | | [BFC BFC_City]
+  | | | | | | (BFY) 1
+  | | | | | | | [BFY BFY_City]
+  | | | | (BKT) 2
+  | | | | | | [BKT BKT_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | | [CDP CDP_City]
+  | | | | | (CVN) 1
+  | | | | | | [CVN CVN_City]
+  | | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (DGF) 1
+  | | | | | [DGF DGF_City]
+  | (DQD) 4
+  | | | | | [DQD DQD_City]
+  | | | | (DTA) 1
+  | | | | | | [DTA DTA_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | (EPT) 2
+  | | | | | [EPT EPT_City]
+  | | | | (EZF) 1
+  | | | | | [EZF EZF_City]
+  | | (FAI) 3
+  | | | | | [FAI FAI_City]
+  | | | | (FEL) 1
+  | | | | | | [FEL FEL_City]
+  | | | | | (FNO) 1
+  | | | | | | [FNO FNO_City]
+  | | | (GFF) 2
+  | | | | | | [GFF GFF_City]
+  | | | | | (GJG) 1
+  | | | | | | [GJG GJG_City]
+  | | | | (GQE) 2
+  | | | | | | [GQE GQE_City]
+  | | | | | (GRA) 1
+  | | | | | | [GRA GRA_City]
+  (HHO) 5
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | | [ICK ICK_City]
+  | | | | | | | (IGC) 1
+  | | | | | | | | [IGC IGC_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JAV) 1
+  | | | | | | | | [JAV JAV_City]
+  | | | | | | | (JEL) 1
+  | | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | [JFQ JFQ_City]
+  | | | | | (KMS) 1
+  | | | | | | [KMS KMS_City]
+  | | | | (KOP) 2
+  | | | | | | [KOP KOP_City]
+  | | | | | (LAV) 1
+  | | | | | | [LAV LAV_City]
+  | | (LJI) 4
+  | | | | | | [LJI LJI_City]
+  | | | | | (LKS) 1
+  | | | | | | [LKS LKS_City]
+  | | | | (LTE) 2
+  | | | | | | [LTE LTE_City]
+  | | | | | (LXT) 1
+  | | | | | | [LXT LXT_City]
+  | | | (LZO) 3
+  | | | | | | [LZO LZO_City]
+  | | | | | (MBS) 1
+  | | | | | | [MBS MBS_City]
+  | | | | (MDC) 2
+  | | | | | | | [MDC MDC_City]
+  | | | | | | (MFD) 1
+  | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  | (NMO) 5
+  | | | | | | [NMO NMO_City]
+  | | | | | (NTV) 1
+  | | | | | | [NTV NTV_City]
+  | | | | (NUF) 2
+  | | | | | | [NUF NUF_City]
+  | | | | | (NVX) 1
+  | | | | | | [NVX NVX_City]
+  | | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | [PAN PAN_City]
+  | | | | | (PIM) 1
+  | | | | | | [PIM PIM_City]
+  | | (PQP) 4
+  | | | | | | | [PQP PQP_City]
+  | | | | | | (PTV) 1
+  | | | | | | | [PTV PTV_City]
+  | | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | | (QRR) 3
+  | | | | | | | [QRR QRR_City]
+  | | | | | | (RHE) 1
+  | | | | | | | | [RHE RHE_City]
+  | | | | | | | (RJF) 1
+  | | | | | | | | [RJF RJF_City]
+  | | | | | (RXJ) 2
+  | | | | | | | [RXJ RXJ_City]
+  | | | | | | (TCS) 1
+  | | | | | | | | [TCS TCS_City]
+  | | | | | | | (TFS) 1
+  | | | | | | | | [TFS TFS_City]
+  | | | (TSL) 4
+  | | | | | | | [TSL TSL_City]
+  | | | | | | (TXW) 1
+  | | | | | | | | [TXW TXW_City]
+  | | | | | | | (UCT) 1
+  | | | | | | | | [UCT UCT_City]
+  | | | | | (UZL) 2
+  | | | | | | | | [UZL UZL_City]
+  | | | | | | | (VDZ) 1
+  | | | | | | | | [VDZ VDZ_City]
+  | | | | | | (VKK) 2
+  | | | | | | | | [VKK VKK_City]
+  | | | | | | | (VKR) 1
+  | | | | | | | | [VKR VKR_City]
+  | | | | (VMJ) 3
+  | | | | | | | | [VMJ VMJ_City]
+  | | | | | | | (VRH) 1
+  | | | | | | | | | [VRH VRH_City]
+  | | | | | | | | (VSW) 1
+  | | | | | | | | | [VSW VSW_City]
+  | | | | | | (WHS) 2
+  | | | | | | | | | [WHS WHS_City]
+  | | | | | | | | (WLP) 1
+  | | | | | | | | | [WLP WLP_City]
+  | | | | | | | (WMV) 2
+  | | | | | | | | | [WMV WMV_City]
+  | | | | | | | | (WOG) 1
+  | | | | | | | | | [WOG WOG_City]
+  | | | | | (WSN) 3
+  | | | | | | | | [WSN WSN_City]
+  | | | | | | | (XOD) 1
+  | | | | | | | | | [XOD XOD_City]
+  | | | | | | | | (XVJ) 1
+  | | | | | | | | | [XVJ XVJ_City]
+  | | | | | | (YLR) 2
+  | | | | | | | | | [YLR YLR_City]
+  | | | | | | | | (ZAJ) 1
+  | | | | | | | | | [ZAJ ZAJ_City]
+  | | | | | | | (ZTK) 2
+  | | | | | | | | | [ZTK ZTK_City]
+  | | | | | | | | (ZTZ) 1
+  | | | | | | | | | [ZTZ ZTZ_City]
+insert(QAA): successful {QAA_Airport, QAA_City, QAA_Country, (-47.0,-82.0)}
+insert(FGF): successful {FGF_Airport, FGF_City, FGF_Country, (23.0,-57.0)}
+insert(QGO): successful {QGO_Airport, QGO_City, QGO_Country, (-151.0,-1.0)}
+Preorder list:
+  (HHO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  (BFY) 1
+  [BFC BFC_City]
+  [BFY BFY_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  (CVN) 1
+  [CDP CDP_City]
+  [CVN CVN_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (FAI) 3
+  (EPT) 2
+  (DTA) 1
+  [DQD DQD_City]
+  (EKB) 1
+  [DTA DTA_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 3
+  (FGF) 2
+  (FEL) 1
+  [FAI FAI_City]
+  [FEL FEL_City]
+  (FNO) 1
+  [FGF FGF_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  [GRA GRA_City]
+  (NMO) 5
+  (LJI) 4
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  (IGC) 1
+  [ICK ICK_City]
+  [IGC IGC_City]
+  (JAV) 1
+  [ITT ITT_City]
+  (JEL) 1
+  [JAV JAV_City]
+  [JEL JEL_City]
+  (KOP) 2
+  (KMS) 1
+  [JFQ JFQ_City]
+  [KMS KMS_City]
+  (LAV) 1
+  [KOP KOP_City]
+  [LAV LAV_City]
+  (LZO) 3
+  (LTE) 2
+  (LKS) 1
+  [LJI LJI_City]
+  [LKS LKS_City]
+  (LXT) 1
+  [LTE LTE_City]
+  [LXT LXT_City]
+  (MDC) 2
+  (MBS) 1
+  [LZO LZO_City]
+  [MBS MBS_City]
+  (MUF) 2
+  (MFD) 1
+  [MDC MDC_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (PQP) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PIM) 1
+  [PAN PAN_City]
+  [PIM PIM_City]
+  (TSL) 4
+  (QRR) 3
+  (PWP) 2
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QGO) 2
+  (QAA) 1
+  [PWP PWP_City]
+  [QAA QAA_City]
+  (QIM) 1
+  [QGO QGO_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 1
+  [RXJ RXJ_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 3
+  (UZL) 2
+  (TXW) 1
+  [TSL TSL_City]
+  (UCT) 1
+  [TXW TXW_City]
+  [UCT UCT_City]
+  (VKK) 2
+  (VDZ) 1
+  [UZL UZL_City]
+  [VDZ VDZ_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  (XVJ) 1
+  [XOD XOD_City]
+  [XVJ XVJ_City]
+  (ZTK) 2
+  (ZAJ) 1
+  [YLR YLR_City]
+  [ZAJ ZAJ_City]
+  (ZTZ) 1
+  [ZTK ZTK_City]
+  [ZTZ ZTZ_City]
+Tree structure:
+  | | | | | [ALD ALD_City]
+  | | | | (AYY) 1
+  | | | | | [AYY AYY_City]
+  | | | (BCP) 2
+  | | | | | | [BCP BCP_City]
+  | | | | | (BFC) 1
+  | | | | | | | [BFC BFC_City]
+  | | | | | | (BFY) 1
+  | | | | | | | [BFY BFY_City]
+  | | | | (BKT) 2
+  | | | | | | [BKT BKT_City]
+  | | | | | (BZK) 1
+  | | | | | | [BZK BZK_City]
+  | | (CAR) 3
+  | | | | | [CAR CAR_City]
+  | | | | (CDP) 1
+  | | | | | | [CDP CDP_City]
+  | | | | | (CVN) 1
+  | | | | | | [CVN CVN_City]
+  | | | (DAL) 2
+  | | | | | [DAL DAL_City]
+  | | | | (DGF) 1
+  | | | | | [DGF DGF_City]
+  | (DQD) 4
+  | | | | | [DQD DQD_City]
+  | | | | (DTA) 1
+  | | | | | | [DTA DTA_City]
+  | | | | | (EKB) 1
+  | | | | | | [EKB EKB_City]
+  | | | (EPT) 2
+  | | | | | [EPT EPT_City]
+  | | | | (EZF) 1
+  | | | | | [EZF EZF_City]
+  | | (FAI) 3
+  | | | | | | [FAI FAI_City]
+  | | | | | (FEL) 1
+  | | | | | | [FEL FEL_City]
+  | | | | (FGF) 2
+  | | | | | | [FGF FGF_City]
+  | | | | | (FNO) 1
+  | | | | | | [FNO FNO_City]
+  | | | (GFF) 3
+  | | | | | | [GFF GFF_City]
+  | | | | | (GJG) 1
+  | | | | | | [GJG GJG_City]
+  | | | | (GQE) 2
+  | | | | | | [GQE GQE_City]
+  | | | | | (GRA) 1
+  | | | | | | [GRA GRA_City]
+  (HHO) 5
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | | [ICK ICK_City]
+  | | | | | | | (IGC) 1
+  | | | | | | | | [IGC IGC_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JAV) 1
+  | | | | | | | | [JAV JAV_City]
+  | | | | | | | (JEL) 1
+  | | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | [JFQ JFQ_City]
+  | | | | | (KMS) 1
+  | | | | | | [KMS KMS_City]
+  | | | | (KOP) 2
+  | | | | | | [KOP KOP_City]
+  | | | | | (LAV) 1
+  | | | | | | [LAV LAV_City]
+  | | (LJI) 4
+  | | | | | | [LJI LJI_City]
+  | | | | | (LKS) 1
+  | | | | | | [LKS LKS_City]
+  | | | | (LTE) 2
+  | | | | | | [LTE LTE_City]
+  | | | | | (LXT) 1
+  | | | | | | [LXT LXT_City]
+  | | | (LZO) 3
+  | | | | | | [LZO LZO_City]
+  | | | | | (MBS) 1
+  | | | | | | [MBS MBS_City]
+  | | | | (MDC) 2
+  | | | | | | | [MDC MDC_City]
+  | | | | | | (MFD) 1
+  | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  | (NMO) 5
+  | | | | | | [NMO NMO_City]
+  | | | | | (NTV) 1
+  | | | | | | [NTV NTV_City]
+  | | | | (NUF) 2
+  | | | | | | [NUF NUF_City]
+  | | | | | (NVX) 1
+  | | | | | | [NVX NVX_City]
+  | | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | [PAN PAN_City]
+  | | | | | (PIM) 1
+  | | | | | | [PIM PIM_City]
+  | | (PQP) 4
+  | | | | | | | [PQP PQP_City]
+  | | | | | | (PTV) 1
+  | | | | | | | [PTV PTV_City]
+  | | | | | (PWP) 2
+  | | | | | | | | [PWP PWP_City]
+  | | | | | | | (QAA) 1
+  | | | | | | | | [QAA QAA_City]
+  | | | | | | (QGO) 2
+  | | | | | | | | [QGO QGO_City]
+  | | | | | | | (QIM) 1
+  | | | | | | | | [QIM QIM_City]
+  | | | | (QRR) 3
+  | | | | | | | [QRR QRR_City]
+  | | | | | | (RHE) 1
+  | | | | | | | | [RHE RHE_City]
+  | | | | | | | (RJF) 1
+  | | | | | | | | [RJF RJF_City]
+  | | | | | (RXJ) 2
+  | | | | | | | [RXJ RXJ_City]
+  | | | | | | (TCS) 1
+  | | | | | | | | [TCS TCS_City]
+  | | | | | | | (TFS) 1
+  | | | | | | | | [TFS TFS_City]
+  | | | (TSL) 4
+  | | | | | | | [TSL TSL_City]
+  | | | | | | (TXW) 1
+  | | | | | | | | [TXW TXW_City]
+  | | | | | | | (UCT) 1
+  | | | | | | | | [UCT UCT_City]
+  | | | | | (UZL) 2
+  | | | | | | | | [UZL UZL_City]
+  | | | | | | | (VDZ) 1
+  | | | | | | | | [VDZ VDZ_City]
+  | | | | | | (VKK) 2
+  | | | | | | | | [VKK VKK_City]
+  | | | | | | | (VKR) 1
+  | | | | | | | | [VKR VKR_City]
+  | | | | (VMJ) 3
+  | | | | | | | | [VMJ VMJ_City]
+  | | | | | | | (VRH) 1
+  | | | | | | | | | [VRH VRH_City]
+  | | | | | | | | (VSW) 1
+  | | | | | | | | | [VSW VSW_City]
+  | | | | | | (WHS) 2
+  | | | | | | | | | [WHS WHS_City]
+  | | | | | | | | (WLP) 1
+  | | | | | | | | | [WLP WLP_City]
+  | | | | | | | (WMV) 2
+  | | | | | | | | | [WMV WMV_City]
+  | | | | | | | | (WOG) 1
+  | | | | | | | | | [WOG WOG_City]
+  | | | | | (WSN) 3
+  | | | | | | | | [WSN WSN_City]
+  | | | | | | | (XOD) 1
+  | | | | | | | | | [XOD XOD_City]
+  | | | | | | | | (XVJ) 1
+  | | | | | | | | | [XVJ XVJ_City]
+  | | | | | | (YLR) 2
+  | | | | | | | | | [YLR YLR_City]
+  | | | | | | | | (ZAJ) 1
+  | | | | | | | | | [ZAJ ZAJ_City]
+  | | | | | | | (ZTK) 2
+  | | | | | | | | | [ZTK ZTK_City]
+  | | | | | | | | (ZTZ) 1
+  | | | | | | | | | [ZTZ ZTZ_City]
+insert(UXV): successful {UXV_Airport, UXV_City, UXV_Country, (-69.0,20.0)}
+insert(SMO): successful {SMO_Airport, SMO_City, SMO_Country, (60.0,-19.0)}
+Preorder list:
+  (NMO) 6
+  (HHO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  (BFY) 1
+  [BFC BFC_City]
+  [BFY BFY_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  (CVN) 1
+  [CDP CDP_City]
+  [CVN CVN_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (FAI) 3
+  (EPT) 2
+  (DTA) 1
+  [DQD DQD_City]
+  (EKB) 1
+  [DTA DTA_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 3
+  (FGF) 2
+  (FEL) 1
+  [FAI FAI_City]
+  [FEL FEL_City]
+  (FNO) 1
+  [FGF FGF_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  [GRA GRA_City]
+  (LJI) 4
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  (IGC) 1
+  [ICK ICK_City]
+  [IGC IGC_City]
+  (JAV) 1
+  [ITT ITT_City]
+  (JEL) 1
+  [JAV JAV_City]
+  [JEL JEL_City]
+  (KOP) 2
+  (KMS) 1
+  [JFQ JFQ_City]
+  [KMS KMS_City]
+  (LAV) 1
+  [KOP KOP_City]
+  [LAV LAV_City]
+  (LZO) 3
+  (LTE) 2
+  (LKS) 1
+  [LJI LJI_City]
+  [LKS LKS_City]
+  (LXT) 1
+  [LTE LTE_City]
+  [LXT LXT_City]
+  (MDC) 2
+  (MBS) 1
+  [LZO LZO_City]
+  [MBS MBS_City]
+  (MUF) 2
+  (MFD) 1
+  [MDC MDC_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 5
+  (PQP) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PIM) 1
+  [PAN PAN_City]
+  [PIM PIM_City]
+  (QRR) 3
+  (PWP) 2
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QGO) 2
+  (QAA) 1
+  [PWP PWP_City]
+  [QAA QAA_City]
+  (QIM) 1
+  [QGO QGO_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 2
+  (SMO) 1
+  [RXJ RXJ_City]
+  [SMO SMO_City]
+  (TFS) 1
+  [TCS TCS_City]
+  [TFS TFS_City]
+  (VMJ) 4
+  (UZL) 3
+  (UCT) 2
+  (TXW) 1
+  [TSL TSL_City]
+  [TXW TXW_City]
+  (UXV) 1
+  [UCT UCT_City]
+  [UXV UXV_City]
+  (VKK) 2
+  (VDZ) 1
+  [UZL UZL_City]
+  [VDZ VDZ_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  (XVJ) 1
+  [XOD XOD_City]
+  [XVJ XVJ_City]
+  (ZTK) 2
+  (ZAJ) 1
+  [YLR YLR_City]
+  [ZAJ ZAJ_City]
+  (ZTZ) 1
+  [ZTK ZTK_City]
+  [ZTZ ZTZ_City]
+Tree structure:
+  | | | | | | [ALD ALD_City]
+  | | | | | (AYY) 1
+  | | | | | | [AYY AYY_City]
+  | | | | (BCP) 2
+  | | | | | | | [BCP BCP_City]
+  | | | | | | (BFC) 1
+  | | | | | | | | [BFC BFC_City]
+  | | | | | | | (BFY) 1
+  | | | | | | | | [BFY BFY_City]
+  | | | | | (BKT) 2
+  | | | | | | | [BKT BKT_City]
+  | | | | | | (BZK) 1
+  | | | | | | | [BZK BZK_City]
+  | | | (CAR) 3
+  | | | | | | [CAR CAR_City]
+  | | | | | (CDP) 1
+  | | | | | | | [CDP CDP_City]
+  | | | | | | (CVN) 1
+  | | | | | | | [CVN CVN_City]
+  | | | | (DAL) 2
+  | | | | | | [DAL DAL_City]
+  | | | | | (DGF) 1
+  | | | | | | [DGF DGF_City]
+  | | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (DTA) 1
+  | | | | | | | [DTA DTA_City]
+  | | | | | | (EKB) 1
+  | | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | | [FAI FAI_City]
+  | | | | | | (FEL) 1
+  | | | | | | | [FEL FEL_City]
+  | | | | | (FGF) 2
+  | | | | | | | [FGF FGF_City]
+  | | | | | | (FNO) 1
+  | | | | | | | [FNO FNO_City]
+  | | | | (GFF) 3
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | (HHO) 5
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | | [ICK ICK_City]
+  | | | | | | | (IGC) 1
+  | | | | | | | | [IGC IGC_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JAV) 1
+  | | | | | | | | [JAV JAV_City]
+  | | | | | | | (JEL) 1
+  | | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | [JFQ JFQ_City]
+  | | | | | (KMS) 1
+  | | | | | | [KMS KMS_City]
+  | | | | (KOP) 2
+  | | | | | | [KOP KOP_City]
+  | | | | | (LAV) 1
+  | | | | | | [LAV LAV_City]
+  | | (LJI) 4
+  | | | | | | [LJI LJI_City]
+  | | | | | (LKS) 1
+  | | | | | | [LKS LKS_City]
+  | | | | (LTE) 2
+  | | | | | | [LTE LTE_City]
+  | | | | | (LXT) 1
+  | | | | | | [LXT LXT_City]
+  | | | (LZO) 3
+  | | | | | | [LZO LZO_City]
+  | | | | | (MBS) 1
+  | | | | | | [MBS MBS_City]
+  | | | | (MDC) 2
+  | | | | | | | [MDC MDC_City]
+  | | | | | | (MFD) 1
+  | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  (NMO) 6
+  | | | | | | [NMO NMO_City]
+  | | | | | (NTV) 1
+  | | | | | | [NTV NTV_City]
+  | | | | (NUF) 2
+  | | | | | | [NUF NUF_City]
+  | | | | | (NVX) 1
+  | | | | | | [NVX NVX_City]
+  | | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | [PAN PAN_City]
+  | | | | | (PIM) 1
+  | | | | | | [PIM PIM_City]
+  | | (PQP) 4
+  | | | | | | [PQP PQP_City]
+  | | | | | (PTV) 1
+  | | | | | | [PTV PTV_City]
+  | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QAA) 1
+  | | | | | | | [QAA QAA_City]
+  | | | | | (QGO) 2
+  | | | | | | | [QGO QGO_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | | [RXJ RXJ_City]
+  | | | | | | (SMO) 1
+  | | | | | | | [SMO SMO_City]
+  | | | | | (TCS) 2
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | [TFS TFS_City]
+  | (TSL) 5
+  | | | | | | [TSL TSL_City]
+  | | | | | (TXW) 1
+  | | | | | | [TXW TXW_City]
+  | | | | (UCT) 2
+  | | | | | | [UCT UCT_City]
+  | | | | | (UXV) 1
+  | | | | | | [UXV UXV_City]
+  | | | (UZL) 3
+  | | | | | | [UZL UZL_City]
+  | | | | | (VDZ) 1
+  | | | | | | [VDZ VDZ_City]
+  | | | | (VKK) 2
+  | | | | | | [VKK VKK_City]
+  | | | | | (VKR) 1
+  | | | | | | [VKR VKR_City]
+  | | (VMJ) 4
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | | [XOD XOD_City]
+  | | | | | | (XVJ) 1
+  | | | | | | | [XVJ XVJ_City]
+  | | | | (YLR) 2
+  | | | | | | | [YLR YLR_City]
+  | | | | | | (ZAJ) 1
+  | | | | | | | [ZAJ ZAJ_City]
+  | | | | | (ZTK) 2
+  | | | | | | | [ZTK ZTK_City]
+  | | | | | | (ZTZ) 1
+  | | | | | | | [ZTZ ZTZ_City]
+insert(TTY): successful {TTY_Airport, TTY_City, TTY_Country, (-130.0,30.0)}
+find(JFQ): found [JFQ_City]
+find(FNO): found [FNO_City]
+find(MUF): found [MUF_City]
+insert(JGE): successful {JGE_Airport, JGE_City, JGE_Country, (-137.0,-47.0)}
+insert(JPK): successful {JPK_Airport, JPK_City, JPK_Country, (-79.0,-72.0)}
+insert(TGU): successful {TGU_Airport, TGU_City, TGU_Country, (179.0,58.0)}
+Preorder list:
+  (NMO) 6
+  (HHO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  (BFY) 1
+  [BFC BFC_City]
+  [BFY BFY_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  (CVN) 1
+  [CDP CDP_City]
+  [CVN CVN_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (FAI) 3
+  (EPT) 2
+  (DTA) 1
+  [DQD DQD_City]
+  (EKB) 1
+  [DTA DTA_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 3
+  (FGF) 2
+  (FEL) 1
+  [FAI FAI_City]
+  [FEL FEL_City]
+  (FNO) 1
+  [FGF FGF_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  [GRA GRA_City]
+  (LJI) 4
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  (IGC) 1
+  [ICK ICK_City]
+  [IGC IGC_City]
+  (JAV) 1
+  [ITT ITT_City]
+  (JEL) 1
+  [JAV JAV_City]
+  [JEL JEL_City]
+  (JPK) 2
+  (JGE) 1
+  [JFQ JFQ_City]
+  [JGE JGE_City]
+  (KOP) 2
+  (KMS) 1
+  [JPK JPK_City]
+  [KMS KMS_City]
+  (LAV) 1
+  [KOP KOP_City]
+  [LAV LAV_City]
+  (LZO) 3
+  (LTE) 2
+  (LKS) 1
+  [LJI LJI_City]
+  [LKS LKS_City]
+  (LXT) 1
+  [LTE LTE_City]
+  [LXT LXT_City]
+  (MDC) 2
+  (MBS) 1
+  [LZO LZO_City]
+  [MBS MBS_City]
+  (MUF) 2
+  (MFD) 1
+  [MDC MDC_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 5
+  (PQP) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PIM) 1
+  [PAN PAN_City]
+  [PIM PIM_City]
+  (QRR) 3
+  (PWP) 2
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QGO) 2
+  (QAA) 1
+  [PWP PWP_City]
+  [QAA QAA_City]
+  (QIM) 1
+  [QGO QGO_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 2
+  (SMO) 1
+  [RXJ RXJ_City]
+  [SMO SMO_City]
+  (TFS) 1
+  [TCS TCS_City]
+  (TGU) 1
+  [TFS TFS_City]
+  [TGU TGU_City]
+  (VMJ) 4
+  (UZL) 3
+  (UCT) 2
+  (TTY) 1
+  [TSL TSL_City]
+  (TXW) 1
+  [TTY TTY_City]
+  [TXW TXW_City]
+  (UXV) 1
+  [UCT UCT_City]
+  [UXV UXV_City]
+  (VKK) 2
+  (VDZ) 1
+  [UZL UZL_City]
+  [VDZ VDZ_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  (XVJ) 1
+  [XOD XOD_City]
+  [XVJ XVJ_City]
+  (ZTK) 2
+  (ZAJ) 1
+  [YLR YLR_City]
+  [ZAJ ZAJ_City]
+  (ZTZ) 1
+  [ZTK ZTK_City]
+  [ZTZ ZTZ_City]
+Tree structure:
+  | | | | | | [ALD ALD_City]
+  | | | | | (AYY) 1
+  | | | | | | [AYY AYY_City]
+  | | | | (BCP) 2
+  | | | | | | | [BCP BCP_City]
+  | | | | | | (BFC) 1
+  | | | | | | | | [BFC BFC_City]
+  | | | | | | | (BFY) 1
+  | | | | | | | | [BFY BFY_City]
+  | | | | | (BKT) 2
+  | | | | | | | [BKT BKT_City]
+  | | | | | | (BZK) 1
+  | | | | | | | [BZK BZK_City]
+  | | | (CAR) 3
+  | | | | | | [CAR CAR_City]
+  | | | | | (CDP) 1
+  | | | | | | | [CDP CDP_City]
+  | | | | | | (CVN) 1
+  | | | | | | | [CVN CVN_City]
+  | | | | (DAL) 2
+  | | | | | | [DAL DAL_City]
+  | | | | | (DGF) 1
+  | | | | | | [DGF DGF_City]
+  | | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (DTA) 1
+  | | | | | | | [DTA DTA_City]
+  | | | | | | (EKB) 1
+  | | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | | [FAI FAI_City]
+  | | | | | | (FEL) 1
+  | | | | | | | [FEL FEL_City]
+  | | | | | (FGF) 2
+  | | | | | | | [FGF FGF_City]
+  | | | | | | (FNO) 1
+  | | | | | | | [FNO FNO_City]
+  | | | | (GFF) 3
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | [GRA GRA_City]
+  | (HHO) 5
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | | [ICK ICK_City]
+  | | | | | | | (IGC) 1
+  | | | | | | | | [IGC IGC_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JAV) 1
+  | | | | | | | | [JAV JAV_City]
+  | | | | | | | (JEL) 1
+  | | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | [JFQ JFQ_City]
+  | | | | | (JGE) 1
+  | | | | | | [JGE JGE_City]
+  | | | | (JPK) 2
+  | | | | | | | [JPK JPK_City]
+  | | | | | | (KMS) 1
+  | | | | | | | [KMS KMS_City]
+  | | | | | (KOP) 2
+  | | | | | | | [KOP KOP_City]
+  | | | | | | (LAV) 1
+  | | | | | | | [LAV LAV_City]
+  | | (LJI) 4
+  | | | | | | [LJI LJI_City]
+  | | | | | (LKS) 1
+  | | | | | | [LKS LKS_City]
+  | | | | (LTE) 2
+  | | | | | | [LTE LTE_City]
+  | | | | | (LXT) 1
+  | | | | | | [LXT LXT_City]
+  | | | (LZO) 3
+  | | | | | | [LZO LZO_City]
+  | | | | | (MBS) 1
+  | | | | | | [MBS MBS_City]
+  | | | | (MDC) 2
+  | | | | | | | [MDC MDC_City]
+  | | | | | | (MFD) 1
+  | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  (NMO) 6
+  | | | | | | [NMO NMO_City]
+  | | | | | (NTV) 1
+  | | | | | | [NTV NTV_City]
+  | | | | (NUF) 2
+  | | | | | | [NUF NUF_City]
+  | | | | | (NVX) 1
+  | | | | | | [NVX NVX_City]
+  | | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | [PAN PAN_City]
+  | | | | | (PIM) 1
+  | | | | | | [PIM PIM_City]
+  | | (PQP) 4
+  | | | | | | [PQP PQP_City]
+  | | | | | (PTV) 1
+  | | | | | | [PTV PTV_City]
+  | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QAA) 1
+  | | | | | | | [QAA QAA_City]
+  | | | | | (QGO) 2
+  | | | | | | | [QGO QGO_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | | [RXJ RXJ_City]
+  | | | | | | (SMO) 1
+  | | | | | | | [SMO SMO_City]
+  | | | | | (TCS) 2
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | | [TFS TFS_City]
+  | | | | | | | (TGU) 1
+  | | | | | | | | [TGU TGU_City]
+  | (TSL) 5
+  | | | | | | [TSL TSL_City]
+  | | | | | (TTY) 1
+  | | | | | | | [TTY TTY_City]
+  | | | | | | (TXW) 1
+  | | | | | | | [TXW TXW_City]
+  | | | | (UCT) 2
+  | | | | | | [UCT UCT_City]
+  | | | | | (UXV) 1
+  | | | | | | [UXV UXV_City]
+  | | | (UZL) 3
+  | | | | | | [UZL UZL_City]
+  | | | | | (VDZ) 1
+  | | | | | | [VDZ VDZ_City]
+  | | | | (VKK) 2
+  | | | | | | [VKK VKK_City]
+  | | | | | (VKR) 1
+  | | | | | | [VKR VKR_City]
+  | | (VMJ) 4
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | | [XOD XOD_City]
+  | | | | | | (XVJ) 1
+  | | | | | | | [XVJ XVJ_City]
+  | | | | (YLR) 2
+  | | | | | | | [YLR YLR_City]
+  | | | | | | (ZAJ) 1
+  | | | | | | | [ZAJ ZAJ_City]
+  | | | | | (ZTK) 2
+  | | | | | | | [ZTK ZTK_City]
+  | | | | | | (ZTZ) 1
+  | | | | | | | [ZTZ ZTZ_City]
+insert(HBE): successful {HBE_Airport, HBE_City, HBE_Country, (-80.0,-59.0)}
+find(FAI): found [FAI_City]
+find(JEL): found [JEL_City]
+find(TXW): found [TXW_City]
+Preorder list:
+  (NMO) 6
+  (HHO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  (BFY) 1
+  [BFC BFC_City]
+  [BFY BFY_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  (CVN) 1
+  [CDP CDP_City]
+  [CVN CVN_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (FAI) 3
+  (EPT) 2
+  (DTA) 1
+  [DQD DQD_City]
+  (EKB) 1
+  [DTA DTA_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 3
+  (FGF) 2
+  (FEL) 1
+  [FAI FAI_City]
+  [FEL FEL_City]
+  (FNO) 1
+  [FGF FGF_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  (HBE) 1
+  [GRA GRA_City]
+  [HBE HBE_City]
+  (LJI) 4
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  (IGC) 1
+  [ICK ICK_City]
+  [IGC IGC_City]
+  (JAV) 1
+  [ITT ITT_City]
+  (JEL) 1
+  [JAV JAV_City]
+  [JEL JEL_City]
+  (JPK) 2
+  (JGE) 1
+  [JFQ JFQ_City]
+  [JGE JGE_City]
+  (KOP) 2
+  (KMS) 1
+  [JPK JPK_City]
+  [KMS KMS_City]
+  (LAV) 1
+  [KOP KOP_City]
+  [LAV LAV_City]
+  (LZO) 3
+  (LTE) 2
+  (LKS) 1
+  [LJI LJI_City]
+  [LKS LKS_City]
+  (LXT) 1
+  [LTE LTE_City]
+  [LXT LXT_City]
+  (MDC) 2
+  (MBS) 1
+  [LZO LZO_City]
+  [MBS MBS_City]
+  (MUF) 2
+  (MFD) 1
+  [MDC MDC_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 5
+  (PQP) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PIM) 1
+  [PAN PAN_City]
+  [PIM PIM_City]
+  (QRR) 3
+  (PWP) 2
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QGO) 2
+  (QAA) 1
+  [PWP PWP_City]
+  [QAA QAA_City]
+  (QIM) 1
+  [QGO QGO_City]
+  [QIM QIM_City]
+  (RXJ) 2
+  (RHE) 1
+  [QRR QRR_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 2
+  (SMO) 1
+  [RXJ RXJ_City]
+  [SMO SMO_City]
+  (TFS) 1
+  [TCS TCS_City]
+  (TGU) 1
+  [TFS TFS_City]
+  [TGU TGU_City]
+  (VMJ) 4
+  (UZL) 3
+  (UCT) 2
+  (TTY) 1
+  [TSL TSL_City]
+  (TXW) 1
+  [TTY TTY_City]
+  [TXW TXW_City]
+  (UXV) 1
+  [UCT UCT_City]
+  [UXV UXV_City]
+  (VKK) 2
+  (VDZ) 1
+  [UZL UZL_City]
+  [VDZ VDZ_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  (XVJ) 1
+  [XOD XOD_City]
+  [XVJ XVJ_City]
+  (ZTK) 2
+  (ZAJ) 1
+  [YLR YLR_City]
+  [ZAJ ZAJ_City]
+  (ZTZ) 1
+  [ZTK ZTK_City]
+  [ZTZ ZTZ_City]
+Tree structure:
+  | | | | | | [ALD ALD_City]
+  | | | | | (AYY) 1
+  | | | | | | [AYY AYY_City]
+  | | | | (BCP) 2
+  | | | | | | | [BCP BCP_City]
+  | | | | | | (BFC) 1
+  | | | | | | | | [BFC BFC_City]
+  | | | | | | | (BFY) 1
+  | | | | | | | | [BFY BFY_City]
+  | | | | | (BKT) 2
+  | | | | | | | [BKT BKT_City]
+  | | | | | | (BZK) 1
+  | | | | | | | [BZK BZK_City]
+  | | | (CAR) 3
+  | | | | | | [CAR CAR_City]
+  | | | | | (CDP) 1
+  | | | | | | | [CDP CDP_City]
+  | | | | | | (CVN) 1
+  | | | | | | | [CVN CVN_City]
+  | | | | (DAL) 2
+  | | | | | | [DAL DAL_City]
+  | | | | | (DGF) 1
+  | | | | | | [DGF DGF_City]
+  | | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (DTA) 1
+  | | | | | | | [DTA DTA_City]
+  | | | | | | (EKB) 1
+  | | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | | [FAI FAI_City]
+  | | | | | | (FEL) 1
+  | | | | | | | [FEL FEL_City]
+  | | | | | (FGF) 2
+  | | | | | | | [FGF FGF_City]
+  | | | | | | (FNO) 1
+  | | | | | | | [FNO FNO_City]
+  | | | | (GFF) 3
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | | [GRA GRA_City]
+  | | | | | | | (HBE) 1
+  | | | | | | | | [HBE HBE_City]
+  | (HHO) 5
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | | [ICK ICK_City]
+  | | | | | | | (IGC) 1
+  | | | | | | | | [IGC IGC_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JAV) 1
+  | | | | | | | | [JAV JAV_City]
+  | | | | | | | (JEL) 1
+  | | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | [JFQ JFQ_City]
+  | | | | | (JGE) 1
+  | | | | | | [JGE JGE_City]
+  | | | | (JPK) 2
+  | | | | | | | [JPK JPK_City]
+  | | | | | | (KMS) 1
+  | | | | | | | [KMS KMS_City]
+  | | | | | (KOP) 2
+  | | | | | | | [KOP KOP_City]
+  | | | | | | (LAV) 1
+  | | | | | | | [LAV LAV_City]
+  | | (LJI) 4
+  | | | | | | [LJI LJI_City]
+  | | | | | (LKS) 1
+  | | | | | | [LKS LKS_City]
+  | | | | (LTE) 2
+  | | | | | | [LTE LTE_City]
+  | | | | | (LXT) 1
+  | | | | | | [LXT LXT_City]
+  | | | (LZO) 3
+  | | | | | | [LZO LZO_City]
+  | | | | | (MBS) 1
+  | | | | | | [MBS MBS_City]
+  | | | | (MDC) 2
+  | | | | | | | [MDC MDC_City]
+  | | | | | | (MFD) 1
+  | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  (NMO) 6
+  | | | | | | [NMO NMO_City]
+  | | | | | (NTV) 1
+  | | | | | | [NTV NTV_City]
+  | | | | (NUF) 2
+  | | | | | | [NUF NUF_City]
+  | | | | | (NVX) 1
+  | | | | | | [NVX NVX_City]
+  | | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | [PAN PAN_City]
+  | | | | | (PIM) 1
+  | | | | | | [PIM PIM_City]
+  | | (PQP) 4
+  | | | | | | [PQP PQP_City]
+  | | | | | (PTV) 1
+  | | | | | | [PTV PTV_City]
+  | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QAA) 1
+  | | | | | | | [QAA QAA_City]
+  | | | | | (QGO) 2
+  | | | | | | | [QGO QGO_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | [QRR QRR_City]
+  | | | | | (RHE) 1
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 2
+  | | | | | | | [RXJ RXJ_City]
+  | | | | | | (SMO) 1
+  | | | | | | | [SMO SMO_City]
+  | | | | | (TCS) 2
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | | [TFS TFS_City]
+  | | | | | | | (TGU) 1
+  | | | | | | | | [TGU TGU_City]
+  | (TSL) 5
+  | | | | | | [TSL TSL_City]
+  | | | | | (TTY) 1
+  | | | | | | | [TTY TTY_City]
+  | | | | | | (TXW) 1
+  | | | | | | | [TXW TXW_City]
+  | | | | (UCT) 2
+  | | | | | | [UCT UCT_City]
+  | | | | | (UXV) 1
+  | | | | | | [UXV UXV_City]
+  | | | (UZL) 3
+  | | | | | | [UZL UZL_City]
+  | | | | | (VDZ) 1
+  | | | | | | [VDZ VDZ_City]
+  | | | | (VKK) 2
+  | | | | | | [VKK VKK_City]
+  | | | | | (VKR) 1
+  | | | | | | [VKR VKR_City]
+  | | (VMJ) 4
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | | [XOD XOD_City]
+  | | | | | | (XVJ) 1
+  | | | | | | | [XVJ XVJ_City]
+  | | | | (YLR) 2
+  | | | | | | | [YLR YLR_City]
+  | | | | | | (ZAJ) 1
+  | | | | | | | [ZAJ ZAJ_City]
+  | | | | | (ZTK) 2
+  | | | | | | | [ZTK ZTK_City]
+  | | | | | | (ZTZ) 1
+  | | | | | | | [ZTZ ZTZ_City]
+insert(RCI): successful {RCI_Airport, RCI_City, RCI_Country, (93.0,-61.0)}
+insert(SDH): successful {SDH_Airport, SDH_City, SDH_Country, (3.0,-74.0)}
+insert(JJX): successful {JJX_Airport, JJX_City, JJX_Country, (-117.0,65.0)}
+insert(YLR): failure due to exception: "Insertion of duplicate key"
+insert(ZWH): successful {ZWH_Airport, ZWH_City, ZWH_Country, (-74.0,72.0)}
+Preorder list:
+  (NMO) 6
+  (HHO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  (BFY) 1
+  [BFC BFC_City]
+  [BFY BFY_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  (CVN) 1
+  [CDP CDP_City]
+  [CVN CVN_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (FAI) 3
+  (EPT) 2
+  (DTA) 1
+  [DQD DQD_City]
+  (EKB) 1
+  [DTA DTA_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 3
+  (FGF) 2
+  (FEL) 1
+  [FAI FAI_City]
+  [FEL FEL_City]
+  (FNO) 1
+  [FGF FGF_City]
+  [FNO FNO_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  (HBE) 1
+  [GRA GRA_City]
+  [HBE HBE_City]
+  (LJI) 4
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  (IGC) 1
+  [ICK ICK_City]
+  [IGC IGC_City]
+  (JAV) 1
+  [ITT ITT_City]
+  (JEL) 1
+  [JAV JAV_City]
+  [JEL JEL_City]
+  (JPK) 2
+  (JGE) 1
+  [JFQ JFQ_City]
+  (JJX) 1
+  [JGE JGE_City]
+  [JJX JJX_City]
+  (KOP) 2
+  (KMS) 1
+  [JPK JPK_City]
+  [KMS KMS_City]
+  (LAV) 1
+  [KOP KOP_City]
+  [LAV LAV_City]
+  (LZO) 3
+  (LTE) 2
+  (LKS) 1
+  [LJI LJI_City]
+  [LKS LKS_City]
+  (LXT) 1
+  [LTE LTE_City]
+  [LXT LXT_City]
+  (MDC) 2
+  (MBS) 1
+  [LZO LZO_City]
+  [MBS MBS_City]
+  (MUF) 2
+  (MFD) 1
+  [MDC MDC_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 5
+  (PQP) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PIM) 1
+  [PAN PAN_City]
+  [PIM PIM_City]
+  (QRR) 3
+  (PWP) 2
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QGO) 2
+  (QAA) 1
+  [PWP PWP_City]
+  [QAA QAA_City]
+  (QIM) 1
+  [QGO QGO_City]
+  [QIM QIM_City]
+  (RXJ) 3
+  (RHE) 2
+  (RCI) 1
+  [QRR QRR_City]
+  [RCI RCI_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 2
+  (SDH) 1
+  [RXJ RXJ_City]
+  (SMO) 1
+  [SDH SDH_City]
+  [SMO SMO_City]
+  (TFS) 1
+  [TCS TCS_City]
+  (TGU) 1
+  [TFS TFS_City]
+  [TGU TGU_City]
+  (VMJ) 4
+  (UZL) 3
+  (UCT) 2
+  (TTY) 1
+  [TSL TSL_City]
+  (TXW) 1
+  [TTY TTY_City]
+  [TXW TXW_City]
+  (UXV) 1
+  [UCT UCT_City]
+  [UXV UXV_City]
+  (VKK) 2
+  (VDZ) 1
+  [UZL UZL_City]
+  [VDZ VDZ_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  (XVJ) 1
+  [XOD XOD_City]
+  [XVJ XVJ_City]
+  (ZTK) 2
+  (ZAJ) 1
+  [YLR YLR_City]
+  [ZAJ ZAJ_City]
+  (ZTZ) 1
+  [ZTK ZTK_City]
+  (ZWH) 1
+  [ZTZ ZTZ_City]
+  [ZWH ZWH_City]
+Tree structure:
+  | | | | | | [ALD ALD_City]
+  | | | | | (AYY) 1
+  | | | | | | [AYY AYY_City]
+  | | | | (BCP) 2
+  | | | | | | | [BCP BCP_City]
+  | | | | | | (BFC) 1
+  | | | | | | | | [BFC BFC_City]
+  | | | | | | | (BFY) 1
+  | | | | | | | | [BFY BFY_City]
+  | | | | | (BKT) 2
+  | | | | | | | [BKT BKT_City]
+  | | | | | | (BZK) 1
+  | | | | | | | [BZK BZK_City]
+  | | | (CAR) 3
+  | | | | | | [CAR CAR_City]
+  | | | | | (CDP) 1
+  | | | | | | | [CDP CDP_City]
+  | | | | | | (CVN) 1
+  | | | | | | | [CVN CVN_City]
+  | | | | (DAL) 2
+  | | | | | | [DAL DAL_City]
+  | | | | | (DGF) 1
+  | | | | | | [DGF DGF_City]
+  | | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (DTA) 1
+  | | | | | | | [DTA DTA_City]
+  | | | | | | (EKB) 1
+  | | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | | [FAI FAI_City]
+  | | | | | | (FEL) 1
+  | | | | | | | [FEL FEL_City]
+  | | | | | (FGF) 2
+  | | | | | | | [FGF FGF_City]
+  | | | | | | (FNO) 1
+  | | | | | | | [FNO FNO_City]
+  | | | | (GFF) 3
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | | [GRA GRA_City]
+  | | | | | | | (HBE) 1
+  | | | | | | | | [HBE HBE_City]
+  | (HHO) 5
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | | [ICK ICK_City]
+  | | | | | | | (IGC) 1
+  | | | | | | | | [IGC IGC_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JAV) 1
+  | | | | | | | | [JAV JAV_City]
+  | | | | | | | (JEL) 1
+  | | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | [JFQ JFQ_City]
+  | | | | | (JGE) 1
+  | | | | | | | [JGE JGE_City]
+  | | | | | | (JJX) 1
+  | | | | | | | [JJX JJX_City]
+  | | | | (JPK) 2
+  | | | | | | | [JPK JPK_City]
+  | | | | | | (KMS) 1
+  | | | | | | | [KMS KMS_City]
+  | | | | | (KOP) 2
+  | | | | | | | [KOP KOP_City]
+  | | | | | | (LAV) 1
+  | | | | | | | [LAV LAV_City]
+  | | (LJI) 4
+  | | | | | | [LJI LJI_City]
+  | | | | | (LKS) 1
+  | | | | | | [LKS LKS_City]
+  | | | | (LTE) 2
+  | | | | | | [LTE LTE_City]
+  | | | | | (LXT) 1
+  | | | | | | [LXT LXT_City]
+  | | | (LZO) 3
+  | | | | | | [LZO LZO_City]
+  | | | | | (MBS) 1
+  | | | | | | [MBS MBS_City]
+  | | | | (MDC) 2
+  | | | | | | | [MDC MDC_City]
+  | | | | | | (MFD) 1
+  | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  (NMO) 6
+  | | | | | | [NMO NMO_City]
+  | | | | | (NTV) 1
+  | | | | | | [NTV NTV_City]
+  | | | | (NUF) 2
+  | | | | | | [NUF NUF_City]
+  | | | | | (NVX) 1
+  | | | | | | [NVX NVX_City]
+  | | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | [PAN PAN_City]
+  | | | | | (PIM) 1
+  | | | | | | [PIM PIM_City]
+  | | (PQP) 4
+  | | | | | | [PQP PQP_City]
+  | | | | | (PTV) 1
+  | | | | | | [PTV PTV_City]
+  | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QAA) 1
+  | | | | | | | [QAA QAA_City]
+  | | | | | (QGO) 2
+  | | | | | | | [QGO QGO_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | | [QRR QRR_City]
+  | | | | | | (RCI) 1
+  | | | | | | | [RCI RCI_City]
+  | | | | | (RHE) 2
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 3
+  | | | | | | | [RXJ RXJ_City]
+  | | | | | | (SDH) 1
+  | | | | | | | | [SDH SDH_City]
+  | | | | | | | (SMO) 1
+  | | | | | | | | [SMO SMO_City]
+  | | | | | (TCS) 2
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | | [TFS TFS_City]
+  | | | | | | | (TGU) 1
+  | | | | | | | | [TGU TGU_City]
+  | (TSL) 5
+  | | | | | | [TSL TSL_City]
+  | | | | | (TTY) 1
+  | | | | | | | [TTY TTY_City]
+  | | | | | | (TXW) 1
+  | | | | | | | [TXW TXW_City]
+  | | | | (UCT) 2
+  | | | | | | [UCT UCT_City]
+  | | | | | (UXV) 1
+  | | | | | | [UXV UXV_City]
+  | | | (UZL) 3
+  | | | | | | [UZL UZL_City]
+  | | | | | (VDZ) 1
+  | | | | | | [VDZ VDZ_City]
+  | | | | (VKK) 2
+  | | | | | | [VKK VKK_City]
+  | | | | | (VKR) 1
+  | | | | | | [VKR VKR_City]
+  | | (VMJ) 4
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | | [XOD XOD_City]
+  | | | | | | (XVJ) 1
+  | | | | | | | [XVJ XVJ_City]
+  | | | | (YLR) 2
+  | | | | | | | [YLR YLR_City]
+  | | | | | | (ZAJ) 1
+  | | | | | | | [ZAJ ZAJ_City]
+  | | | | | (ZTK) 2
+  | | | | | | | [ZTK ZTK_City]
+  | | | | | | (ZTZ) 1
+  | | | | | | | | [ZTZ ZTZ_City]
+  | | | | | | | (ZWH) 1
+  | | | | | | | | [ZWH ZWH_City]
+insert(FPF): successful {FPF_Airport, FPF_City, FPF_Country, (142.0,74.0)}
+Preorder list:
+  (NMO) 6
+  (HHO) 5
+  (DQD) 4
+  (CAR) 3
+  (BCP) 2
+  (AYY) 1
+  [ALD ALD_City]
+  [AYY AYY_City]
+  (BKT) 2
+  (BFC) 1
+  [BCP BCP_City]
+  (BFY) 1
+  [BFC BFC_City]
+  [BFY BFY_City]
+  (BZK) 1
+  [BKT BKT_City]
+  [BZK BZK_City]
+  (DAL) 2
+  (CDP) 1
+  [CAR CAR_City]
+  (CVN) 1
+  [CDP CDP_City]
+  [CVN CVN_City]
+  (DGF) 1
+  [DAL DAL_City]
+  [DGF DGF_City]
+  (FAI) 3
+  (EPT) 2
+  (DTA) 1
+  [DQD DQD_City]
+  (EKB) 1
+  [DTA DTA_City]
+  [EKB EKB_City]
+  (EZF) 1
+  [EPT EPT_City]
+  [EZF EZF_City]
+  (GFF) 3
+  (FGF) 2
+  (FEL) 1
+  [FAI FAI_City]
+  [FEL FEL_City]
+  (FNO) 1
+  [FGF FGF_City]
+  (FPF) 1
+  [FNO FNO_City]
+  [FPF FPF_City]
+  (GQE) 2
+  (GJG) 1
+  [GFF GFF_City]
+  [GJG GJG_City]
+  (GRA) 1
+  [GQE GQE_City]
+  (HBE) 1
+  [GRA GRA_City]
+  [HBE HBE_City]
+  (LJI) 4
+  (JFQ) 3
+  (IAH) 2
+  (HPK) 1
+  [HHO HHO_City]
+  [HPK HPK_City]
+  (ITT) 2
+  (ICK) 1
+  [IAH IAH_City]
+  (IGC) 1
+  [ICK ICK_City]
+  [IGC IGC_City]
+  (JAV) 1
+  [ITT ITT_City]
+  (JEL) 1
+  [JAV JAV_City]
+  [JEL JEL_City]
+  (JPK) 2
+  (JGE) 1
+  [JFQ JFQ_City]
+  (JJX) 1
+  [JGE JGE_City]
+  [JJX JJX_City]
+  (KOP) 2
+  (KMS) 1
+  [JPK JPK_City]
+  [KMS KMS_City]
+  (LAV) 1
+  [KOP KOP_City]
+  [LAV LAV_City]
+  (LZO) 3
+  (LTE) 2
+  (LKS) 1
+  [LJI LJI_City]
+  [LKS LKS_City]
+  (LXT) 1
+  [LTE LTE_City]
+  [LXT LXT_City]
+  (MDC) 2
+  (MBS) 1
+  [LZO LZO_City]
+  [MBS MBS_City]
+  (MUF) 2
+  (MFD) 1
+  [MDC MDC_City]
+  [MFD MFD_City]
+  (NDO) 1
+  [MUF MUF_City]
+  [NDO NDO_City]
+  (TSL) 5
+  (PQP) 4
+  (OMQ) 3
+  (NUF) 2
+  (NTV) 1
+  [NMO NMO_City]
+  [NTV NTV_City]
+  (NVX) 1
+  [NUF NUF_City]
+  [NVX NVX_City]
+  (PAN) 2
+  (OOB) 1
+  [OMQ OMQ_City]
+  [OOB OOB_City]
+  (PIM) 1
+  [PAN PAN_City]
+  [PIM PIM_City]
+  (QRR) 3
+  (PWP) 2
+  (PTV) 1
+  [PQP PQP_City]
+  [PTV PTV_City]
+  (QGO) 2
+  (QAA) 1
+  [PWP PWP_City]
+  [QAA QAA_City]
+  (QIM) 1
+  [QGO QGO_City]
+  [QIM QIM_City]
+  (RXJ) 3
+  (RHE) 2
+  (RCI) 1
+  [QRR QRR_City]
+  [RCI RCI_City]
+  (RJF) 1
+  [RHE RHE_City]
+  [RJF RJF_City]
+  (TCS) 2
+  (SDH) 1
+  [RXJ RXJ_City]
+  (SMO) 1
+  [SDH SDH_City]
+  [SMO SMO_City]
+  (TFS) 1
+  [TCS TCS_City]
+  (TGU) 1
+  [TFS TFS_City]
+  [TGU TGU_City]
+  (VMJ) 4
+  (UZL) 3
+  (UCT) 2
+  (TTY) 1
+  [TSL TSL_City]
+  (TXW) 1
+  [TTY TTY_City]
+  [TXW TXW_City]
+  (UXV) 1
+  [UCT UCT_City]
+  [UXV UXV_City]
+  (VKK) 2
+  (VDZ) 1
+  [UZL UZL_City]
+  [VDZ VDZ_City]
+  (VKR) 1
+  [VKK VKK_City]
+  [VKR VKR_City]
+  (WSN) 3
+  (WHS) 2
+  (VRH) 1
+  [VMJ VMJ_City]
+  (VSW) 1
+  [VRH VRH_City]
+  [VSW VSW_City]
+  (WMV) 2
+  (WLP) 1
+  [WHS WHS_City]
+  [WLP WLP_City]
+  (WOG) 1
+  [WMV WMV_City]
+  [WOG WOG_City]
+  (YLR) 2
+  (XOD) 1
+  [WSN WSN_City]
+  (XVJ) 1
+  [XOD XOD_City]
+  [XVJ XVJ_City]
+  (ZTK) 2
+  (ZAJ) 1
+  [YLR YLR_City]
+  [ZAJ ZAJ_City]
+  (ZTZ) 1
+  [ZTK ZTK_City]
+  (ZWH) 1
+  [ZTZ ZTZ_City]
+  [ZWH ZWH_City]
+Tree structure:
+  | | | | | | [ALD ALD_City]
+  | | | | | (AYY) 1
+  | | | | | | [AYY AYY_City]
+  | | | | (BCP) 2
+  | | | | | | | [BCP BCP_City]
+  | | | | | | (BFC) 1
+  | | | | | | | | [BFC BFC_City]
+  | | | | | | | (BFY) 1
+  | | | | | | | | [BFY BFY_City]
+  | | | | | (BKT) 2
+  | | | | | | | [BKT BKT_City]
+  | | | | | | (BZK) 1
+  | | | | | | | [BZK BZK_City]
+  | | | (CAR) 3
+  | | | | | | [CAR CAR_City]
+  | | | | | (CDP) 1
+  | | | | | | | [CDP CDP_City]
+  | | | | | | (CVN) 1
+  | | | | | | | [CVN CVN_City]
+  | | | | (DAL) 2
+  | | | | | | [DAL DAL_City]
+  | | | | | (DGF) 1
+  | | | | | | [DGF DGF_City]
+  | | (DQD) 4
+  | | | | | | [DQD DQD_City]
+  | | | | | (DTA) 1
+  | | | | | | | [DTA DTA_City]
+  | | | | | | (EKB) 1
+  | | | | | | | [EKB EKB_City]
+  | | | | (EPT) 2
+  | | | | | | [EPT EPT_City]
+  | | | | | (EZF) 1
+  | | | | | | [EZF EZF_City]
+  | | | (FAI) 3
+  | | | | | | | [FAI FAI_City]
+  | | | | | | (FEL) 1
+  | | | | | | | [FEL FEL_City]
+  | | | | | (FGF) 2
+  | | | | | | | [FGF FGF_City]
+  | | | | | | (FNO) 1
+  | | | | | | | | [FNO FNO_City]
+  | | | | | | | (FPF) 1
+  | | | | | | | | [FPF FPF_City]
+  | | | | (GFF) 3
+  | | | | | | | [GFF GFF_City]
+  | | | | | | (GJG) 1
+  | | | | | | | [GJG GJG_City]
+  | | | | | (GQE) 2
+  | | | | | | | [GQE GQE_City]
+  | | | | | | (GRA) 1
+  | | | | | | | | [GRA GRA_City]
+  | | | | | | | (HBE) 1
+  | | | | | | | | [HBE HBE_City]
+  | (HHO) 5
+  | | | | | | [HHO HHO_City]
+  | | | | | (HPK) 1
+  | | | | | | [HPK HPK_City]
+  | | | | (IAH) 2
+  | | | | | | | [IAH IAH_City]
+  | | | | | | (ICK) 1
+  | | | | | | | | [ICK ICK_City]
+  | | | | | | | (IGC) 1
+  | | | | | | | | [IGC IGC_City]
+  | | | | | (ITT) 2
+  | | | | | | | [ITT ITT_City]
+  | | | | | | (JAV) 1
+  | | | | | | | | [JAV JAV_City]
+  | | | | | | | (JEL) 1
+  | | | | | | | | [JEL JEL_City]
+  | | | (JFQ) 3
+  | | | | | | [JFQ JFQ_City]
+  | | | | | (JGE) 1
+  | | | | | | | [JGE JGE_City]
+  | | | | | | (JJX) 1
+  | | | | | | | [JJX JJX_City]
+  | | | | (JPK) 2
+  | | | | | | | [JPK JPK_City]
+  | | | | | | (KMS) 1
+  | | | | | | | [KMS KMS_City]
+  | | | | | (KOP) 2
+  | | | | | | | [KOP KOP_City]
+  | | | | | | (LAV) 1
+  | | | | | | | [LAV LAV_City]
+  | | (LJI) 4
+  | | | | | | [LJI LJI_City]
+  | | | | | (LKS) 1
+  | | | | | | [LKS LKS_City]
+  | | | | (LTE) 2
+  | | | | | | [LTE LTE_City]
+  | | | | | (LXT) 1
+  | | | | | | [LXT LXT_City]
+  | | | (LZO) 3
+  | | | | | | [LZO LZO_City]
+  | | | | | (MBS) 1
+  | | | | | | [MBS MBS_City]
+  | | | | (MDC) 2
+  | | | | | | | [MDC MDC_City]
+  | | | | | | (MFD) 1
+  | | | | | | | [MFD MFD_City]
+  | | | | | (MUF) 2
+  | | | | | | | [MUF MUF_City]
+  | | | | | | (NDO) 1
+  | | | | | | | [NDO NDO_City]
+  (NMO) 6
+  | | | | | | [NMO NMO_City]
+  | | | | | (NTV) 1
+  | | | | | | [NTV NTV_City]
+  | | | | (NUF) 2
+  | | | | | | [NUF NUF_City]
+  | | | | | (NVX) 1
+  | | | | | | [NVX NVX_City]
+  | | | (OMQ) 3
+  | | | | | | [OMQ OMQ_City]
+  | | | | | (OOB) 1
+  | | | | | | [OOB OOB_City]
+  | | | | (PAN) 2
+  | | | | | | [PAN PAN_City]
+  | | | | | (PIM) 1
+  | | | | | | [PIM PIM_City]
+  | | (PQP) 4
+  | | | | | | [PQP PQP_City]
+  | | | | | (PTV) 1
+  | | | | | | [PTV PTV_City]
+  | | | | (PWP) 2
+  | | | | | | | [PWP PWP_City]
+  | | | | | | (QAA) 1
+  | | | | | | | [QAA QAA_City]
+  | | | | | (QGO) 2
+  | | | | | | | [QGO QGO_City]
+  | | | | | | (QIM) 1
+  | | | | | | | [QIM QIM_City]
+  | | | (QRR) 3
+  | | | | | | | [QRR QRR_City]
+  | | | | | | (RCI) 1
+  | | | | | | | [RCI RCI_City]
+  | | | | | (RHE) 2
+  | | | | | | | [RHE RHE_City]
+  | | | | | | (RJF) 1
+  | | | | | | | [RJF RJF_City]
+  | | | | (RXJ) 3
+  | | | | | | | [RXJ RXJ_City]
+  | | | | | | (SDH) 1
+  | | | | | | | | [SDH SDH_City]
+  | | | | | | | (SMO) 1
+  | | | | | | | | [SMO SMO_City]
+  | | | | | (TCS) 2
+  | | | | | | | [TCS TCS_City]
+  | | | | | | (TFS) 1
+  | | | | | | | | [TFS TFS_City]
+  | | | | | | | (TGU) 1
+  | | | | | | | | [TGU TGU_City]
+  | (TSL) 5
+  | | | | | | [TSL TSL_City]
+  | | | | | (TTY) 1
+  | | | | | | | [TTY TTY_City]
+  | | | | | | (TXW) 1
+  | | | | | | | [TXW TXW_City]
+  | | | | (UCT) 2
+  | | | | | | [UCT UCT_City]
+  | | | | | (UXV) 1
+  | | | | | | [UXV UXV_City]
+  | | | (UZL) 3
+  | | | | | | [UZL UZL_City]
+  | | | | | (VDZ) 1
+  | | | | | | [VDZ VDZ_City]
+  | | | | (VKK) 2
+  | | | | | | [VKK VKK_City]
+  | | | | | (VKR) 1
+  | | | | | | [VKR VKR_City]
+  | | (VMJ) 4
+  | | | | | | [VMJ VMJ_City]
+  | | | | | (VRH) 1
+  | | | | | | | [VRH VRH_City]
+  | | | | | | (VSW) 1
+  | | | | | | | [VSW VSW_City]
+  | | | | (WHS) 2
+  | | | | | | | [WHS WHS_City]
+  | | | | | | (WLP) 1
+  | | | | | | | [WLP WLP_City]
+  | | | | | (WMV) 2
+  | | | | | | | [WMV WMV_City]
+  | | | | | | (WOG) 1
+  | | | | | | | [WOG WOG_City]
+  | | | (WSN) 3
+  | | | | | | [WSN WSN_City]
+  | | | | | (XOD) 1
+  | | | | | | | [XOD XOD_City]
+  | | | | | | (XVJ) 1
+  | | | | | | | [XVJ XVJ_City]
+  | | | | (YLR) 2
+  | | | | | | | [YLR YLR_City]
+  | | | | | | (ZAJ) 1
+  | | | | | | | [ZAJ ZAJ_City]
+  | | | | | (ZTK) 2
+  | | | | | | | [ZTK ZTK_City]
+  | | | | | | (ZTZ) 1
+  | | | | | | | | [ZTZ ZTZ_City]
+  | | | | | | | (ZWH) 1
+  | | | | | | | | [ZWH ZWH_City]

@@ -1,0 +1,472 @@
+size: 0
+insert(IAD): successful {Washington Dulles International, Dulles, USA, (38.0,-77.0)}
+size: 1
+insert(BWI): successful {Baltimore Washington International, Baltimore, USA, (39.0,-76.0)}
+insert(LAX): successful {Los Angeles International, Los Angeles, USA, (33.0,-118.0)}
+insert(DCA): successful {Ronald Reagan Washington National, Washington, USA, (38.0,-77.0)}
+Preorder list:
+  (IAD) 2
+  (DCA) 1
+  [BWI Baltimore]
+  [DCA Washington]
+  (LAX) 1
+  [IAD Dulles]
+  [LAX Los Angeles]
+Tree structure:
+  | | [BWI Baltimore]
+  | (DCA) 1
+  | | [DCA Washington]
+  (IAD) 2
+  | | [IAD Dulles]
+  | (LAX) 1
+  | | [LAX Los Angeles]
+remove-min: removed [Baltimore]
+Preorder list:
+  (IAD) 1
+  [DCA Washington]
+  (LAX) 1
+  [IAD Dulles]
+  [LAX Los Angeles]
+Tree structure:
+  | [DCA Washington]
+  (IAD) 1
+  | | [IAD Dulles]
+  | (LAX) 1
+  | | [LAX Los Angeles]
+remove-max: removed [Los Angeles]
+Preorder list:
+  (IAD) 1
+  [DCA Washington]
+  [IAD Dulles]
+Tree structure:
+  | [DCA Washington]
+  (IAD) 1
+  | [IAD Dulles]
+remove-min: removed [Washington]
+Preorder list:
+  [IAD Dulles]
+Tree structure:
+  [IAD Dulles]
+remove-max: removed [Dulles]
+Preorder list:
+Tree structure:
+remove-min: no entries
+Preorder list:
+Tree structure:
+size: 0
+clear: successful
+size: 0
+Preorder list:
+Tree structure:
+insert(JFK): successful {John F Kennedy International, New York, USA, (40.0,-73.0)}
+size: 1
+insert(ATL): successful {The William B Hartsfield Atlanta International, Atlanta, USA, (33.0,-84.0)}
+insert(SFO): successful {San Francisco International, San Francisco, USA, (37.0,-122.0)}
+insert(SIN): successful {Singapore Changi, Singapore, Singapore, (1.0,103.0)}
+Preorder list:
+  (SFO) 2
+  (JFK) 1
+  [ATL Atlanta]
+  [JFK New York]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | [ATL Atlanta]
+  | (JFK) 1
+  | | [JFK New York]
+  (SFO) 2
+  | | [SFO San Francisco]
+  | (SIN) 1
+  | | [SIN Singapore]
+insert(PVG): successful {Shanghai Pudong International Airport, Shanghai, China, (31.0,121.0)}
+insert(ORD): successful {Chicago OHare International, Chicago, USA, (41.0,-87.0)}
+insert(DEL): successful {Indira Gandhi International, Delhi, India, (28.0,77.0)}
+insert(DXB): successful {Dubai International, Dubai, United Arab Emirates, (25.0,55.0)}
+Preorder list:
+  (ORD) 3
+  (DXB) 2
+  (DEL) 1
+  [ATL Atlanta]
+  [DEL Delhi]
+  (JFK) 1
+  [DXB Dubai]
+  [JFK New York]
+  (SFO) 2
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | | [ATL Atlanta]
+  | | (DEL) 1
+  | | | [DEL Delhi]
+  | (DXB) 2
+  | | | [DXB Dubai]
+  | | (JFK) 1
+  | | | [JFK New York]
+  (ORD) 3
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | [PVG Shanghai]
+  | (SFO) 2
+  | | | [SFO San Francisco]
+  | | (SIN) 1
+  | | | [SIN Singapore]
+insert(ICN): successful {Incheon International Airport, Incheon, South Korea, (37.0,126.0)}
+insert(HKG): successful {Hong Kong International, Hong Kong, China, (22.0,113.0)}
+insert(BKK): successful {Bangkok International, Bangkok, Thailand, (13.0,100.0)}
+insert(FRA): successful {Frankfurt Main, Frankfurt, Germany, (50.0,8.0)}
+Preorder list:
+  (ORD) 3
+  (DXB) 2
+  (BKK) 1
+  [ATL Atlanta]
+  (DEL) 1
+  [BKK Bangkok]
+  [DEL Delhi]
+  (ICN) 2
+  (FRA) 1
+  [DXB Dubai]
+  (HKG) 1
+  [FRA Frankfurt]
+  [HKG Hong Kong]
+  (JFK) 1
+  [ICN Incheon]
+  [JFK New York]
+  (SFO) 2
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | | [ATL Atlanta]
+  | | (BKK) 1
+  | | | | [BKK Bangkok]
+  | | | (DEL) 1
+  | | | | [DEL Delhi]
+  | (DXB) 2
+  | | | | [DXB Dubai]
+  | | | (FRA) 1
+  | | | | | [FRA Frankfurt]
+  | | | | (HKG) 1
+  | | | | | [HKG Hong Kong]
+  | | (ICN) 2
+  | | | | [ICN Incheon]
+  | | | (JFK) 1
+  | | | | [JFK New York]
+  (ORD) 3
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | [PVG Shanghai]
+  | (SFO) 2
+  | | | [SFO San Francisco]
+  | | (SIN) 1
+  | | | [SIN Singapore]
+size: 12
+find(ATL): found [Atlanta]
+remove-min: removed [Atlanta]
+Preorder list:
+  (ORD) 3
+  (DXB) 2
+  (DEL) 1
+  [BKK Bangkok]
+  [DEL Delhi]
+  (ICN) 2
+  (FRA) 1
+  [DXB Dubai]
+  (HKG) 1
+  [FRA Frankfurt]
+  [HKG Hong Kong]
+  (JFK) 1
+  [ICN Incheon]
+  [JFK New York]
+  (SFO) 2
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+  (SIN) 1
+  [SFO San Francisco]
+  [SIN Singapore]
+Tree structure:
+  | | | [BKK Bangkok]
+  | | (DEL) 1
+  | | | [DEL Delhi]
+  | (DXB) 2
+  | | | | [DXB Dubai]
+  | | | (FRA) 1
+  | | | | | [FRA Frankfurt]
+  | | | | (HKG) 1
+  | | | | | [HKG Hong Kong]
+  | | (ICN) 2
+  | | | | [ICN Incheon]
+  | | | (JFK) 1
+  | | | | [JFK New York]
+  (ORD) 3
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | [PVG Shanghai]
+  | (SFO) 2
+  | | | [SFO San Francisco]
+  | | (SIN) 1
+  | | | [SIN Singapore]
+find(ATL): not found
+find(SIN): found [Singapore]
+remove-max: removed [Singapore]
+Preorder list:
+  (ICN) 3
+  (DXB) 2
+  (DEL) 1
+  [BKK Bangkok]
+  [DEL Delhi]
+  (FRA) 1
+  [DXB Dubai]
+  (HKG) 1
+  [FRA Frankfurt]
+  [HKG Hong Kong]
+  (ORD) 2
+  (JFK) 1
+  [ICN Incheon]
+  [JFK New York]
+  (PVG) 1
+  [ORD Chicago]
+  (SFO) 1
+  [PVG Shanghai]
+  [SFO San Francisco]
+Tree structure:
+  | | | [BKK Bangkok]
+  | | (DEL) 1
+  | | | [DEL Delhi]
+  | (DXB) 2
+  | | | [DXB Dubai]
+  | | (FRA) 1
+  | | | | [FRA Frankfurt]
+  | | | (HKG) 1
+  | | | | [HKG Hong Kong]
+  (ICN) 3
+  | | | [ICN Incheon]
+  | | (JFK) 1
+  | | | [JFK New York]
+  | (ORD) 2
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | | [PVG Shanghai]
+  | | | (SFO) 1
+  | | | | [SFO San Francisco]
+find(SIN): not found
+find(SFO): found [San Francisco]
+remove-max: removed [San Francisco]
+Preorder list:
+  (ICN) 3
+  (DXB) 2
+  (DEL) 1
+  [BKK Bangkok]
+  [DEL Delhi]
+  (FRA) 1
+  [DXB Dubai]
+  (HKG) 1
+  [FRA Frankfurt]
+  [HKG Hong Kong]
+  (ORD) 2
+  (JFK) 1
+  [ICN Incheon]
+  [JFK New York]
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+Tree structure:
+  | | | [BKK Bangkok]
+  | | (DEL) 1
+  | | | [DEL Delhi]
+  | (DXB) 2
+  | | | [DXB Dubai]
+  | | (FRA) 1
+  | | | | [FRA Frankfurt]
+  | | | (HKG) 1
+  | | | | [HKG Hong Kong]
+  (ICN) 3
+  | | | [ICN Incheon]
+  | | (JFK) 1
+  | | | [JFK New York]
+  | (ORD) 2
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | [PVG Shanghai]
+find(SFO): not found
+find(BKK): found [Bangkok]
+remove-min: removed [Bangkok]
+Preorder list:
+  (ICN) 3
+  (FRA) 2
+  (DXB) 1
+  [DEL Delhi]
+  [DXB Dubai]
+  (HKG) 1
+  [FRA Frankfurt]
+  [HKG Hong Kong]
+  (ORD) 2
+  (JFK) 1
+  [ICN Incheon]
+  [JFK New York]
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+Tree structure:
+  | | | [DEL Delhi]
+  | | (DXB) 1
+  | | | [DXB Dubai]
+  | (FRA) 2
+  | | | [FRA Frankfurt]
+  | | (HKG) 1
+  | | | [HKG Hong Kong]
+  (ICN) 3
+  | | | [ICN Incheon]
+  | | (JFK) 1
+  | | | [JFK New York]
+  | (ORD) 2
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | [PVG Shanghai]
+find(BKK): not found
+find(DEL): found [Delhi]
+remove-min: removed [Delhi]
+Preorder list:
+  (ICN) 2
+  (FRA) 1
+  [DXB Dubai]
+  (HKG) 1
+  [FRA Frankfurt]
+  [HKG Hong Kong]
+  (ORD) 2
+  (JFK) 1
+  [ICN Incheon]
+  [JFK New York]
+  (PVG) 1
+  [ORD Chicago]
+  [PVG Shanghai]
+Tree structure:
+  | | [DXB Dubai]
+  | (FRA) 1
+  | | | [FRA Frankfurt]
+  | | (HKG) 1
+  | | | [HKG Hong Kong]
+  (ICN) 2
+  | | | [ICN Incheon]
+  | | (JFK) 1
+  | | | [JFK New York]
+  | (ORD) 2
+  | | | [ORD Chicago]
+  | | (PVG) 1
+  | | | [PVG Shanghai]
+find(DEL): not found
+find(PVG): found [Shanghai]
+remove-max: removed [Shanghai]
+Preorder list:
+  (ICN) 2
+  (FRA) 1
+  [DXB Dubai]
+  (HKG) 1
+  [FRA Frankfurt]
+  [HKG Hong Kong]
+  (JFK) 1
+  [ICN Incheon]
+  (ORD) 1
+  [JFK New York]
+  [ORD Chicago]
+Tree structure:
+  | | [DXB Dubai]
+  | (FRA) 1
+  | | | [FRA Frankfurt]
+  | | (HKG) 1
+  | | | [HKG Hong Kong]
+  (ICN) 2
+  | | [ICN Incheon]
+  | (JFK) 1
+  | | | [JFK New York]
+  | | (ORD) 1
+  | | | [ORD Chicago]
+find(PVG): not found
+find(DXB): found [Dubai]
+remove-min: removed [Dubai]
+Preorder list:
+  (ICN) 2
+  (HKG) 1
+  [FRA Frankfurt]
+  [HKG Hong Kong]
+  (JFK) 1
+  [ICN Incheon]
+  (ORD) 1
+  [JFK New York]
+  [ORD Chicago]
+Tree structure:
+  | | [FRA Frankfurt]
+  | (HKG) 1
+  | | [HKG Hong Kong]
+  (ICN) 2
+  | | [ICN Incheon]
+  | (JFK) 1
+  | | | [JFK New York]
+  | | (ORD) 1
+  | | | [ORD Chicago]
+find(DXB): not found
+find(FRA): found [Frankfurt]
+remove-min: removed [Frankfurt]
+Preorder list:
+  (JFK) 2
+  (ICN) 1
+  [HKG Hong Kong]
+  [ICN Incheon]
+  (ORD) 1
+  [JFK New York]
+  [ORD Chicago]
+Tree structure:
+  | | [HKG Hong Kong]
+  | (ICN) 1
+  | | [ICN Incheon]
+  (JFK) 2
+  | | [JFK New York]
+  | (ORD) 1
+  | | [ORD Chicago]
+find(FRA): not found
+find(HKG): found [Hong Kong]
+remove-min: removed [Hong Kong]
+Preorder list:
+  (JFK) 1
+  [ICN Incheon]
+  (ORD) 1
+  [JFK New York]
+  [ORD Chicago]
+Tree structure:
+  | [ICN Incheon]
+  (JFK) 1
+  | | [JFK New York]
+  | (ORD) 1
+  | | [ORD Chicago]
+find(HKG): not found
+find(ICN): found [Incheon]
+remove-min: removed [Incheon]
+Preorder list:
+  (ORD) 1
+  [JFK New York]
+  [ORD Chicago]
+Tree structure:
+  | [JFK New York]
+  (ORD) 1
+  | [ORD Chicago]
+find(ICN): not found
+find(JFK): found [New York]
+remove-min: removed [New York]
+Preorder list:
+  [ORD Chicago]
+Tree structure:
+  [ORD Chicago]
+find(JFK): not found
+find(ORD): found [Chicago]
+remove-min: removed [Chicago]
+find(ORD): not found
+Preorder list:
+Tree structure:
