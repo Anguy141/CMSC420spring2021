@@ -1,8 +1,6 @@
-# CMSC 420: Spring 2021
+# Programming Assignment 1: Extended AA Trees
 
 **For this project, I implemeted Part1-Skeleton/cmsc420_s21/AAXTree.java**
-
-# Programming Assignment 1: Extended AA Trees
 
 Overview: In this assignment you will implement an extended variant of the AA Tree. Recall that
 an extended binary tree there are two different node types, internal nodes and external nodes.
