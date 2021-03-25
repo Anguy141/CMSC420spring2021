@@ -2,7 +2,8 @@
 
 **For this project, I implemeted Part1-Skeleton/cmsc420_s21/AAXTree.java**
 
-Overview: In this assignment you will implement an extended variant of the AA Tree. Recall that
+# Overview: 
+In this assignment you will implement an extended variant of the AA Tree. Recall that
 an extended binary tree there are two different node types, internal nodes and external nodes.
 Extended trees are used in many applications. By separating node types, we can better tailor
 each node to its particular function. Data (that is, the key-value pairs) are stored only in the
