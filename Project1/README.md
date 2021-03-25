@@ -1,6 +1,6 @@
-# For this project, I implemeted Part1-Skeleton/cmsc420_s21/AAXTree.java
-
 # CMSC 420: Spring 2021
+
+**For this project, I implemeted Part1-Skeleton/cmsc420_s21/AAXTree.java**
 
 # Programming Assignment 1: Extended AA Trees
 
