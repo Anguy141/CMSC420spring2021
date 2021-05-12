@@ -1,0 +1,66 @@
+insert(IAD): successful {Washington Dulles International, Dulles, USA, (2.0,6.0)}
+insert(BWI): successful {Baltimore Washington International, Baltimore, USA, (8.0,8.0)}
+insert(LAX): successful {Los Angeles International, Los Angeles, USA, (4.0,2.0)}
+insert(DCA): successful {Ronald Reagan Washington National, Washington, USA, (6.0,7.0)}
+insert(JFK): successful {John F Kennedy International, New York, USA, (9.0,4.0)}
+insert(ATL): successful {The William B Hartsfield Atlanta International, Atlanta, USA, (4.0,8.0)}
+insert(SFO): successful {San Francisco International, San Francisco, USA, (1.0,9.0)}
+Preorder list:
+  (x=5.0): [(1.0,2.0),(9.0,9.0)]
+  (y=4.0): [(1.0,2.0),(4.0,9.0)]
+  [LAX: (4.0,2.0)]
+  (x=3.0): [(1.0,6.0),(4.0,9.0)]
+  (y=7.5): [(1.0,6.0),(2.0,9.0)]
+  [IAD: (2.0,6.0)]
+  [SFO: (1.0,9.0)]
+  [ATL: (4.0,8.0)]
+  (x=7.0): [(6.0,4.0),(9.0,8.0)]
+  [DCA: (6.0,7.0)]
+  (y=6.0): [(8.0,4.0),(9.0,8.0)]
+  [JFK: (9.0,4.0)]
+  [BWI: (8.0,8.0)]
+Tree structure:
+  | | [LAX: (4.0,2.0)]
+  | (y=4.0): [(1.0,2.0),(4.0,9.0)]
+  | | | | [IAD: (2.0,6.0)]
+  | | | (y=7.5): [(1.0,6.0),(2.0,9.0)]
+  | | | | [SFO: (1.0,9.0)]
+  | | (x=3.0): [(1.0,6.0),(4.0,9.0)]
+  | | | [ATL: (4.0,8.0)]
+  (x=5.0): [(1.0,2.0),(9.0,9.0)]
+  | | [DCA: (6.0,7.0)]
+  | (x=7.0): [(6.0,4.0),(9.0,8.0)]
+  | | | [JFK: (9.0,4.0)]
+  | | (y=6.0): [(8.0,4.0),(9.0,8.0)]
+  | | | [BWI: (8.0,8.0)]
+find-smaller-x(6.0): found [ATL: (4.0,8.0)]
+find-larger-x(6.0): found [BWI: (8.0,8.0)]
+find-smaller-y(4.0): found [LAX: (4.0,2.0)]
+find-larger-y(7.0): found [ATL: (4.0,8.0)]
+find-smaller-x(1.0): not found
+find-larger-x(9.0): not found
+find-smaller-y(2.0): not found
+find-larger-y(9.0): not found
+find-smaller-x(6.5): found [DCA: (6.0,7.0)]
+find-larger-x(5.5): found [DCA: (6.0,7.0)]
+find-smaller-y(4.5): found [JFK: (9.0,4.0)]
+find-larger-y(6.5): found [DCA: (6.0,7.0)]
+find-smaller-x(1.5): found [SFO: (1.0,9.0)]
+find-larger-x(8.5): found [JFK: (9.0,4.0)]
+find-smaller-y(2.5): found [LAX: (4.0,2.0)]
+find-larger-y(8.5): found [SFO: (1.0,9.0)]
+Points within squared distance 18.0 (standard distance 4.242640687119285) of (4.0,6.0):
+  ATL: (4.0,8.0)
+  DCA: (6.0,7.0)
+  IAD: (2.0,6.0)
+  LAX: (4.0,2.0)
+  SFO: (1.0,9.0)
+Points within squared distance 16.0 (standard distance 4.0) of (5.0,4.0):
+  DCA: (6.0,7.0)
+  IAD: (2.0,6.0)
+  JFK: (9.0,4.0)
+  LAX: (4.0,2.0)
+Points within squared distance 16.0 (standard distance 4.0) of (2.0,2.0):
+  IAD: (2.0,6.0)
+  LAX: (4.0,2.0)
+Points within squared distance 1.0 (standard distance 1.0) of (2.0,2.0):

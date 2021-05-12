@@ -1,0 +1,28 @@
+insert:IAD:Washington Dulles International:Dulles:USA:2:6
+insert:BWI:Baltimore Washington International:Baltimore:USA:8:8
+insert:LAX:Los Angeles International:Los Angeles:USA:4:2
+insert:DCA:Ronald Reagan Washington National:Washington:USA:6:7
+insert:JFK:John F Kennedy International:New York:USA:9:4
+insert:ATL:The William B Hartsfield Atlanta International:Atlanta:USA:4:8
+insert:SFO:San Francisco International:San Francisco:USA:1:9
+preorder
+find-smaller-x:6
+find-larger-x:6
+find-smaller-y:4
+find-larger-y:7
+find-smaller-x:1
+find-larger-x:9
+find-smaller-y:2
+find-larger-y:9
+find-smaller-x:6.5
+find-larger-x:5.5
+find-smaller-y:4.5
+find-larger-y:6.5
+find-smaller-x:1.5
+find-larger-x:8.5
+find-smaller-y:2.5
+find-larger-y:8.5
+circular-range:4:6:18
+circular-range:5:4:16
+circular-range:2:2:16
+circular-range:2:2:1

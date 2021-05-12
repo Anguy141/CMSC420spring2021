@@ -1,0 +1,92 @@
+insert:PEK:Capital:Beijing:China:116:160
+insert:SFO:San Francisco International:San Francisco:USA:-122:148
+insert:JFK:John F Kennedy International:New York:USA:-73:160
+insert:DXB:Dubai International:Dubai:United Arab Emirates:55:100
+insert:BKK:Bangkok International:Bangkok:Thailand:100:52
+insert:ORD:Chicago OHare International:Chicago:USA:-87:164
+insert:CDG:Charles De Gaulle:Paris:France:2:196
+insert:HKG:Hong Kong International:Hong Kong:China:113:88
+insert:LHR:Heathrow:London:Engalnd:0:204
+insert:CAN:Baiyun:Guangzhou:China:113:96
+preorder
+insert:ICN:Incheon International Airport:Incheon:South Korea:126:148
+insert:ATL:The William B Hartsfield Atlanta International:Atlanta:USA:-84:142
+insert:NRT:New Tokyo International:Tokyo:Japan:140:140
+insert:DCA:Ronald Reagan Washington National:Washington:USA:-77:152
+insert:FRA:Frankfurt Main:Frankfurt:Germany:8:200
+insert:DEL:Indira Gandhi International:Delhi:India:77:112
+insert:AMS:Schiphol:Amsterdam:Netherlands:4:208
+insert:DFW:Dallas Fort Worth International:Dallas:USA:-97:128
+insert:SIN:Singapore Changi:Singapore:Singapore:103:4
+insert:LAX:Los Angeles International:Los Angeles:USA:-118:142
+insert:PVG:Shanghai Pudong International Airport:Shanghai:China:121:124
+insert:IAD:Washington Dulles International:Washington:USA:-77:152
+insert:BWI:Baltimore Washington International:Baltimore:USA:-76:156
+preorder
+delete:PEK
+preorder
+delete:NRT
+preorder
+delete:LHR
+preorder
+delete:CAN
+preorder
+delete:FRA
+preorder
+delete:BKK
+preorder
+delete:DCA
+preorder
+delete:SFO
+preorder
+delete:BWI
+preorder
+delete:NRT
+clear
+preorder
+insert:AMS:Schiphol:Amsterdam:Netherlands:4:208
+insert:SIN:Singapore Changi:Singapore:Singapore:103:4
+insert:ATL:The William B Hartsfield Atlanta International:Atlanta:USA:-84:142
+insert:SFO:San Francisco International:San Francisco:USA:-122:148
+insert:BKK:Bangkok International:Bangkok:Thailand:100:52
+insert:PVG:Shanghai Pudong International Airport:Shanghai:China:121:124
+insert:BWI:Baltimore Washington International:Baltimore:USA:-76:156
+insert:PEK:Capital:Beijing:China:116:160
+insert:CAN:Baiyun:Guangzhou:China:113:96
+insert:ORD:Chicago OHare International:Chicago:USA:-87:164
+insert:CDG:Charles De Gaulle:Paris:France:2:196
+insert:NRT:New Tokyo International:Tokyo:Japan:140:140
+insert:DCA:Ronald Reagan Washington National:Washington:USA:-77:152
+insert:LHR:Heathrow:London:Engalnd:0:204
+insert:DEL:Indira Gandhi International:Delhi:India:77:112
+insert:LAX:Los Angeles International:Los Angeles:USA:-118:142
+insert:DFW:Dallas Fort Worth International:Dallas:USA:-97:128
+insert:JFK:John F Kennedy International:New York:USA:-73:160
+insert:DXB:Dubai International:Dubai:United Arab Emirates:55:100
+insert:ICN:Incheon International Airport:Incheon:South Korea:126:148
+insert:FRA:Frankfurt Main:Frankfurt:Germany:8:200
+insert:IAD:Washington Dulles International:Washington:USA:-77:152
+insert:HKG:Hong Kong International:Hong Kong:China:113:88
+preorder
+delete:PEK
+preorder
+delete:NRT
+preorder
+delete:LHR
+preorder
+delete:CAN
+preorder
+delete:FRA
+preorder
+delete:BKK
+preorder
+delete:DCA
+preorder
+delete:SFO
+preorder
+delete:BWI
+preorder
+delete:NRT
+delete-point:140:140
+delete-point:102:4
+delete-point:-73:160
