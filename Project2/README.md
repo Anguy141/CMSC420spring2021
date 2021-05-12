@@ -18,8 +18,3 @@ the 3-letter airport codes. The associated point (represented as a Point2D) can 
 using the function getPoint2D(). The individual coordinates (which are floats) can be
 extracted directly using the functions getX() and getY(), or get(i), where i = 0 for x and
 i = 1 for y.
-
-Your wrapped kd-tree will be templated with one type, which we will call LPoint (for “labeled
-point”). For example, your file WKDTree will contain the following public class:
-
-public class WKDTree<LPoint extends LabeledPoint2D>{}
