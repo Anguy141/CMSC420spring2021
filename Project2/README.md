@@ -22,4 +22,4 @@ i = 1 for y.
 Your wrapped kd-tree will be templated with one type, which we will call LPoint (for “labeled
 point”). For example, your file WKDTree will contain the following public class:
 
-public class WKDTree<LPoint extends LabeledPoint2D> { ... }
+public class W KDTree<LPoint extends LabeledPoint2D> { ... }
